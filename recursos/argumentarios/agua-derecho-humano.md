@@ -19,7 +19,7 @@ revisores:
   - Comisión Jurídica MODATIMA
 
 fecha_creacion: 2026-03-14
-ultima_actualizacion: 2026-06-30
+ultima_actualizacion: 2026-07-07
 
 etiquetas:
   - derechos

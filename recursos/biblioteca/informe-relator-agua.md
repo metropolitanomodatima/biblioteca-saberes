@@ -5,7 +5,7 @@ tipo: biblioteca
 
 resumen: Referencia clave para entender el estándar internacional del derecho humano al agua y el saneamiento.
 
-enlace: https://www.ohchr.org/es/special-procedures/sr-water-and-sanitation
+enlace: https://www.ohchr.org/es/documents/thematic-reports/a80117-report-special-rapporteur-human-rights-safe-drinking-water-and
 
 tema:
   - agua

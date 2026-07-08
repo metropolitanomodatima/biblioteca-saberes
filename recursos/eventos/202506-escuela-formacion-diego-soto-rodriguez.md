@@ -49,15 +49,8 @@ ultima_actualizacion: 2026-06-30
 
 ## Descripción
 
-En un contexto de crisis ecológica global alimentada por el
-extractivismo, el abandono estatal y el avance despiadado del capital
-inmobiliario, la recuperación de espacios a través de acciones
-climáticas se ha convertido en una forma legítima de resistencia
-popular. Reforestar territorios devastados, implementar huertas
-urbanas autogestionadas, limpiar microbasurales ignorados por las
-autoridades, son prácticas que no sólo buscan sanar la tierra, sino
-también devolverle al pueblo el poder sobre su entorno.
-
+La realización de la escuela se enmarca en los 15 años de Modatima como movimiento social y el primer aniversario del fallecimiento de nuestro compañero Diego
+Formarse es entender el poder, cuestionarlo y proponer caminos colectivos. La lucha sin pensamiento se vuelve frágil; con ideas claras, se convierte en revolución. Es así como la formación política encuadra a Modatima en nuestros próximos pasos a seguir.
 
 ## Objetivo
 

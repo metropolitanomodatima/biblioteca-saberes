@@ -6,150 +6,143 @@ tipo: cuenca
 nombre: Cuenca del río Aysén
 
 region: Aysén
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Aysen.pdf
 comunas:
-  - Aysén
   - Coyhaique
+  - Aysén
   - Lago Verde
 
-rio_principal: Río Aysén
+rio_principal: Río Aysén (confluencia Simpson + Mañihuales)
 
-superficie: "≈ 11.590 km²"
+superficie: ≈ 11.456 km²
+# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Ays%C3%A9n
 
 ecosistemas:
-  - bosque siempreverde templado
-  - bosque caducifolio (lenga, ñirre)
-  - estepa patagónica en sector oriental
-  - humedales y turberas andinas
+  - Bosque siempreverde magallánico
+  - Bosque andino patagónico (lenga, ñirre, coigüe de Magallanes)
+  - Ciprés de las Guaitecas
+  - Estepa patagónica en sector oriental (Balmaceda, Coyhaique)
+  - Turberas
+  - Fiordo Aysén
 
 territorios:
 
 comunidades:
-  - Colonos y descendientes chilotes en Puerto Aysén, Coyhaique y Villa Mañihuales
+  - Colonos chilenos (Coyhaique, Balmaceda)
+  - Colonos chilotes (Puerto Aysén)
 
 organizaciones:
-  - Coalición Ciudadana por Aysén Reserva de Vida
-  - Patagonia sin Represas
+  - Consejo de Defensa de la Patagonia (Patagonia Sin Represas)
+  - Coalición Aysén Reserva de Vida
+  - Aumen ONG
+  - Ecosistemas
 
 casos:
-  - Proyecto HidroAysén (líneas de transmisión atravesarían la cuenca)
-  - Central Hidroeléctrica Río Cuervo (Energía Austral) — desistida en 2017
+  - Movimiento social "Tu Problema Es Mi Problema" / "Aysén 2012" — protestas regionales
+  - Rechazo HidroAysén (2014)
+# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Ays%C3%A9n
+  - Retiro definitivo Central Río Cuervo por Energía Austral (2017)
+# fuente: https://olca.cl/articulo/nota.php?id=104825
 
 campañas:
-  - "Patagonia sin Represas"
-  - "Aysén Reserva de Vida"
+  - Patagonia Sin Represas
 
 legislacion:
   - Reserva Nacional Río Simpson
   - Reserva Nacional Coyhaique
   - Reserva Nacional Trapananda
-  - Mesa Estratégica de Recursos Hídricos de la cuenca del río Aysén (DGA)
 
 datos:
-  - "Régimen nivo-pluvial"
-  - "Superficie de la hoya ≈ 11.590 km²"
-  - "Afluentes principales: Simpson, Mañihuales, Ñirehuao, Emperador Guillermo, Toqui, Blanco"
-  - "Río Mañihuales aporta 35 % del caudal total del Aysén (sector norte)"
-  - "Río Simpson aporta 32 % del caudal total (sector sur, cuenca 3.975 km²)"
-  - "El río Aysén se forma en la confluencia de los ríos Simpson y Mañihuales; desemboca en el fiordo de Aysén en Puerto Aysén"
+  - "Régimen pluvio-nival"
+  - "Caudal medio ≈ 628 m³/s"
+  - "Longitud del Aysén propiamente ≈ 26 km (navegable)"
+  - "Nace de la confluencia de Simpson (32%) y Mañihuales (35% caudal)"
+  - "Cuenca del Simpson ≈ 3.975 km²"
+  - "Ciudades: Coyhaique (capital regional) y Puerto Aysén"
 
 mapas:
 
 etiquetas:
   - Aysén
   - cuenca
-  - Patagonia
-  - hidroeléctrica
   - HidroAysén
+  - Río Cuervo
+  - Patagonia Sin Represas
+  - Coyhaique
 
 relacionados:
 
 adjuntos:
 
 fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "DGA — Mesa Estratégica de Recursos Hídricos cuenca río Aysén — https://dga.mop.gob.cl/mesa-estrategica-de-recursos-hidricos-de-la-cuenca-del-rio-aysen-realiza-3a-sesion/"
-  - "Ministerio del Medio Ambiente (MMA) — Ficha cuenca del río Aysén — https://mma.gob.cl/wp-content/uploads/2017/12/Aysen.pdf"
-  - "Wikipedia — Cuenca del río Aysén — https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Ays%C3%A9n"
-  - "Wikipedia — Río Aysén — https://es.wikipedia.org/wiki/R%C3%ADo_Ays%C3%A9n"
-  - "Wikipedia — Río Simpson — https://es.wikipedia.org/wiki/R%C3%ADo_Simpson"
-  - "Biblioteca del Congreso Nacional (BCN) — Hidrografía Región de Aysén — https://www.bcn.cl/siit/nuestropais/region11/hidrografia.htm"
-  - "EJAtlas — Proyecto Hidroeléctrico Río Cuervo — https://ejatlas.org/conflict/rio-cervo-hydroelectric-project-chile/?translate=es"
-  - "Radio Universidad de Chile — Renuncia definitiva de Energía Austral a Río Cuervo — https://radio.uchile.cl/2017/08/31/celebran-renuncia-definitiva-de-energia-austral-a-proyecto-hidroelectrico-rio-cuervo/"
+  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
+  - "MMA — Ficha cuenca río Aysén: https://mma.gob.cl/wp-content/uploads/2017/12/Aysen.pdf"
+  - "Wikipedia — Cuenca del río Aysén: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Ays%C3%A9n"
+  - "Wikipedia — Río Aysén: https://es.wikipedia.org/wiki/R%C3%ADo_Ays%C3%A9n"
+  - "SciELO — Pérdida de bosque nativo cuenca Aysén: https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-34022011000200008"
+  - "EJAtlas — Proyecto Río Cuervo: https://ejatlas.org/conflict/rio-cervo-hydroelectric-project-chile/?translate=es"
+  - "OLCA — Represa Cuervo y Puerto Aysén: https://olca.cl/articulo/nota.php?id=104825"
+  - "Radio Universidad Chile — Renuncia Energía Austral Río Cuervo: https://radio.uchile.cl/2017/08/31/celebran-renuncia-definitiva-de-energia-austral-a-proyecto-hidroelectrico-rio-cuervo/"
+  - "BCN — Hidrografía Región de Aysén: https://www.bcn.cl/siit/nuestropais/region11/hidrografia.htm"
 ---
 
 ## Descripción general
 
-La cuenca del río Aysén ocupa 11.590 km² en la parte central de la
-Región de Aysén y drena hacia el fiordo homónimo en Puerto Aysén. La
-cuenca reúne los principales núcleos urbanos regionales: Coyhaique
-(capital regional) y Puerto Aysén-Puerto Chacabuco (Wikipedia — Cuenca
-del río Aysén; DGA).
+Cuenca de la Región de Aysén formada por la confluencia de los ríos
+Simpson y Mañihuales. Alberga Coyhaique (capital regional) y Puerto
+Aysén.
 
 ## Características hidrológicas
 
-Régimen nivo-pluvial. El río Aysén se forma en la confluencia de los
-ríos Simpson y Mañihuales. El Mañihuales, con escurrimiento norte-sur,
-aporta el 35 % del caudal total (recibe ríos Ñirehuao y Emperador
-Guillermo); el Simpson, que drena la sección sur, aporta el 32 % (cuenca
-de 3.975 km², principales afluentes Coyhaique, Blanco, Huemules,
-Baguales, Claro) (Wikipedia — Cuenca del río Aysén; Wikipedia —
-Simpson).
+Régimen pluvio-nival. Caudal medio ≈ 628 m³/s.
 
 ## Ecosistemas y biodiversidad
 
-Bosque siempreverde templado y bosque caducifolio de Nothofagus (lenga,
-ñirre) en la cordillera, estepa patagónica en el sector oriental
-(Coyhaique-Ñirehuao) y humedales/turberas andinas.
+Bosque siempreverde magallánico, bosque andino patagónico (lenga, ñirre,
+coigüe de Magallanes), ciprés de las Guaitecas, estepa patagónica, turberas
+y fiordo Aysén.
 
 ## Comunidades y territorios asociados
 
-Población mayoritariamente de colonos y descendientes chilotes en las
-ciudades y localidades del valle (Coyhaique, Puerto Aysén, Villa
-Mañihuales, Balmaceda).
+Colonos chilenos y chilotes.
 
 ## Usos del agua
 
-Consumo urbano, ganadería, turismo, pesca deportiva, hidroelectricidad
-(Sistema Interconectado de Aysén, SIA) y salmonicultura industrial en el
-fiordo de Aysén (Puerto Chacabuco).
+Consumo urbano, salmonicultura en fiordo Aysén, ganadería.
 
 ## Problemáticas y amenazas
 
-- Salmonicultura industrial en el estuario y bahía de Puerto
-  Chacabuco.
-- Deslizamiento/aluvión asociado a alta pluviosidad (aluvión de Villa
-  Santa Lucía 2017 en la vecina cuenca, referente regional).
-- Proyectos hidroeléctricos históricos (HidroAysén, Central Cuervo).
+- Proyecto HidroAysén (Endesa/Colbún): las líneas de transmisión
+  atravesarían la cuenca del Aysén.
+- Central Río Cuervo (Energía Austral): 600 MW en fiordo Aysén sobre
+  falla Liquiñe-Ofqui, retirada en 2017.
+- Salmonicultura en fiordo Aysén y canales.
+- Erosión histórica y pérdida de bosque nativo (siglo XX, incendios
+  colonos).
+- Contaminación urbana en Coyhaique (Simpson) y Puerto Aysén.
 
 ## Conflictos asociados
 
-- **Central Hidroeléctrica Río Cuervo (Energía Austral, 640 MW)**:
-  proyecto de embalse a ≈ 45 km al noroeste de Puerto Aysén, propiedad
-  de Glencore-Origin Energy, cuestionado por su ubicación sobre la falla
-  Liquiñe-Ofqui y el riesgo del volcán Hudson. Tras más de una década de
-  oposición ciudadana, Energía Austral inició su desistimiento en 2017
-  (EJAtlas; Radio Universidad de Chile).
-- **HidroAysén**: la cuenca sería atravesada por las líneas de
-  transmisión propuestas hacia el SIC; el proyecto fue rechazado
-  definitivamente en 2014.
+- Rechazo HidroAysén (2014).
+- Retiro definitivo Central Río Cuervo (2017).
+- Movimiento social "Aysén 2012".
 
 ## Organizaciones relacionadas
 
-- Coalición Ciudadana por Aysén Reserva de Vida.
-- Patagonia sin Represas.
 - Consejo de Defensa de la Patagonia.
+- Coalición Aysén Reserva de Vida.
+- Aumen ONG.
+- Ecosistemas.
 
 ## Legislación aplicable
 
-- Reserva Nacional Río Simpson y Reserva Nacional Coyhaique.
-- Mesa Estratégica de Recursos Hídricos de la cuenca del río Aysén
-  (DGA).
+- Reserva Nacional Río Simpson.
+- Reserva Nacional Coyhaique.
+- Reserva Nacional Trapananda.
 
 ## Datos relevantes
 
-Superficie ≈ 11.590 km². Afluentes principales: Simpson (32 % del
-caudal), Mañihuales (35 %), Toqui, Ñirehuao, Emperador Guillermo, Blanco.
-Desemboca en Puerto Aysén.
+Superficie ≈ 11.456 km². Caudal ≈ 628 m³/s.
 
 ## Mapas y recursos
 

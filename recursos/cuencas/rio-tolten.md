@@ -6,133 +6,138 @@ tipo: cuenca
 nombre: Cuenca del río Toltén
 
 region: Araucanía
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Tolten.pdf
 comunas:
-  - Melipeuco
-  - Cunco
   - Curarrehue
   - Pucón
   - Villarrica
-  - Freire
-  - Pitrufquén
-  - Gorbea
   - Loncoche
-  - Teodoro Schmidt
+  - Gorbea
+  - Pitrufquén
+  - Freire
   - Toltén
+  - Teodoro Schmidt
 
-rio_principal: Río Toltén
+rio_principal: Río Toltén (emisario del lago Villarrica)
 
-superficie: "≈ 8.398 km² (839.800 ha, 26 % de la Región de La Araucanía)"
+superficie: ≈ 8.298 km²
+# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Tolt%C3%A9n
 
 ecosistemas:
-  - bosque valdiviano templado lluvioso
-  - bosque de araucaria (Araucaria araucana) en cordillera
-  - hualves y humedales lacustres (lago Villarrica, lago Colico)
-  - bosque siempreverde andino
+  - Bosque nativo templado (roble, raulí, coigüe, ulmo)
+  - Araucaria en cabeceras andinas (Curarrehue, PN Villarrica)
+  - Lagos glaciares (Villarrica, Caburgua)
+  - Humedales y hualves costeros
+  - Bosque siempreverde
 
 territorios:
 
 comunidades:
-  - Pueblo mapuche (comunidades en Curarrehue, Pucón, Villarrica, Freire, Pitrufquén, Toltén)
-  - Mapuche-lafkenche en la desembocadura (comuna de Toltén)
+  - Mapuche pewenche (Curarrehue)
+  - Mapuche (comunidades de Villarrica, Pucón, Loncoche)
 
 organizaciones:
+  - Comunidad de Historia Mapuche
+  - Red por la Defensa de los Territorios
 
 casos:
+  - Rechazado proyecto Central Neltume (Enel/Endesa) en 2015 tras 8 años de resistencia mapuche por Ngen y palenque ceremonial
+# fuente: https://www.mapuexpress.org/2015/12/30/importante-logro-transnacional-endesa-retira-cuestionado-proyecto-del-territorio-mapuche-de-neltume/
+  - Central Pullinque (operativa) en río Pullinque
+  - Contaminación lago Villarrica (declarado saturado por norma secundaria)
 
 campañas:
 
 legislacion:
-  - Ley Indígena N° 19.253
   - Parque Nacional Villarrica
   - Reserva Nacional Villarrica
-  - Reserva Nacional Mocho-Choshuenco (sitio prioritario)
+  - Ley Indígena N° 19.253
+  - Norma secundaria de calidad ambiental lago Villarrica
 
 datos:
-  - "Régimen pluvio-nival (aportes pluviales y nivales-andinos)"
-  - "Longitud del río principal ≈ 123 km (desde el lago Villarrica hasta el Pacífico, al norte de Punta Nilhue)"
-  - "Naciente: emisario del lago Villarrica (230 m s.n.m.)"
+  - "Régimen pluvio-nival mixto"
+  - "Longitud del Toltén ≈ 123 km"
+  - "Nace en el extremo poniente del lago Villarrica"
+  - "Principal afluente del Villarrica: río Trancura"
   - "Cuenca del lago Villarrica ≈ 2.805 km²"
-  - "Principal afluente: río Allipén (≈ 108 km); otros: Donguil y Mahuidanche"
+  - "Desemboca al norte de Punta Nilhue (ancho > 500 m)"
 
 mapas:
 
 etiquetas:
   - Araucanía
   - cuenca
-  - pueblos originarios
+  - lago Villarrica
+  - hidroeléctrica
   - mapuche
+  - Neltume
 
 relacionados:
 
 adjuntos:
 
 fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "Ministerio del Medio Ambiente (MMA) — Ficha cuenca del río Toltén — https://mma.gob.cl/wp-content/uploads/2017/12/Tolten.pdf"
-  - "Wikipedia — Cuenca del río Toltén — https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Tolt%C3%A9n"
-  - "Wikipedia — Río Toltén — https://es.wikipedia.org/wiki/R%C3%ADo_Tolt%C3%A9n"
-  - "Biblioteca del Congreso Nacional (BCN) — Hidrografía Región de la Araucanía — https://www.bcn.cl/siit/nuestropais/region9/hidrografia.htm"
-  - "DAEM Villarrica — El río Toltén — https://daemvillarrica.cl/blog/post/1263/el-rio-tolten-un-curso-de-agua-vital-para-villarrica-y-la-region-de-la-araucania/"
+  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
+  - "MMA — Ficha cuenca río Toltén: https://mma.gob.cl/wp-content/uploads/2017/12/Tolten.pdf"
+  - "Wikipedia — Cuenca del río Toltén: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Tolt%C3%A9n"
+  - "Mapuexpress — Retiro proyecto Neltume: https://www.mapuexpress.org/2015/12/30/importante-logro-transnacional-endesa-retira-cuestionado-proyecto-del-territorio-mapuche-de-neltume/"
+  - "El Ciudadano — Victoria mapuche vs ENDESA Neltume: https://www.elciudadano.com/medio-ambiente/la-victoria-mapuche-y-ambientalista-contra-endesa-en-el-lago-neltume12-03-2016/03/12/"
 ---
 
 ## Descripción general
 
-Cuenca hidrográfica emisaria del lago Villarrica, en la Región de La
-Araucanía, con una superficie aproximada de 8.398 km² que representa el
-26 % del territorio regional (MMA — Ficha Toltén; Wikipedia).
+Cuenca de la Región de la Araucanía cuyo río principal es el emisario del
+lago Villarrica. Contiene los lagos precordilleranos Villarrica y
+Caburgua.
 
 ## Características hidrológicas
 
-Régimen pluvio-nival con aportes andinos de la Cordillera. El río Toltén
-nace en el extremo occidental del lago Villarrica (230 m s.n.m.), recorre
-123 km en dirección este-oeste y desemboca en el Pacífico al norte de
-Punta Nilhue, en la comuna de Toltén (Wikipedia — Río Toltén; DAEM
-Villarrica).
+Régimen pluvio-nival mixto. Longitud del Toltén ≈ 123 km.
 
 ## Ecosistemas y biodiversidad
 
-Bosque valdiviano templado lluvioso, bosque de araucaria (pehuén) en la
-alta cordillera (Curarrehue, Melipeuco), bosque siempreverde y humedales
-lacustres del lago Villarrica y lago Colico (MMA — Ficha Toltén).
+Bosque nativo templado, araucaria, lagos glaciares y humedales costeros.
 
 ## Comunidades y territorios asociados
 
-Territorio mapuche con fuerte presencia en Curarrehue, Villarrica,
-Pitrufquén, Freire y Toltén. Zona costera con población
-mapuche-lafkenche.
+Comunidades mapuche pewenche en Curarrehue y mapuche en Villarrica,
+Pucón y Loncoche.
 
 ## Usos del agua
 
-Turismo, pesca deportiva y comercial, hidroelectricidad (subcuenca
-Panguipulli-Choshuenco vecina), agricultura y consumo humano.
+Turismo intensivo en el lago Villarrica y ríos precordilleranos,
+piscicultura de agua dulce, hidroelectricidad.
 
 ## Problemáticas y amenazas
 
-- Presión turística e inmobiliaria sobre el lago Villarrica (declarado
-  saturado por norma secundaria de calidad del agua).
-- Expansión de plantaciones forestales.
-- Contaminación difusa de origen urbano y agrícola.
+- Contaminación del lago Villarrica (eutrofización, floraciones
+  cianobacterianas).
+- Hidroeléctricas en subcuencas Panguipulli-Neltume.
+- Plantaciones forestales exóticas.
+- Salmonicultura en lagos.
+- Impacto turístico sobre lagos.
 
 ## Conflictos asociados
 
-Impactos ambientales asociados al lago Villarrica y al eje
-Villarrica-Pucón.
+- Rechazo Central Neltume (Enel/Endesa) en 2015.
+- Central Pullinque en operación.
+- Contaminación del lago Villarrica.
 
 ## Organizaciones relacionadas
 
-Comunidades mapuche y mapuche-lafkenche de la cuenca.
+- Comunidad de Historia Mapuche.
+- Red por la Defensa de los Territorios.
 
 ## Legislación aplicable
 
+- Parque Nacional Villarrica.
+- Reserva Nacional Villarrica.
 - Ley Indígena N° 19.253.
-- Parque Nacional Villarrica y Reservas Nacionales Villarrica y
-  Mocho-Choshuenco.
-- Norma secundaria de calidad ambiental del lago Villarrica.
+- Norma secundaria de calidad ambiental lago Villarrica.
 
 ## Datos relevantes
 
-Superficie ≈ 8.398 km². Longitud del río principal ≈ 123 km. Naciente en
-lago Villarrica; principal afluente río Allipén.
+Superficie ≈ 8.298 km². Cuenca del lago Villarrica ≈ 2.805 km².
 
 ## Mapas y recursos
 

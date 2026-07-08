@@ -6,80 +6,59 @@ tipo: cuenca
 nombre: Cuenca del río Rapel
 
 region: O'Higgins
-# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Rapel
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf
 comunas:
   - Rancagua
+  - San Fernando
+  - Santa Cruz
   - Machalí
   - Requínoa
   - Rengo
-  - San Fernando
-  - Chimbarongo
-  - Placilla
-  - Nancagua
-  - Santa Cruz
   - Peumo
   - Las Cabras
   - Litueche
   - La Estrella
   - Navidad
-  - Alhué
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf
 
-rio_principal: Río Rapel
-# fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Rapel
+rio_principal: Río Rapel (formado por Cachapoal + Tinguiririca)
 
-superficie: 13695 km²
-# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Rapel — DGA: 13.576 km² en otra fuente
+superficie: ≈ 13.695 km²
 
 ecosistemas:
-  - Bosque y matorral esclerófilo mediterráneo
-  - Bosque caducifolio de roble (roble de Santiago)
-  - Humedal costero desembocadura Rapel / Lago Rapel (artificial)
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf
+  - Matorral y bosque esclerófilo mediterráneo
+  - Bosque esclerófilo andino
+  - Embalse Rapel (680 Mm³)
+  - Humedal de la desembocadura
 
 territorios:
 
 comunidades:
-  - Comuneros agrícolas del valle del Cachapoal (frutícola)
-  - Comuneros y campesinos del valle de Colchagua (viñedos)
-  - Comunidades ribereñas del lago Rapel afectadas por floraciones algales
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf
 
 organizaciones:
-  - Junta de Vigilancia del Río Cachapoal
-  - Junta de Vigilancia del Río Tinguiririca
-  - Movimientos por el lago Rapel
-# fuente: https://research.csiro.au/gestionrapel/wp-content/uploads/sites/79/2021/05/Informe-final-Gestio%CC%81n-Integrada-Cuenca-Rapel-30-04-21.pdf
 
 casos:
-  - Contaminación por Codelco División El Teniente en la cuenca del Cachapoal (tranque Barahona y Carén)
-  - Eutrofización y floraciones algales en el embalse Rapel (mayor embalse hidroeléctrico)
-  - Central Rapel de Enel (ex Endesa) — inundación de La Junta al construirse en 1968
-  - Cinco centrales hidroeléctricas: Pangal y Coya (Codelco); Sauzal, Sauzalito y Rapel (Enel)
-  - Escasez hídrica declarada en varias comunas
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf
-# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Rapel
+  - Eutrofización crónica del embalse Rapel (floraciones cianobacterianas)
+  - Contaminación por El Teniente (Codelco) en cabecera del Cachapoal
 
 campañas:
 
 legislacion:
-  - Nuevo decreto de escasez hídrica en la Región de O'Higgins (2022+)
+  - Decreto MOP escasez hídrica vigente
   - Ley 21.435 Reforma Código de Aguas (2022)
-# fuente: https://pre-dga.mop.gob.cl/nuevo-decreto-de-escasez-hidrica-en-la-region-de-ohiggins/
 
 datos:
-  - Régimen hidrológico mixto pluvio-nival (nival en cabecera Alto Cachapoal y Alto Tinguiririca)
-  - Se forma por confluencia de los ríos Cachapoal y Tinguiririca en La Junta (hoy inundada por el embalse Rapel)
-  - Embalse Rapel — capacidad 680 millones m³
-  - 46,5% subcuenca Cachapoal, 34,5% Tinguiririca, 7,2% Alhué, 11,7% embalse-desembocadura
-# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Rapel
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf
+  - "Régimen mixto pluvio-nival"
+  - "Nace por confluencia de los ríos Cachapoal (norte) y Tinguiririca (sur)"
+  - "Embalse Rapel: mayor embalse hidroeléctrico del sistema central"
 
 mapas:
 
 etiquetas:
   - O'Higgins
   - cuenca
+  - embalse Rapel
+  - El Teniente
+  - eutrofización
 
 relacionados:
 
@@ -87,22 +66,39 @@ adjuntos:
 
 fuentes:
   - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "MMA — Ficha cuenca del río Rapel: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf"
-  - "Wikipedia — Cuenca del río Rapel: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Rapel"
-  - "CSIRO — Gestión integrada cuenca del Rapel: https://research.csiro.au/gestionrapel/wp-content/uploads/sites/79/2021/05/Informe-final-Gestio%CC%81n-Integrada-Cuenca-Rapel-30-04-21.pdf"
+  - "MMA — Ficha cuenca río Rapel: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf"
+  - "Wikipedia — Cuenca del río Rapel: https://es.wikipedia.org/wiki/R%C3%ADo_Rapel"
 ---
 
 ## Descripción general
 
+Cuenca de la Región de O'Higgins que reúne los sistemas del Cachapoal y
+el Tinguiririca. Alberga el embalse Rapel, mayor del sistema central de
+Chile.
+
 ## Características hidrológicas
 
+Régimen mixto pluvio-nival. El embalse Rapel tiene una capacidad de
+680 Mm³.
+
 ## Ecosistemas y biodiversidad
+
+Matorral y bosque esclerófilo mediterráneo, bosque andino y humedal
+costero de desembocadura.
 
 ## Comunidades y territorios asociados
 
 ## Usos del agua
 
+Generación hidroeléctrica (embalse Rapel), agricultura del valle
+central, minería (División El Teniente), consumo urbano.
+
 ## Problemáticas y amenazas
+
+- Eutrofización crónica del embalse Rapel.
+- Contaminación por Codelco División El Teniente en cabecera del
+  Cachapoal.
+- Sequía y decreto MOP de escasez hídrica.
 
 ## Conflictos asociados
 
@@ -110,8 +106,15 @@ fuentes:
 
 ## Legislación aplicable
 
+- Decreto MOP escasez hídrica vigente.
+- Ley 21.435 Reforma Código de Aguas (2022).
+
 ## Datos relevantes
+
+Superficie ≈ 13.695 km². Embalse Rapel ≈ 680 Mm³.
 
 ## Mapas y recursos
 
 ## Fuentes
+
+Ver bloque `fuentes` en el encabezado.

@@ -6,116 +6,115 @@ tipo: cuenca
 nombre: Cuenca del río Cisnes
 
 region: Aysén
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Cisnes.pdf
 comunas:
   - Cisnes
   - Lago Verde
-  - Coyhaique (sector)
+  - Coyhaique
 
 rio_principal: Río Cisnes
 
-superficie: "≈ 5.465 km² (546.480 ha)"
+superficie: ≈ 5.464 km²
+# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Cisnes
 
 ecosistemas:
-  - bosque siempreverde templado
-  - bosque caducifolio andino de lenga y ñirre
-  - estepa patagónica
-  - matorral altoandino deciduo
+  - Bosque siempreverde templado
+  - Bosque andino patagónico
+  - Ciprés de las Guaitecas
+  - Estepa patagónica en cabeceras orientales
+  - Reserva Nacional Lago Las Torres, Lago Carlota
 
 territorios:
 
 comunidades:
-  - Colonos y descendientes de chilotes en Puerto Cisnes y La Junta
+  - Colonos chilenos (mestizos)
+  - Colonos chilotes
 
 organizaciones:
+  - Coalición Aysén Reserva de Vida
 
 casos:
 
 campañas:
 
 legislacion:
-  - Reserva Nacional Río Cisnes
-  - Reserva Nacional Lago Rosselot
-  - Reserva Nacional Las Guaitecas (borde costero)
+  - Parque Nacional Queulat (adyacente)
+  - Reserva Nacional Lago Las Torres
+  - Reserva Nacional Lago Carlota
 
 datos:
-  - "Régimen nivo-pluvial (mayores caudales primaverales por deshielo, secundarios en invierno por lluvias)"
-  - "Longitud del río Cisnes ≈ 160 km"
-  - "Caudal promedio mensual 20-50 m³/s"
-  - "Desemboca en el canal de Puyuhuapi (Océano Pacífico) en la bahía de Puerto Cisnes"
-  - "Cobertura de bosque nativo ≈ 316.715 ha (58 % de la cuenca)"
+  - "Régimen pluvial en curso medio-inferior; nivopluvial en curso superior"
+  - "Longitud ≈ 160 km (dirección este-oeste)"
+  - "Caudal medio ≈ 190 m³/s"
+  - "Gastos máximos en mayo-junio (≈ 700 m³/s)"
+  - "Localidades: Puerto Cisnes, La Tapera, Villa Amengual"
 
 mapas:
 
 etiquetas:
   - Aysén
   - cuenca
-  - Patagonia
-  - bosque siempreverde
+  - salmoneras
+  - PN Queulat
+  - Carretera Austral
 
 relacionados:
 
 adjuntos:
 
 fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "Ministerio del Medio Ambiente (MMA) — Ficha cuenca del río Cisnes — https://mma.gob.cl/wp-content/uploads/2017/12/Cisnes.pdf"
-  - "Wikipedia — Río Cisnes — https://es.wikipedia.org/wiki/R%C3%ADo_Cisnes"
-  - "DGA — Estimación de Caudales Cuenca río Cisnes — https://snia.mop.gob.cl/sad/FLU5676.pdf"
-  - "CIPER Chile — Informe técnico Reserva río Cisnes — https://ciperchile.cl/pdfs/12-2013/agua/Informe_tecnico_Reserva_Cisnes.pdf"
-  - "Biblioteca del Congreso Nacional (BCN) — Hidrografía Región de Aysén — https://www.bcn.cl/siit/nuestropais/region11/hidrografia.htm"
+  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
+  - "MMA — Ficha cuenca río Cisnes: https://mma.gob.cl/wp-content/uploads/2017/12/Cisnes.pdf"
+  - "Wikipedia — Cuenca del río Cisnes: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Cisnes"
+  - "Wikipedia — Río Cisnes: https://es.wikipedia.org/wiki/R%C3%ADo_Cisnes"
+  - "MOP DIRPLAN — Análisis y modelación hidrológica cuenca Cisnes: https://repositoriodirplan.mop.gob.cl/biblioteca/items/6bed32a2-7a62-4881-8d8a-19d6f2010f04"
+  - "BCN — Hidrografía Aysén: https://www.bcn.cl/siit/nuestropais/region11/hidrografia.htm"
 ---
 
 ## Descripción general
 
-Cuenca del río Cisnes en la Región de Aysén, con una superficie de
-aproximadamente 5.465 km². El río recorre 160 km de este a oeste desde
-la cordillera fronteriza hasta la bahía de Puerto Cisnes en el canal de
-Puyuhuapi (MMA — Ficha Cisnes; Wikipedia).
+Cuenca de la Región de Aysén, con curso principal de dirección este-oeste
+que desemboca en el fiordo Puyuhuapi (Puerto Cisnes).
 
 ## Características hidrológicas
 
-Régimen nivo-pluvial: caudales máximos en primavera por deshielo y
-secundarios en invierno por aportes pluviales. Caudal promedio mensual
-entre 20 y 50 m³/s (DGA — Estimación Cisnes).
+Régimen pluvial en el curso medio e inferior; nivopluvial en el superior.
+Longitud ≈ 160 km. Caudal medio ≈ 190 m³/s.
 
 ## Ecosistemas y biodiversidad
 
-Mezcla de bosque siempreverde templado y bosque caducifolio dominado por
-Nothofagus (lenga, ñirre, coigüe), estepa patagónica y matorral
-altoandino deciduo. Bosque nativo cubre aproximadamente el 58 % de la
-cuenca (316.715 ha) (Wikipedia — Río Cisnes).
+Bosque siempreverde templado, bosque andino patagónico, ciprés de las
+Guaitecas y estepa patagónica en cabeceras orientales.
 
 ## Comunidades y territorios asociados
 
-Población principalmente colonial (colonos y descendientes chilotes) en
-Puerto Cisnes, La Junta, Puerto Puyuhuapi y Puerto Raúl Marín
-Balmaceda.
+Colonos chilenos y chilotes.
 
 ## Usos del agua
 
-Turismo, pesca deportiva, ganadería y actividades acuícolas en el borde
-costero (canal de Puyuhuapi).
+Salmonicultura en fiordo Puyuhuapi (desembocadura).
 
 ## Problemáticas y amenazas
 
-- Salmonicultura industrial en canal de Puyuhuapi y área marina.
-- Presión sobre bosque nativo.
-- Proyectos hidroeléctricos históricos evaluados en la cuenca.
+- Salmonicultura en fiordo Puyuhuapi.
+- Proyectos hidroeléctricos latentes.
+- Construcción de la Carretera Austral.
 
 ## Conflictos asociados
 
 ## Organizaciones relacionadas
 
+- Coalición Aysén Reserva de Vida.
+
 ## Legislación aplicable
 
-- Reserva Nacional Río Cisnes.
-- Reserva Nacional Lago Rosselot.
-- Reserva Nacional Las Guaitecas en el borde costero-insular.
+- Parque Nacional Queulat.
+- Reserva Nacional Lago Las Torres.
+- Reserva Nacional Lago Carlota.
 
 ## Datos relevantes
 
-Superficie ≈ 5.465 km². Longitud del río principal ≈ 160 km. Caudal
-medio 20-50 m³/s. Régimen nivo-pluvial.
+Superficie ≈ 5.464 km². Longitud ≈ 160 km.
 
 ## Mapas y recursos
 

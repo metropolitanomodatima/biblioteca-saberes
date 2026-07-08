@@ -6,64 +6,56 @@ tipo: cuenca
 nombre: Cuenca del río Elqui
 
 region: Coquimbo
-# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Elqui
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Elqui.pdf
 comunas:
+  - Vicuña
+  - Paihuano
   - La Serena
   - Coquimbo
-  - Andacollo
-  - La Higuera
-  - Paihuano
-  - Vicuña
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Elqui.pdf
 
 rio_principal: Río Elqui
-# fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Elqui
 
-superficie: 9829 km²
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Elqui.pdf — DGA: 4 subcuencas y 26 subsubcuencas, 9.829 km²
+superficie: ≈ 9.829 km²
+# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Elqui
 
 ecosistemas:
-  - Matorral desértico costero (norte semiárido)
-  - Matorral estepario andino
-  - Ecosistema fluvial de valle transversal
-# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Elqui
+  - Matorral esclerófilo semiárido y estepa altoandina
+  - Valle agrícola del Elqui (uva pisquera, cítricos)
+  - Humedal costero en la desembocadura (La Serena-Coquimbo)
 
 territorios:
 
 comunidades:
-  - Comunidades diaguitas (Elqui alto)
-  - Comuneros agrícolas del Valle de Elqui (parronales, pisco, hortalizas)
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Elqui.pdf
+  - Diaguita (Alto del Carmen, Vicuña, Paihuano)
 
 organizaciones:
-  - Junta de Vigilancia del Río Elqui y sus Afluentes
-# fuente: https://dga.mop.gob.cl/
+  - Junta de Vigilancia del Río Elqui
 
 casos:
-  - Escasez hídrica prolongada en la región de Coquimbo (megasequía 2010-actual)
-  - Conflictos entre uso agrícola (pisco, uva de mesa) y consumo humano en La Serena-Coquimbo
-# fuente: https://www.cr2.cl/embalses-con-minimos-criticos-coquimbo-enfrenta-una-de-las-peores-sequias-de-su-historia-diario-uchile/
+  - Megasequía (2010–actual) y decreto MOP de escasez hídrica renovado
+# fuente: https://dga.mop.gob.cl/mop-decreta-escasez-hidrica-en-13-comunas-de-la-region-de-coquimbo/
 
 campañas:
 
 legislacion:
-  - Decreto MOP de escasez hídrica vigente para las comunas de La Higuera, La Serena, Coquimbo, Paihuano, Vicuña (revisado en 2024)
+  - Decreto MOP escasez hídrica vigente
   - Ley 21.435 Reforma Código de Aguas (2022)
-# fuente: https://dga.mop.gob.cl/mop-decreta-escasez-hidrica-en-13-comunas-de-la-region-de-coquimbo/
 
 datos:
-  - Régimen hidrológico mixto pluvio-nival (nival dominante)
-  - Nace de la confluencia de los ríos Turbio y Claro (a ~815 m s.n.m., cerca de Rivadavia)
-  - Longitud aproximada: 75 km desde la confluencia hasta la desembocadura en La Serena
-  - Embalse Puclaro (200 Mm³) y embalse La Laguna en cabecera
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Elqui.pdf
-# fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Elqui
+  - "Régimen nival dominante"
+  - "Nace en la confluencia de los ríos Turbio (norte) y Claro (sur), cerca de Rivadavia"
+  - "Embalses Puclaro y La Laguna regulan el sistema"
+  - "Longitud del Elqui ≈ 75 km desde Rivadavia a la desembocadura"
 
 mapas:
 
 etiquetas:
   - Coquimbo
   - cuenca
+  - Elqui
+  - diaguita
+  - agroindustria
+  - crisis hídrica
 
 relacionados:
 
@@ -71,31 +63,58 @@ adjuntos:
 
 fuentes:
   - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "MMA — Ficha cuenca del río Elqui: https://mma.gob.cl/wp-content/uploads/2017/12/Elqui.pdf"
+  - "MMA — Ficha cuenca río Elqui: https://mma.gob.cl/wp-content/uploads/2017/12/Elqui.pdf"
   - "Wikipedia — Cuenca del río Elqui: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Elqui"
-  - "DGA — Decretos de escasez: https://dga.mop.gob.cl/derechos-de-agua/proteccion-de-las-fuentes/decretos-de-escasez-2/"
+  - "DGA Coquimbo — Escasez hídrica regional: https://dga.mop.gob.cl/mop-decreta-escasez-hidrica-en-13-comunas-de-la-region-de-coquimbo/"
 ---
 
 ## Descripción general
 
+Cuenca de la Región de Coquimbo, corazón del valle pisquero de Chile.
+Territorio ancestral diaguita.
+
 ## Características hidrológicas
+
+Régimen nival dominante. Embalses Puclaro y La Laguna regulan el sistema.
 
 ## Ecosistemas y biodiversidad
 
+Matorral esclerófilo semiárido, estepa altoandina, valle agrícola y
+humedal costero.
+
 ## Comunidades y territorios asociados
+
+Comunidades diaguitas en Alto del Carmen, Vicuña y Paihuano.
 
 ## Usos del agua
 
+Agroindustria (uva pisquera, cítricos, hortalizas), consumo humano de La
+Serena y Coquimbo.
+
 ## Problemáticas y amenazas
+
+- Megasequía (2010-presente).
+- Sobreexplotación por la agroindustria pisquera.
 
 ## Conflictos asociados
 
+- Decreto MOP de escasez hídrica renovado.
+
 ## Organizaciones relacionadas
+
+- Junta de Vigilancia del Río Elqui.
 
 ## Legislación aplicable
 
+- Decreto MOP escasez hídrica vigente.
+- Ley 21.435 Reforma Código de Aguas (2022).
+
 ## Datos relevantes
+
+Superficie ≈ 9.829 km². Longitud ≈ 75 km.
 
 ## Mapas y recursos
 
 ## Fuentes
+
+Ver bloque `fuentes` en el encabezado.

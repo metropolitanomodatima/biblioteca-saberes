@@ -6,56 +6,56 @@ tipo: cuenca
 nombre: Cuenca del río Bueno
 
 region: Los Ríos y Los Lagos
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Bueno.pdf
 comunas:
-  - Lago Ranco
   - Futrono
+  - Lago Ranco
   - Río Bueno
   - La Unión
+  - Puyehue
   - Osorno
   - San Pablo
-  - Puyehue
-  - Puerto Octay
   - San Juan de la Costa
+  - Puerto Octay
 
-rio_principal: Río Bueno
+rio_principal: Río Bueno (emisario del lago Ranco)
 
-superficie: "≈ 17.210 km²"
+superficie: ≈ 15.124 km²
+# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Bueno
 
 ecosistemas:
-  - bosque valdiviano templado lluvioso
-  - bosque siempreverde
-  - bosque de alerce (Fitzroya cupressoides) en cordillera
-  - humedales lacustres (lago Ranco, lago Puyehue, lago Rupanco)
+  - Bosque valdiviano (siempreverde templado)
+  - Alerce en cordilleras
+  - Lagos precordilleranos (Ranco, Puyehue, Rupanco, Maihue)
+  - Hualves y humedales
 
 territorios:
 
 comunidades:
-  - Pueblo mapuche-huilliche (comunidades en San Juan de la Costa, Río Bueno, Lago Ranco, Futrono)
-  - Comunidades williche del Territorio Pilmaiquén
+  - Mapuche-williche (huilliche)
+  - Comunidades Maihue, Puyehue, San Juan de la Costa
 
 organizaciones:
-  - Comunidad Mapuche-Williche Kintuante (Pilmaiquén)
-  - Machi Millaray Huichalaf (defensa río Pilmaiquén)
+  - Alianza Territorial Puelwillimapu
+  - Comunidades mapuche-williche de Maihue
 
 casos:
-  - Proyectos hidroeléctricos Statkraft en río Pilmaiquén (Rucatayo, Osorno, Los Lagos)
+  - Conflicto centrales Pilmaiquén (Statkraft) — inundación sitio sagrado Ngen Kintuante
+  - Contaminación crónica del río Rahue en Osorno
 
 campañas:
 
 legislacion:
+  - Parque Nacional Puyehue
   - Ley Indígena N° 19.253
   - Convenio 169 OIT
-  - Parque Nacional Puyehue
-  - Parque Nacional Alerce Costero
-  - Reserva Nacional Futangue
 
 datos:
-  - "Régimen pluvial dominante en curso medio-inferior; nival-pluvial en cabecera andina"
-  - "Longitud del río Bueno ≈ 200 km"
-  - "Naciente: emisario del lago Ranco (extremo occidental)"
-  - "Lago Ranco ≈ 442 km² (mayor lago de Los Ríos, cuarto de Chile)"
-  - "Afluente principal: río Pilmaiquén (a partir de su junta define el límite Los Ríos-Los Lagos)"
-  - "8 subcuencas y 44 sub-subcuencas (superficie total drenada ≈ 15.126 km²)"
+  - "Régimen pluvio-nival mixto"
+  - "Longitud del Bueno ≈ 130-200 km (fuentes varían)"
+  - "Caudal medio ≈ 373 m³/s en la comuna de Río Bueno"
+  - "Principales afluentes: Pilmaiquén (189 m³/s, emisario lago Puyehue) y Rahue (110 m³/s, emisario lago Rupanco)"
+  - "Nace en el extremo poniente del lago Ranco (≈ 423 km²)"
 
 mapas:
 
@@ -63,88 +63,76 @@ etiquetas:
   - Los Ríos
   - Los Lagos
   - cuenca
-  - pueblos originarios
-  - mapuche-huilliche
-  - hidroeléctrica
+  - lago Ranco
+  - Pilmaiquén
+  - williche
+  - lechería
 
 relacionados:
 
 adjuntos:
 
 fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "Ministerio del Medio Ambiente (MMA) — Ficha cuenca del río Bueno — https://mma.gob.cl/wp-content/uploads/2017/12/Bueno.pdf"
-  - "Wikipedia — Cuenca del río Bueno — https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Bueno"
-  - "Wikipedia — Río Bueno — https://es.wikipedia.org/wiki/R%C3%ADo_Bueno"
-  - "Humedales Los Ríos — Lago Ranco — https://humedaleslosrios.cl/lagoranco/"
-  - "Los Ríos en Colores — Hidrografía Región de Los Ríos — https://losriosencolores.cl/wp-content/uploads/2025/04/HIDROGRAFIA-Region-de-Los-Rios.pdf"
-  - "INDH — Conflicto río Pilmaiquén: comunidad mapuche-huilliche vs. Statkraft — https://rehuirelolvido.indh.cl/caso/conflicto-territorial-y-cultural-en-el-rio-pilmaiquen-la-comunidad-mapuche-huilliche-versus-la-empresa-statkraft/"
-  - "El Ciudadano — Central hidroeléctrica Osorno y espíritu Kintuante — https://www.elciudadano.com/medio-ambiente/central-hidroelectrica-osorno-aes-la-amenaza-al-ancestral-espiritu-mapuche-kintuante/06/25/"
+  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
+  - "MMA — Ficha cuenca río Bueno: https://mma.gob.cl/wp-content/uploads/2017/12/Bueno.pdf"
+  - "Wikipedia — Cuenca del río Bueno: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Bueno"
+  - "Wikipedia — Río Bueno: https://es.wikipedia.org/wiki/R%C3%ADo_Bueno"
+  - "Sitrural — Recursos naturales Río Bueno: https://www.sitrural.cl/wp-content/uploads/2020/07/RioBueno_rec_nat_1.pdf"
+  - "Municipalidad Osorno — Diagnóstico ríos Rahue y Damas: https://www.municipalidadosorno.cl/archivos/diagnostico_rios.pdf"
 ---
 
 ## Descripción general
 
-Cuenca del río Bueno, emisario del lago Ranco, cubre unos 17.210 km²
-entre las Regiones de Los Ríos y Los Lagos. El río forma el límite
-administrativo entre ambas regiones desde su confluencia con el río
-Pilmaiquén y desemboca en el Pacífico (Wikipedia — Río Bueno; MMA).
+Emisario del lago Ranco, atraviesa las regiones de Los Ríos y Los Lagos.
+Incluye las subcuencas del Pilmaiquén (lago Puyehue) y el Rahue (lago
+Rupanco). Territorio mapuche-williche.
 
 ## Características hidrológicas
 
-Régimen pluvial dominante, con aportes nivo-pluviales en las cabeceras
-andinas (Puyehue, Riñinahue). El río tiene 200 km de longitud, nace en
-el extremo occidental del lago Ranco y desagua directamente al Pacífico
-—una de las dos únicas cuencas de Los Ríos que descarga al mar por
-efluente lacustre (Humedales Los Ríos — Lago Ranco).
+Régimen pluvio-nival mixto. Caudal medio del Bueno ≈ 373 m³/s.
 
 ## Ecosistemas y biodiversidad
 
-Bosque valdiviano templado lluvioso, bosque siempreverde, bosque de
-alerce (Fitzroya cupressoides) en la Cordillera Pelada y humedales
-lacustres asociados a los lagos Ranco, Puyehue y Rupanco (MMA — Ficha
-Bueno).
+Bosque valdiviano, alerce en cordilleras, lagos precordilleranos, hualves
+y humedales.
 
 ## Comunidades y territorios asociados
 
-Territorio ancestral mapuche-williche (huilliche), con comunidades en
-San Juan de la Costa, Río Bueno, La Unión, Lago Ranco, Futrono y en el
-territorio del río Pilmaiquén.
+Comunidades mapuche-williche de Maihue, Puyehue y San Juan de la Costa.
 
 ## Usos del agua
 
-Ganadería lechera, agricultura, forestal, hidroelectricidad (Pilmaiquén,
-Rupanco), turismo (Ranco, Puyehue) y consumo urbano (Osorno, La Unión).
+Lechería y ganadería intensiva (cuenca lechera de Chile), agricultura,
+consumo urbano y generación hidroeléctrica.
 
 ## Problemáticas y amenazas
 
-- Proyectos hidroeléctricos sobre sitios sagrados mapuche-williche.
-- Contaminación de origen agropecuario (lecherías) en cabeceras y lagos.
-- Salmonicultura en lagos (Ranco, Rupanco, Puyehue).
+- Central hidroeléctrica Pilmaiquén y proyecto Osorno-Rupanco: conflicto
+  con mapuche-williche por sitios sagrados (Ngen Kintuante).
+- Contaminación del río Rahue en Osorno.
+- Lechería y ganadería intensiva.
+- Plantaciones forestales.
+- Eutrofización de lagos.
 
 ## Conflictos asociados
 
-- **Centrales hidroeléctricas Statkraft en río Pilmaiquén** (Rucatayo,
-  Osorno, Los Lagos): adquiridos en 2015 por la noruega Statkraft,
-  enfrentan oposición de comunidades mapuche-williche lideradas por la
-  Machi Millaray Huichalaf en defensa del complejo ceremonial Ngen Mapu
-  Kintuante. Statkraft desistió de la central Osorno, aunque avanza con
-  Los Lagos (INDH; El Ciudadano).
+- Central Pilmaiquén (Statkraft).
+- Contaminación crónica del río Rahue en Osorno.
 
 ## Organizaciones relacionadas
 
-Comunidad Mapuche-Williche Kintuante, redes de defensa del Pilmaiquén,
-autoridades tradicionales del Territorio Küla Mapu.
+- Alianza Territorial Puelwillimapu.
+- Comunidades mapuche-williche.
 
 ## Legislación aplicable
 
+- Parque Nacional Puyehue.
 - Ley Indígena N° 19.253.
-- Convenio 169 OIT (aplicable a proyectos hidroeléctricos).
-- Parque Nacional Puyehue y Parque Nacional Alerce Costero.
+- Convenio 169 OIT.
 
 ## Datos relevantes
 
-Superficie ≈ 17.210 km². Longitud ≈ 200 km. Emisario del lago Ranco
-(442 km²). Principal afluente: río Pilmaiquén.
+Superficie ≈ 15.124 km². Emisario del lago Ranco.
 
 ## Mapas y recursos
 

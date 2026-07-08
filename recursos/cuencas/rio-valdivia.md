@@ -6,159 +6,149 @@ tipo: cuenca
 nombre: Cuenca del río Valdivia
 
 region: Los Ríos
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Valdivia.pdf
 comunas:
   - Panguipulli
-  - Los Lagos
-  - Máfil
   - Lanco
-  - San José de la Mariquina
+  - Máfil
+  - Los Lagos
+  - Mariquina
   - Valdivia
   - Corral
-  - Paillaco
-  - Futrono
-  - Loncoche
 
-rio_principal: Río Valdivia
+rio_principal: Río Valdivia (formado por Calle-Calle + Cruces)
 
-superficie: "≈ 10.275 km² (incluye subcuenca del lago Lácar en Argentina)"
+superficie: ≈ 10.275 km²
+# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Valdivia
 
 ecosistemas:
-  - bosque valdiviano templado lluvioso
-  - bosque siempreverde
-  - hualves (bosques pantanosos de mirtáceas)
-  - humedales costeros y estuarinos (Santuario Río Cruces)
+  - Bosque valdiviano (siempreverde templado lluvioso)
+  - Hualves de mirtáceas
+  - Humedales del Santuario Río Cruces (sitio Ramsar)
+  - Lagos precordilleranos (Riñihue, Panguipulli, Calafquén, Pirihueico, Neltume)
+  - Alerce en cabeceras
 
 territorios:
 
 comunidades:
-  - Pueblo mapuche (comunidades en Panguipulli, Mariquina, Máfil, Lanco)
-  - Comunidades mapuche-huilliche en subcuenca sur
+  - Mapuche
+  - Mapuche-huilliche (sector Corral, San Juan de la Costa)
 
 organizaciones:
-  - Acción por los Cisnes (Valdivia)
-  - Comunidad Humedal / Comité pro Defensa del Humedal del Río Cruces
-  - CEAM UACh (Centro de Estudios Ambientales, Universidad Austral)
+  - Acción por los Cisnes
+  - Fundación Plantae
+  - Comité Nacional Pro Defensa de la Fauna y Flora (CODEFF)
+  - WWF Chile
 
 casos:
-  - Desastre ecológico del Santuario Río Cruces (Planta Valdivia de CELCO Arauco, 2004-2005)
-  - Proyecto Central Neltume (Endesa/Enel, Panguipulli) — retirado en 2015
+  - "Desastre ecológico Río Cruces 2004-2005: muerte y migración masiva de cisnes de cuello negro atribuida a CELCO Planta Valdivia"
+# fuente: https://www.derechoalagua.cl/mapa-de-conflictos/desastre-ecologico-de-celco-en-el-santuario-rio-cruces/
+# fuente: http://www.avesdechile.cl/cisnesc3.htm
+  - Fallo indemnizatorio contra CELCO por $5.200 millones
+# fuente: https://www.wwf.cl/?209514%2Fwwfvalorafallocasocelco=
+  - Proyecto Central Hidroeléctrica San Pedro (Colbún)
+# fuente: https://fundacionplantae.cl/2021/02/la-gran-amenaza-a-la-cuenca-del-rio-valdivia-central-hidroelectrica-san-pedro/
+  - Movimiento Acción por los Cisnes conmemora 20 años (2024)
 
 campañas:
 
 legislacion:
-  - Santuario de la Naturaleza Carlos Anwandter (1981)
-  - Sitio Ramsar Río Cruces (primer sitio Ramsar de Chile, 1981)
-  - Norma secundaria de calidad ambiental del río Valdivia
-  - Ley Indígena N° 19.253
+  - Santuario de la Naturaleza Carlos Anwandter (Río Cruces, 1981)
+  - Sitio Ramsar Río Cruces (primer sitio Ramsar de Chile y Sudamérica, 1981)
+  - Santuario de la Naturaleza Río San Pedro
+  - Norma secundaria de calidad ambiental cuenca río Valdivia (2024)
 
 datos:
-  - "Régimen pluvial dominante"
-  - "Cauce principal formado por confluencia de ríos Calle-Calle y Cruces en la ciudad de Valdivia, 15 km del mar"
-  - "El Calle-Calle nace de la unión de los ríos San Pedro y Quinchilca; longitud ≈ 55 km"
-  - "Cuenca incluye lagos Riñihue, Panguipulli, Neltume, Pirihueico, Calafquén (Sistema Siete Lagos)"
-  - "Sub-cuenca Cruces alberga humedal Ramsar de 4.877 ha (Santuario Carlos Anwandter)"
+  - "Régimen pluvial dominante (con aporte pluvio-nival en cabecera)"
+  - "Cuenca compuesta por subcuencas de los ríos Cruces y Calle-Calle"
+  - "Calle-Calle se forma de la unión de San Pedro y Quinchilca"
+  - "San Pedro es emisario del lago Riñihue (sistema Siete Lagos)"
 
 mapas:
 
 etiquetas:
   - Los Ríos
   - cuenca
-  - humedal
-  - Ramsar
-  - conflicto ambiental
-  - forestales
-  - hidroeléctrica
+  - CELCO
+  - Río Cruces
+  - cisnes de cuello negro
+  - sitio Ramsar
+  - bosque valdiviano
 
 relacionados:
 
 adjuntos:
 
 fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "Ministerio del Medio Ambiente (MMA) — Ficha cuenca del río Valdivia — https://mma.gob.cl/wp-content/uploads/2017/12/Valdivia.pdf"
-  - "MMA / SIMBIO — Cuenca Río Valdivia — https://simbio.mma.gob.cl/Cuencas/Details/101"
-  - "Wikipedia — Cuenca del río Valdivia — https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Valdivia"
-  - "Wikipedia — Santuario de la naturaleza Carlos Anwandter — https://es.wikipedia.org/wiki/Santuario_de_la_naturaleza_Carlos_Anwandter"
-  - "Wikipedia — Planta Valdivia (CELCO Arauco) — https://es.wikipedia.org/wiki/Planta_Valdivia"
-  - "CIPER Chile — Norma ambiental río Valdivia y Celulosa Arauco (2022) — https://www.ciperchile.cl/2022/03/02/autoridad-modifica-a-ultima-hora-proyecto-de-norma-ambiental-para-el-rio-valdivia-coincide-con-solicitud-de-celulosa-arauco/"
-  - "Derecho al Agua — Desastre ecológico de Celco en el Santuario Río Cruces — https://www.derechoalagua.cl/mapa-de-conflictos/desastre-ecologico-de-celco-en-el-santuario-rio-cruces/"
-  - "Humedales Los Ríos — Diagnóstico Valdivia — https://humedaleslosrios.cl/valdivia/"
-  - "OLCA — Comunidades mapuche vs. hidroeléctrica Neltume — https://olca.cl/articulo/nota.php?id=101768"
-  - "Mapuexpress — Conflicto Endesa-Enel Neltume — https://www.mapuexpress.org/2016/01/08/el-caso-del-conflicto-hidroelectrico-de-endesa-enel-en-el-territorio-mapuche-de-neltume/"
+  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
+  - "MMA — Ficha cuenca río Valdivia: https://mma.gob.cl/wp-content/uploads/2017/12/Valdivia.pdf"
+  - "Wikipedia — Cuenca del río Valdivia: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Valdivia"
+  - "Wikipedia — Santuario Carlos Anwandter: https://es.wikipedia.org/wiki/Santuario_de_la_naturaleza_Carlos_Anwandter"
+  - "Derecho al Agua — Desastre Río Cruces CELCO: https://www.derechoalagua.cl/mapa-de-conflictos/desastre-ecologico-de-celco-en-el-santuario-rio-cruces/"
+  - "Aves de Chile — Cisnes de cuello negro Río Cruces: http://www.avesdechile.cl/cisnesc3.htm"
+  - "CIPER — Contaminación fluvial en Valdivia: https://www.ciperchile.cl/2023/06/16/contaminacion-fluvial-en-valdivia/"
+  - "CIPER — Norma calidad Valdivia y Celco: https://www.ciperchile.cl/2022/03/02/autoridad-modifica-a-ultima-hora-proyecto-de-norma-ambiental-para-el-rio-valdivia-coincide-con-solicitud-de-celulosa-arauco/"
+  - "Patagon Journal — 20 años defensa Río Cruces: https://patagonjournal.com/index.php?Itemid=340&catid=187%3Aguest-blog&id=4541"
+  - "Fundación Plantae — Central San Pedro: https://fundacionplantae.cl/2021/02/la-gran-amenaza-a-la-cuenca-del-rio-valdivia-central-hidroelectrica-san-pedro/"
+  - "WWF Chile — Fallo caso CELCO: https://www.wwf.cl/?209514%2Fwwfvalorafallocasocelco="
 ---
 
 ## Descripción general
 
-Cuenca hidrográfica del río Valdivia, en la Región de Los Ríos, con una
-superficie aproximada de 10.275 km² que incluye la subcuenca binacional
-del lago Lácar (Argentina) y desemboca en la bahía de Corral (Wikipedia
-— Cuenca del río Valdivia; MMA — Ficha Valdivia).
+Cuenca de la Región de Los Ríos, símbolo del conflicto socioambiental
+por la muerte masiva de cisnes de cuello negro en el Santuario Río
+Cruces atribuida a la Planta Valdivia de CELCO.
 
 ## Características hidrológicas
 
-Régimen pluvial dominante. El río Valdivia se forma por la confluencia
-del río Calle-Calle y el río Cruces, 15 km aguas arriba del mar. El
-Calle-Calle nace de la unión de los ríos San Pedro (emisario del lago
-Riñihue) y Quinchilca. El sistema Siete Lagos (Panguipulli, Riñihue,
-Calafquén, Pellaifa, Neltume, Pirehueico, Lácar) drena la sub-cuenca
-alta (Wikipedia; BCN Los Ríos).
+Régimen pluvial dominante con aporte pluvio-nival en cabeceras. La cuenca
+está compuesta por las subcuencas de los ríos Cruces y Calle-Calle.
 
 ## Ecosistemas y biodiversidad
 
-Bosque valdiviano templado lluvioso, bosque siempreverde, hualves
-(bosques pantanosos) y un extenso sistema de humedales estuarinos que
-incluye el Santuario Río Cruces (Ramsar), con especies emblemáticas como
-el cisne de cuello negro, taguas, coipos y garzas (Wikipedia — Santuario
-Anwandter; Humedales Los Ríos).
+Bosque valdiviano, hualves de mirtáceas, humedales del Santuario Río
+Cruces (Ramsar), lagos precordilleranos y alerce en cabeceras.
 
 ## Comunidades y territorios asociados
 
-Pueblo mapuche con comunidades en Panguipulli, Lanco, Mariquina y Máfil,
-y comunidades mapuche-huilliche en el sur de la cuenca.
+Comunidades mapuche y mapuche-huilliche (Corral, San Juan de la Costa).
 
 ## Usos del agua
 
-Industria forestal y celulosa (Planta Valdivia de Arauco en San José de
-la Mariquina), turismo, pesca, consumo urbano de Valdivia, agricultura
-y potencial hidroeléctrico.
+Consumo urbano (Valdivia), industria celulosa, ganadería, agricultura y
+piscicultura.
 
 ## Problemáticas y amenazas
 
-- Contaminación industrial de los ríos Cruces y Valdivia (CELCO Arauco).
-- Presión inmobiliaria y agrícola sobre humedales urbanos y periurbanos.
-- Proyectos hidroeléctricos en subcuenca de Panguipulli (Neltume,
-  Choshuenco).
+- Contaminación por CELCO Arauco Planta Valdivia (Río Cruces).
+- Proyecto Central Hidroeléctrica San Pedro (Colbún).
+- Plantaciones forestales.
+- Salmonicultura y piscicultura de agua dulce.
+- Eutrofización de lagos.
 
 ## Conflictos asociados
 
-- **CELCO Arauco / Planta Valdivia (2004-2005)**: descarga de riles al
-  río Cruces provocó la muerte masiva de cisnes de cuello negro y
-  desaparición del luchecillo (Egeria densa) en el Santuario Carlos
-  Anwandter. En 2014 CELCO acordó pagar $5.200 millones tras litigio
-  (Derecho al Agua; Wikipedia — Planta Valdivia).
-- **Central Neltume (Endesa/Enel, 490 MW)**: proyecto de central de
-  pasada en el territorio mapuche de Panguipulli, ingresado a evaluación
-  en diciembre 2010 y retirado por Endesa en diciembre de 2015 tras
-  resistencia mapuche por sitios ceremoniales (Ngen, Nguillatun) del
-  lago Neltume (OLCA; Mapuexpress).
+- Desastre ecológico Río Cruces (2004-2005).
+- Fallo indemnizatorio contra CELCO por $5.200 millones.
+- Proyecto Central Hidroeléctrica San Pedro.
 
 ## Organizaciones relacionadas
 
-Acción por los Cisnes, Comunidad Humedal, comunidades mapuche del
-Territorio Neltume-Choshuenco, CEAM UACh.
+- Acción por los Cisnes.
+- Fundación Plantae.
+- CODEFF.
+- WWF Chile.
 
 ## Legislación aplicable
 
-- Santuario de la Naturaleza Carlos Anwandter (D.S. 1981) y sitio Ramsar
-  (primer sitio Ramsar de Chile).
-- Norma secundaria de calidad ambiental del río Valdivia (MMA).
-- Ley Indígena N° 19.253.
+- Santuario de la Naturaleza Carlos Anwandter (1981).
+- Sitio Ramsar Río Cruces (primer sitio Ramsar de Chile y Sudamérica).
+- Santuario de la Naturaleza Río San Pedro.
+- Norma secundaria de calidad ambiental cuenca río Valdivia (2024).
 
 ## Datos relevantes
 
-Superficie ≈ 10.275 km². Confluencia de Calle-Calle y Cruces conforma el
-río Valdivia; sistema Siete Lagos en el alto Valdivia; Santuario Río
-Cruces ≈ 4.877 ha.
+Superficie ≈ 10.275 km².
 
 ## Mapas y recursos
 

@@ -6,137 +6,144 @@ tipo: cuenca
 nombre: Cuenca del río Imperial
 
 region: Araucanía
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Imperial.pdf
 comunas:
-  - Lumaco
-  - Purén
-  - Los Sauces
-  - Traiguén
-  - Galvarino
-  - Chol Chol
-  - Nueva Imperial
-  - Carahue
-  - Puerto Saavedra
+  - Lonquimay
+  - Curacautín
+  - Victoria
+  - Lautaro
+  - Perquenco
+  - Vilcún
+  - Cunco
   - Temuco
   - Padre Las Casas
-  - Vilcún
   - Freire
-  - Cunco
-  - Lautaro
-  - Victoria
+  - Nueva Imperial
+  - Chol Chol
+  - Carahue
+  - Puerto Saavedra
+  - Lumaco
+  - Traiguén
 
-rio_principal: Río Imperial
+rio_principal: Río Imperial (formado por Cautín + Cholchol)
 
-superficie: "≈ 12.763 km² (1.276.300 ha, 40% de la Región de La Araucanía)"
+superficie: ≈ 12.054 km² (≈ 40% de la Región de la Araucanía)
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Imperial.pdf
+# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Imperial
 
 ecosistemas:
-  - bosque templado caducifolio (roble-raulí-coigüe)
-  - bosque valdiviano en sector cordillerano
-  - hualves (bosques pantanosos de mirtáceas)
-  - humedales costeros en la desembocadura (Puerto Saavedra)
+  - Bosque nativo templado (roble, raulí, coigüe) en Nahuelbuta y precordillera
+  - Araucaria en cabeceras andinas (Lonquimay, Curacautín)
+  - Humedales costeros y lago Budi (único lago salado del sur)
+  - Plantaciones forestales dominantes en Lumaco, Carahue, Victoria
 
 territorios:
 
 comunidades:
-  - Pueblo mapuche (comunidades en Chol Chol, Nueva Imperial, Carahue, Puerto Saavedra, Galvarino, Lumaco)
-  - Mapuche-lafkenche en zona costera (Puerto Saavedra, Puerto Domínguez)
+  - Mapuche (nagche, wenteche)
+  - Mapuche-lafkenche (sector costero: Puerto Saavedra, lago Budi)
 
 organizaciones:
+  - Identidad Territorial Lafkenche
+  - Observatorio Ciudadano
+  - Kimün-Ko UFRO
 
 casos:
+  - Conflicto forestal-mapuche en Lumaco, Traiguén, Ercilla
+  - Territorio mapuche-lafkenche del lago Budi (ECMPO Ley Lafkenche)
 
 campañas:
 
 legislacion:
   - Ley Indígena N° 19.253
-  - Ley Lafkenche N° 20.249 (Espacios Costeros Marinos de Pueblos Originarios)
+  - Ley Lafkenche N° 20.249
+  - Convenio 169 OIT
 
 datos:
-  - "Régimen pluvial dominante; crecidas invernales entre mayo y agosto, estiaje enero-marzo"
-  - "Longitud del río Imperial ≈ 55 km (desde la junta del Cautín y Chol Chol hasta el Pacífico)"
-  - "Rendimiento específico en cabecera ≈ 88 l/s/km²; en curso medio ≈ 53 l/s/km²; en desembocadura ≈ 40 l/s/km²"
-  - "Se forma en la confluencia de los ríos Cautín y Chol Chol; afluente principal del Cautín es el río Quepe"
-  - "Sub-cuenca del Chol Chol drena los ríos Purén, Lumaco, Traiguén, Quino y Quillén"
+  - "Régimen pluvio-nival mixto (nival en cabeceras)"
+  - "Caudal medio ≈ 240-260 m³/s"
+  - "Longitud del Imperial ≈ 55 km (desde confluencia Cautín-Cholchol)"
+  - "Nace por confluencia del Cautín y Cholchol cerca de Nueva Imperial"
+  - "Desemboca en Puerto Saavedra"
+  - "Bosque nativo cubre ~20% de la cuenca (≈ 239.292 ha)"
 
 mapas:
 
 etiquetas:
   - Araucanía
   - cuenca
-  - pueblos originarios
   - mapuche
-  - forestales
+  - lafkenche
+  - lago Budi
+  - forestal
 
 relacionados:
 
 adjuntos:
 
 fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "Ministerio del Medio Ambiente (MMA) — Ficha cuenca del río Imperial — https://mma.gob.cl/wp-content/uploads/2017/12/Imperial.pdf"
-  - "Wikipedia — Cuenca del río Imperial — https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Imperial"
-  - "Wikipedia — Río Imperial — https://es.wikipedia.org/wiki/R%C3%ADo_Imperial"
-  - "Biblioteca del Congreso Nacional (BCN) — Hidrografía Región de la Araucanía — https://www.bcn.cl/siit/nuestropais/region9/hidrografia.htm"
-  - "Kimün-Ko UFRO — Cuencas y subcuencas — https://kimunko.ufro.cl/cuencas/"
-  - "Ley Chile — Ley N° 20.249 (Lafkenche) — https://www.bcn.cl/leychile/navegar?idNorma=269291"
+  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
+  - "MMA — Ficha cuenca río Imperial: https://mma.gob.cl/wp-content/uploads/2017/12/Imperial.pdf"
+  - "Wikipedia — Cuenca del río Imperial: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Imperial"
+  - "BCN — Hidrografía Araucanía: https://www.bcn.cl/siit/nuestropais/region9/hidrografia.htm"
+  - "Kimün-Ko UFRO — Hidrografía: https://kimunko.ufro.cl/hidrografia/"
+  - "Observatorio Ciudadano — Situación del agua en Araucanía: https://observatorio.cl/wp-content/uploads/2020/01/situacion-agua-araucania-entero.pdf"
 ---
 
 ## Descripción general
 
-La cuenca del río Imperial se ubica en la Región de La Araucanía, cubre
-cerca del 40 % del territorio regional (≈ 12.763 km²) y abarca gran parte
-de las provincias de Malleco y Cautín (MMA — Ficha Imperial; Wikipedia).
+Cuenca que ocupa cerca del 40% de la Región de la Araucanía. Su río
+principal se forma en la confluencia del Cautín y el Cholchol, cerca de
+Nueva Imperial. Territorio ancestral mapuche.
 
 ## Características hidrológicas
 
-Régimen pluvial dominante, con crecidas invernales entre mayo y agosto y
-estiaje entre enero y marzo. El río Imperial se forma en la confluencia
-del río Cautín con el río Chol Chol y recorre unos 55 km hasta el
-Pacífico (Wikipedia — Río Imperial; MMA).
+Régimen pluvio-nival mixto, con aporte nival en las cabeceras andinas.
+Caudal medio ≈ 240-260 m³/s.
 
 ## Ecosistemas y biodiversidad
 
-Bosque templado caducifolio (roble-raulí-coigüe) en la cordillera de
-Nahuelbuta y precordillera andina; hualves y humedales costeros en la
-desembocadura (MMA — Ficha Imperial).
+Bosque nativo templado en Nahuelbuta y precordillera, araucaria en las
+cabeceras, humedales costeros y el lago Budi (único lago salado del
+sur de Chile).
 
 ## Comunidades y territorios asociados
 
-Territorio ancestral del pueblo mapuche, con importante presencia
-mapuche-lafkenche en la zona costera de Puerto Saavedra y Puerto
-Domínguez (Wikipedia — Lafkenches).
+Comunidades mapuche (nagche, wenteche) y mapuche-lafkenche en la costa.
 
 ## Usos del agua
 
-Agricultura, riego, actividad forestal intensiva (plantaciones de
-pino/eucalipto en Lumaco, Carahue, Nueva Imperial), consumo humano y
-pesca artesanal en la desembocadura.
+Consumo urbano (Temuco, Padre Las Casas), agricultura, forestal y
+piscicultura de agua dulce.
 
 ## Problemáticas y amenazas
 
-- Expansión de plantaciones forestales de pino y eucalipto sobre
-  territorio mapuche (MMA — Ficha Imperial).
-- Escasez hídrica estacional y contaminación difusa por agricultura y
-  forestales.
+- Expansión masiva de plantaciones forestales (pino/eucalipto).
+- Contaminación por celulosa y agroindustria.
+- Conflictos territoriales mapuche-Estado.
+- Contaminación del lago Budi por sedimentos y agroquímicos.
+- Sequía y crisis hídrica en la Araucanía.
 
 ## Conflictos asociados
 
-Conflictos territoriales mapuche-forestales en la subcuenca del Chol
-Chol (Lumaco, Purén, Traiguén).
+- Conflicto forestal-mapuche en Lumaco, Traiguén, Ercilla.
+- Territorio mapuche-lafkenche del lago Budi.
 
 ## Organizaciones relacionadas
 
-Comunidades mapuche y mapuche-lafkenche organizadas en la cuenca.
+- Identidad Territorial Lafkenche.
+- Observatorio Ciudadano.
+- Kimün-Ko UFRO.
 
 ## Legislación aplicable
 
 - Ley Indígena N° 19.253.
-- Ley Lafkenche N° 20.249, aplicable en el borde costero de la
-  desembocadura (BCN — Ley 20.249).
+- Ley Lafkenche N° 20.249.
+- Convenio 169 OIT.
 
 ## Datos relevantes
 
-Superficie ≈ 12.763 km². Longitud del río principal ≈ 55 km. Rendimiento
-específico decreciente de este a oeste (88 → 40 l/s/km²).
+Superficie ≈ 12.054 km². Longitud del Imperial ≈ 55 km.
 
 ## Mapas y recursos
 

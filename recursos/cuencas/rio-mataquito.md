@@ -6,72 +6,54 @@ tipo: cuenca
 nombre: Cuenca del río Mataquito
 
 region: Maule
-# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Mataquito
+# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Mataquito.pdf
 comunas:
-  - Romeral
-  - Teno
-  - Rauco
   - Curicó
   - Molina
+  - Licantén
   - Sagrada Familia
   - Hualañé
-  - Licantén
+  - Rauco
   - Vichuquén
-  - Curepto
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Mataquito.pdf
 
-rio_principal: Río Mataquito
-# fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Mataquito
+rio_principal: Río Mataquito (formado por Teno + Lontué)
 
-superficie: 6190 km²
-# fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Mataquito
+superficie: ≈ 6.190 km²
 
 ecosistemas:
-  - Bosque esclerófilo mediterráneo
-  - Bosque caducifolio de roble-hualo
-  - Humedal costero Reserva Nacional Laguna Torca / Vichuquén
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Mataquito.pdf
+  - Matorral y bosque esclerófilo mediterráneo
+  - Bosque caducifolio maulino (roble-hualo)
+  - Humedal costero de la desembocadura
 
 territorios:
 
 comunidades:
-  - Comuneros agrícolas de Curicó (uva vinífera, frutales)
-  - Comunidades ribereñas afectadas por contaminación 2007 (celulosa CMPC Licancel)
-# fuente: https://maule.mop.gob.cl/regantes-de-la-cuenca-del-rio-mataquito-acuerdan-uso-regulado-de-las-aguas/
 
 organizaciones:
-  - Junta de Vigilancia del Río Mataquito y sus afluentes
-  - Junta de Vigilancia del Río Teno
-  - Junta de Vigilancia del Río Lontué
-# fuente: https://maule.mop.gob.cl/regantes-de-la-cuenca-del-rio-mataquito-acuerdan-uso-regulado-de-las-aguas/
 
 casos:
-  - Contaminación por celulosa CMPC Licancel (2007) — mortandad masiva de peces en el Mataquito
-  - Megasequía y acuerdos de reparto entre regantes (juez de río)
-  - Escasez hídrica declarada
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Mataquito.pdf
-# fuente: https://maule.mop.gob.cl/regantes-de-la-cuenca-del-rio-mataquito-acuerdan-uso-regulado-de-las-aguas/
+  - Contaminación por planta de celulosa CMPC Licancel (derrame 2007) — muerte masiva de peces y aves
+# fuente: https://es.wikipedia.org/wiki/Contaminaci%C3%B3n_del_r%C3%ADo_Mataquito_por_Celulosa_Licancel
 
 campañas:
 
 legislacion:
-  - Decreto MOP de escasez hídrica vigente para varias comunas de la cuenca
+  - Decreto MOP escasez hídrica vigente
   - Ley 21.435 Reforma Código de Aguas (2022)
-# fuente: https://dga.mop.gob.cl/derechos-de-agua/proteccion-de-las-fuentes/decretos-de-escasez-2/
 
 datos:
-  - Régimen hidrológico mixto (pluvio-nival)
-  - Caudal medio aproximado: 153 m³/s
-  - Se forma por la confluencia del río Teno (120 km) y el río Lontué (126 km con su fuente el Colorado) al oeste de Curicó, cerca de Sagrada Familia
-  - Desemboca en el Pacífico cerca de La Pesca, Licantén
-# fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Mataquito
-# fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Mataquito.pdf
+  - "Régimen mixto pluvio-nival"
+  - "Caudal medio ≈ 153 m³/s"
+  - "Nace por confluencia de los ríos Teno (norte) y Lontué (sur)"
 
 mapas:
 
 etiquetas:
   - Maule
   - cuenca
+  - CMPC Licancel
+  - celulosa
+  - bosque maulino
 
 relacionados:
 
@@ -79,31 +61,54 @@ adjuntos:
 
 fuentes:
   - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "MMA — Ficha cuenca del río Mataquito: https://mma.gob.cl/wp-content/uploads/2017/12/Mataquito.pdf"
-  - "Wikipedia — Cuenca del río Mataquito: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Mataquito"
-  - "MOP Maule — Acuerdo regantes Mataquito: https://maule.mop.gob.cl/regantes-de-la-cuenca-del-rio-mataquito-acuerdan-uso-regulado-de-las-aguas/"
+  - "MMA — Ficha cuenca río Mataquito: https://mma.gob.cl/wp-content/uploads/2017/12/Mataquito.pdf"
+  - "Wikipedia — Contaminación río Mataquito por CMPC Licancel: https://es.wikipedia.org/wiki/Contaminaci%C3%B3n_del_r%C3%ADo_Mataquito_por_Celulosa_Licancel"
 ---
 
 ## Descripción general
 
+Cuenca de la Región del Maule formada por la confluencia de los ríos Teno
+y Lontué.
+
 ## Características hidrológicas
 
+Régimen mixto pluvio-nival. Caudal medio ≈ 153 m³/s.
+
 ## Ecosistemas y biodiversidad
+
+Matorral esclerófilo mediterráneo, bosque caducifolio maulino y humedal
+costero.
 
 ## Comunidades y territorios asociados
 
 ## Usos del agua
 
+Agricultura del valle central, industria celulosa (CMPC Licancel),
+consumo urbano.
+
 ## Problemáticas y amenazas
 
+- Contaminación por CMPC Licancel (derrame 2007).
+- Expansión forestal (pino/eucalipto).
+- Sequía y decreto MOP de escasez hídrica.
+
 ## Conflictos asociados
+
+- Derrame CMPC Licancel (2007): muerte masiva de peces y aves.
 
 ## Organizaciones relacionadas
 
 ## Legislación aplicable
 
+- Decreto MOP escasez hídrica vigente.
+- Ley 21.435 Reforma Código de Aguas (2022).
+
 ## Datos relevantes
+
+Superficie ≈ 6.190 km². Caudal medio ≈ 153 m³/s.
 
 ## Mapas y recursos
 
 ## Fuentes
+
+Ver bloque `fuentes` en el encabezado.

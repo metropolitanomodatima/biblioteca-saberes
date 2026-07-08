@@ -84,7 +84,8 @@ Por documentar tras la realización del encuentro.
 
 ## Material generado
 
-Se archivará en `/adjuntos/eventos/`.
+Afiche de la actividad:
+<https://drive.google.com/file/d/1JPW6hbAF13alOA-NxAreQ3k2IlcRoddF/view?usp=sharing>
 
 ## Fotografías y registros
 

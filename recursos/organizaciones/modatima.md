@@ -2,8 +2,8 @@
 id: organizacion.modatima
 titulo: MODATIMA
 tipo: organizacion
-
-nombre: Movimiento por la Defensa del Acceso al Agua, la Tierra y la Protección del Medioambiente
+resumen: Movimiento por la Defensa del Acceso al Agua, la Tierra y la Protección del Medioambiente.
+nombre: Movimiento por la Defensa del Acceso al Agua, la Tierra y la Protección del Medioambiente.
 
 sigla: MODATIMA
 
@@ -16,6 +16,7 @@ sitio_web: https://modatima.cl
 
 redes_sociales:
   - https://twitter.com/modatimachile
+  - https://www.instagram.com/modatimachile
 
 estado: vigente
 
@@ -25,9 +26,7 @@ etiquetas:
   - justicia ambiental
 
 relacionados:
-  - campana.no-mas-zonas-de-sacrificio
-  - territorio.petorca
-  - caso.petorca-crisis-hidrica
+  - concepto.derecho-humano-agua
 ---
 
 ## Descripción

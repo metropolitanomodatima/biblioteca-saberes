@@ -1,4 +1,4 @@
- ---
+---
 id: argumentario.agua.derecho-humano
 titulo: El agua es un derecho humano
 tipo: argumentario

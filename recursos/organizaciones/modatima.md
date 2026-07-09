@@ -11,6 +11,9 @@ pais: Chile
 
 territorio:
   - chile
+  - territorio.santiago
+  - territorio.lo-barnechea
+  - territorio.valdivia
 
 sitio_web: https://modatima.cl
 

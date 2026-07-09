@@ -9,11 +9,39 @@ import Etiqueta from '@/components/Etiqueta';
 import { buscarCategoria } from '@/types/recurso';
 import type { RecursoCompleto } from '@/types/recurso';
 import { cargarRecurso } from '@/services/recurso';
+import { eliminarRecurso } from '@/services/recursoEditor';
+import { useRolPermitido } from '@/controllers/useRolPermitido';
+import { useTiposVisibles } from '@/controllers/useTiposVisibles';
+import { urlLogin } from '@/services/sesion';
+import { useNavigate } from 'react-router-dom';
+import Dialogo from '@/components/Dialogo';
 
 export default function Recurso() {
   const { id = '' } = useParams();
+  const navigate = useNavigate();
+  const puedeEditar = useRolPermitido('editor');
+  const esAdmin = useRolPermitido('admin');
+  const tiposVisibles = useTiposVisibles();
   const [recurso, setRecurso] = useState<RecursoCompleto | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [eliminando, setEliminando] = useState(false);
+  const [mostrarConfirm, setMostrarConfirm] = useState(false);
+
+  async function confirmarEliminar() {
+    if (!recurso) return;
+    setMostrarConfirm(false);
+    setEliminando(true);
+    try {
+      const slug = recurso.ruta.split('/').pop()?.replace(/\.md$/, '') ?? id;
+      const resultado = await eliminarRecurso(recurso.tipo, slug);
+      window.open(resultado.pr_url, '_blank');
+      navigate('/');
+    } catch (e) {
+      setError((e as Error).message);
+    } finally {
+      setEliminando(false);
+    }
+  }
 
   useEffect(() => {
     setRecurso(null);
@@ -25,6 +53,22 @@ export default function Recurso() {
 
   if (error) return <ErrorMensaje mensaje={error} />;
   if (!recurso) return <Cargando texto="Cargando recurso…" />;
+
+  if (tiposVisibles && !(tiposVisibles as string[]).includes(recurso.tipo)) {
+    return (
+      <div className="mx-auto max-w-lg py-20 text-center">
+        <p className="text-tierra-700">
+          Necesitas iniciar sesión para ver este recurso.
+        </p>
+        <a
+          href={urlLogin()}
+          className="mt-4 inline-block rounded-md bg-rio-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-rio-700 no-underline"
+        >
+          Iniciar sesión con GitHub
+        </a>
+      </div>
+    );
+  }
 
   const categoria = buscarCategoria(recurso.tipo);
 
@@ -46,8 +90,25 @@ export default function Recurso() {
         </nav>
 
         <header className="mb-6">
-          <div className="mb-3 flex flex-wrap gap-2">
+          <div className="mb-3 flex flex-wrap items-center gap-2">
             <Etiqueta texto={categoria?.etiqueta ?? recurso.tipo} tipo="tipo" />
+            {puedeEditar && (
+              <Link
+                to={`/editar/${encodeURIComponent(id)}`}
+                className="ml-auto rounded-md border border-tierra-300 px-3 py-1 text-xs text-tierra-600 hover:border-rio-400 hover:text-rio-700 no-underline"
+              >
+                Editar
+              </Link>
+            )}
+            {esAdmin && (
+              <button
+                onClick={() => setMostrarConfirm(true)}
+                disabled={eliminando}
+                className="rounded-md border border-red-200 px-3 py-1 text-xs text-red-600 hover:border-red-400 hover:bg-red-50 disabled:opacity-50"
+              >
+                {eliminando ? 'Eliminando…' : 'Eliminar'}
+              </button>
+            )}
             {recurso.estado && <Etiqueta texto={recurso.estado} tipo="estado" />}
           </div>
           <h1 className="font-serif text-3xl sm:text-4xl font-bold leading-tight text-tierra-900">
@@ -80,6 +141,18 @@ export default function Recurso() {
       <div className="lg:sticky lg:top-32 lg:self-start">
         <Metadatos recurso={recurso} />
       </div>
+
+      {mostrarConfirm && (
+        <Dialogo
+          titulo="Eliminar recurso"
+          mensaje={`¿Eliminar "${recurso.titulo}"? Se abrirá un Pull Request para revisión antes de que el cambio sea efectivo.`}
+          labelConfirmar="Eliminar"
+          labelCancelar="Cancelar"
+          variante="peligro"
+          onConfirmar={confirmarEliminar}
+          onCancelar={() => setMostrarConfirm(false)}
+        />
+      )}
     </article>
   );
 }

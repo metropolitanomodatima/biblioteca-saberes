@@ -7,6 +7,9 @@ dist-ssr
 !.vscode/extensions.json
 public/indice-recursos.json
 public/recursos
+public/plantillas.json
 *.tsbuildinfo
 vite.config.d.ts
 vite.config.js
+
+.vercel

@@ -26,7 +26,7 @@ function parseFrontmatter(md: string): { data: Record<string, unknown>; content:
       listaActual.push(itemLista[1].trim().replace(/^["']|["']$/g, ''));
       continue;
     }
-    const par = linea.match(/^([A-Za-zÁÉÍÓÚÜÑáéíóúüñ_][\w\-]*)\s*:\s*(.*)$/);
+    const par = linea.match(/^([A-Za-zÁÉÍÓÚÜÑáéíóúüñ_][\w-]*)\s*:\s*(.*)$/);
     if (par) {
       claveActual = par[1];
       const valor = par[2].trim();

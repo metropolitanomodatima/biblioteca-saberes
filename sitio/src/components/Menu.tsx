@@ -1,5 +1,7 @@
 import { NavLink, Link } from 'react-router-dom';
 import { CATEGORIAS } from '@/types/recurso';
+import UsuarioMenu from '@/components/UsuarioMenu';
+import { useTiposVisibles } from '@/controllers/useTiposVisibles';
 
 const enlacesPrincipales = [
   { ruta: '/', etiqueta: 'Inicio', exact: true },
@@ -7,6 +9,11 @@ const enlacesPrincipales = [
 ];
 
 export default function Menu() {
+  const tiposVisibles = useTiposVisibles();
+  const categoriasFiltradas = CATEGORIAS.filter(
+    (c) => !tiposVisibles || (tiposVisibles as string[]).includes(c.tipo),
+  );
+
   return (
     <header className="border-b border-tierra-200 bg-tierra-50/95 backdrop-blur sticky top-0 z-30">
       <div className="contenedor flex flex-wrap items-center justify-between gap-3 py-3 sm:gap-4 sm:py-4">
@@ -29,30 +36,33 @@ export default function Menu() {
           </span>
         </Link>
 
-        <nav aria-label="Principal" className="flex flex-wrap items-center gap-1 text-sm">
-          {enlacesPrincipales.map((e) => (
-            <NavLink
-              key={e.ruta}
-              to={e.ruta}
-              end={e.exact}
-              className={({ isActive }) =>
-                [
-                  'px-3 py-2 rounded-md no-underline',
-                  isActive
-                    ? 'bg-rio-100 text-rio-800 font-semibold'
-                    : 'text-tierra-700 hover:bg-tierra-100',
-                ].join(' ')
-              }
-            >
-              {e.etiqueta}
-            </NavLink>
-          ))}
-        </nav>
+        <div className="flex items-center gap-3">
+          <nav aria-label="Principal" className="flex flex-wrap items-center gap-1 text-sm">
+            {enlacesPrincipales.map((e) => (
+              <NavLink
+                key={e.ruta}
+                to={e.ruta}
+                end={e.exact}
+                className={({ isActive }) =>
+                  [
+                    'px-3 py-2 rounded-md no-underline',
+                    isActive
+                      ? 'bg-rio-100 text-rio-800 font-semibold'
+                      : 'text-tierra-700 hover:bg-tierra-100',
+                  ].join(' ')
+                }
+              >
+                {e.etiqueta}
+              </NavLink>
+            ))}
+          </nav>
+          <UsuarioMenu />
+        </div>
       </div>
 
       <div className="border-t border-tierra-100 bg-white">
         <div className="contenedor sin-scrollbar flex gap-2 overflow-x-auto py-2 text-xs">
-          {CATEGORIAS.map((c) => (
+          {categoriasFiltradas.map((c) => (
             <NavLink
               key={c.tipo}
               to={c.ruta}

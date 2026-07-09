@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd sitio && npm run build",
+  "outputDirectory": "sitio/dist",
+  "rewrites": [
+    { "source": "/((?!api/).*)", "destination": "/index.html" }
+  ]
+}

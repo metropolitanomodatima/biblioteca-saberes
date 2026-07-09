@@ -7,9 +7,12 @@ import Etiqueta from '@/components/Etiqueta';
 import { buscarCategoriaPorSlug } from '@/types/recurso';
 import type { EntradaIndice } from '@/types/recurso';
 import { extraerFacetas, listarPorTipo } from '@/services/indice';
+import { useTiposVisibles } from '@/controllers/useTiposVisibles';
+import { urlLogin } from '@/services/sesion';
 
 export default function Categoria() {
   const { slug = '' } = useParams();
+  const tiposVisibles = useTiposVisibles();
   const categoria = buscarCategoriaPorSlug(slug);
   const [items, setItems] = useState<EntradaIndice[] | null>(null);
   const [filtroTema, setFiltroTema] = useState<string | null>(null);
@@ -43,6 +46,22 @@ export default function Categoria() {
         titulo="Categoría desconocida"
         mensaje={`No existe la categoría "${slug}".`}
       />
+    );
+  }
+
+  if (tiposVisibles && !(tiposVisibles as string[]).includes(categoria.tipo)) {
+    return (
+      <div className="mx-auto max-w-lg py-20 text-center">
+        <p className="text-tierra-700">
+          Necesitas iniciar sesión para ver esta categoría.
+        </p>
+        <a
+          href={urlLogin()}
+          className="mt-4 inline-block rounded-md bg-rio-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-rio-700 no-underline"
+        >
+          Iniciar sesión con GitHub
+        </a>
+      </div>
     );
   }
   if (error) return <ErrorMensaje mensaje={error} />;

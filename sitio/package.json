@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "indice": "node ../scripts/generar-indice.mjs",
-    "dev": "npm run indice && vite",
-    "build": "npm run indice && tsc -b && vite build",
+    "plantillas": "node ../scripts/generar-plantillas.mjs",
+    "dev": "npm run indice && npm run plantillas && vite",
+    "vite": "vite",
+    "build": "npm run indice && npm run plantillas && tsc -b && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext .ts,.tsx --report-unused-disable-directives --max-warnings 0",
     "format": "prettier --write \"src/**/*.{ts,tsx,css,md}\""
@@ -25,6 +27,7 @@
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.6.0",
     "@typescript-eslint/parser": "^8.6.0",
+    "@vercel/node": "^3.2.29",
     "@vitejs/plugin-react": "^4.3.1",
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.0",

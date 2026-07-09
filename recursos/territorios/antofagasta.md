@@ -5,8 +5,8 @@ tipo: territorio
 
 nombre: MODATIMA Antofagasta
 
-tipo_territorio:
-  - región
+territorio:
+  - chile
 
 pais: Chile
 region: Antofagasta

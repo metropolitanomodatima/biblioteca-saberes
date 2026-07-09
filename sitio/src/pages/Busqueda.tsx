@@ -8,8 +8,10 @@ import { CATEGORIAS } from '@/types/recurso';
 import type { EntradaIndice, TipoRecurso } from '@/types/recurso';
 import { buscar, type FiltrosBusqueda } from '@/services/busqueda';
 import { cargarIndice, extraerFacetas } from '@/services/indice';
+import { useTiposVisibles } from '@/controllers/useTiposVisibles';
 
 export default function Busqueda() {
+  const tiposVisibles = useTiposVisibles();
   const [params, setParams] = useSearchParams();
   const consulta = params.get('q') ?? '';
   const tiposClave = params.getAll('tipo').join(',');
@@ -22,9 +24,14 @@ export default function Busqueda() {
 
   useEffect(() => {
     cargarIndice()
-      .then((i) => setTodos(i.recursos))
+      .then((i) => {
+        const recursos = tiposVisibles
+          ? i.recursos.filter((r) => (tiposVisibles as string[]).includes(r.tipo))
+          : i.recursos;
+        setTodos(recursos);
+      })
       .catch((e) => setError(e.message));
-  }, []);
+  }, [tiposVisibles]);
 
   const tipos = useMemo(
     () => (tiposClave ? (tiposClave.split(',') as TipoRecurso[]) : []),
@@ -43,9 +50,14 @@ export default function Busqueda() {
   useEffect(() => {
     setResultados(null);
     buscar(consulta, filtros)
-      .then(setResultados)
+      .then((res) => {
+        const filtrados = tiposVisibles
+          ? res.filter((r) => (tiposVisibles as string[]).includes(r.tipo))
+          : res;
+        setResultados(filtrados);
+      })
       .catch((e) => setError(e.message));
-  }, [consulta, filtros]);
+  }, [consulta, filtros, tiposVisibles]);
 
   const facetas = useMemo(() => (todos ? extraerFacetas(todos) : null), [todos]);
 
@@ -86,7 +98,7 @@ export default function Busqueda() {
               Tipo de recurso
             </h2>
             <ul className="space-y-1">
-              {CATEGORIAS.map((c) => {
+              {CATEGORIAS.filter((c) => !tiposVisibles || (tiposVisibles as string[]).includes(c.tipo)).map((c) => {
                 const activo = tipos.includes(c.tipo);
                 return (
                   <li key={c.tipo}>

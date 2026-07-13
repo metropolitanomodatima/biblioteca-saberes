@@ -65,7 +65,7 @@ export default function Categoria() {
       grupos.get(clave)!.push(r);
     }
     return Array.from(grupos.entries()).sort(([a], [b]) => a.localeCompare(b, 'es'));
-  }, [filtrados, categoria]);
+  }, [filtrados, usaRegion]);
 
   if (!categoria) {
     return (

@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { crearCookie } from '../_lib/sesion';
-import { obtenerRol } from '../_lib/roles';
-import { esMiembroOrg } from '../_lib/github';
+import { crearCookie } from '../_lib/sesion.js';
+import { obtenerRol } from '../_lib/roles.js';
+import { esMiembroOrg } from '../_lib/github.js';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   const code = req.query.code as string | undefined;

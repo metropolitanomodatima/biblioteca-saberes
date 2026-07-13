@@ -1,4 +1,4 @@
-import type { Rol } from './tipos';
+import type { Rol } from './tipos.js';
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';

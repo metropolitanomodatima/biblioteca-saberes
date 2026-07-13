@@ -1,5 +1,5 @@
 import { createHmac, timingSafeEqual } from 'node:crypto';
-import type { Sesion } from './tipos';
+import type { Sesion } from './tipos.js';
 
 const TTL_MS = 7 * 24 * 60 * 60 * 1000;
 

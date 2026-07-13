@@ -1,7 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { parsearSesion } from '../_lib/sesion';
-import { tienePermiso } from '../_lib/tipos';
-import { shaMain, crearRama, abrirPR, shaArchivo, ghDelete } from '../_lib/github';
+import { parsearSesion } from '../_lib/sesion.js';
+import { tienePermiso } from '../_lib/tipos.js';
+import { shaMain, crearRama, abrirPR, shaArchivo, ghDelete } from '../_lib/github.js';
 
 const SLUG_RE = /^[a-z0-9-]+$/;
 

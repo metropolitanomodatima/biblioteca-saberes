@@ -1,5 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { parsearSesion } from '../_lib/sesion';
+import { parsearSesion } from '../_lib/sesion.js';
 
 export default function handler(req: VercelRequest, res: VercelResponse) {
   const sesion = parsearSesion(req.headers.cookie);

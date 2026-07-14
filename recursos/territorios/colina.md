@@ -1,31 +1,23 @@
 ---
-id: territorio.colina
-titulo: MODATIMA Colina
-tipo: territorio
-
 pais: Chile
 region: Metropolitana
 provincia: Chacabuco
 comuna: Colina
-
 temas:
   - agua
   - agricultura
   - escasez hídrica
   - expansión urbana
-  - Región Metropolitana
   - Chacabuco
   - río Mapocho
+adjuntos:
 
 relacionados:
   - territorio.santiago
   - cuenca.rio-mapocho
-
-adjuntos:
-
-fuentes:
-  - "INE, Censo 2017"
-
+titulo: MODATIMA Colina
+tipo: territorio
+resumen: 
 ---
 
 ## Descripción general

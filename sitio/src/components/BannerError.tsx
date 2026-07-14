@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
 const MENSAJES: Record<string, { texto: string; color: 'rojo' | 'verde' }> = {
@@ -10,13 +10,21 @@ const MENSAJES: Record<string, { texto: string; color: 'rojo' | 'verde' }> = {
     texto: 'Tu solicitud de acceso fue recibida. Un administrador la revisará y te enviará una invitación si es aprobada.',
     color: 'verde',
   },
+  'solicitud-pendiente': {
+    texto: 'Ya tienes una solicitud de acceso pendiente. Un administrador la revisará pronto.',
+    color: 'verde',
+  },
 };
 
 export default function BannerError() {
   const [params] = useSearchParams();
   const clave = params.get('error');
   const mensaje = clave ? MENSAJES[clave] : null;
-  const [visible, setVisible] = useState(true);
+  const [visible, setVisible] = useState(!!mensaje);
+
+  useEffect(() => {
+    setVisible(!!mensaje);
+  }, [clave]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!mensaje || !visible) return null;
 
@@ -25,7 +33,7 @@ export default function BannerError() {
   return (
     <div
       className={[
-        'flex items-start gap-3 rounded-xl border px-5 py-4 text-sm',
+        'flex items-start gap-3 rounded-xl border px-5 py-4 text-sm mb-6',
         esVerde
           ? 'border-alerce-200 bg-alerce-50 text-alerce-800'
           : 'border-red-200 bg-red-50 text-red-800',

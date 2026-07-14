@@ -8,7 +8,7 @@ export async function notificarSolicitudAcceso(login: string, nombre: string | n
   }
 
   const fecha = new Date().toLocaleString('es-CL', { timeZone: 'America/Santiago' });
-  const orgUrl = `https://github.com/orgs/${process.env.GITHUB_ORG ?? 'MODATIMA'}/people`;
+  const orgUrl = `https://github.com/orgs/MODATIMA/people`;
 
   const html = `
     <div style="font-family:sans-serif;max-width:480px;margin:0 auto">
@@ -39,6 +39,7 @@ export async function notificarSolicitudAcceso(login: string, nombre: string | n
 
   const r = await fetch('https://api.resend.com/emails', {
     method: 'POST',
+    signal: AbortSignal.timeout(8000),
     headers: {
       'Authorization': `Bearer ${apiKey}`,
       'Content-Type': 'application/json',

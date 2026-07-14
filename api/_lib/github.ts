@@ -9,6 +9,7 @@ const BOT_TOKEN = () => {
 function ghFetch(path: string, init?: RequestInit, token?: string) {
   return fetch(`https://api.github.com${path}`, {
     ...init,
+    signal: AbortSignal.timeout(8000),
     headers: {
       'Authorization': `Bearer ${token ?? BOT_TOKEN()}`,
       'Accept': 'application/vnd.github+json',
@@ -107,4 +108,36 @@ export async function shaArchivo(ruta: string): Promise<string | null> {
   if (!r.ok) throw new Error(`Error al obtener sha del archivo: ${r.status}`);
   const data = await r.json();
   return data.sha as string;
+}
+
+export async function leerArchivoRepo(ruta: string): Promise<{ sha: string | null; contenido: string | null }> {
+  const r = await ghFetch(`/repos/${ORG()}/${REPO()}/contents/${ruta}?ref=main`);
+  if (r.status === 404) return { sha: null, contenido: null };
+  if (!r.ok) throw new Error(`Error al leer ${ruta}: ${r.status}`);
+  const data = await r.json() as { sha: string; content: string };
+  const contenido = Buffer.from(data.content, 'base64').toString('utf8');
+  return { sha: data.sha, contenido };
+}
+
+export async function escribirArchivoRepo(opts: {
+  ruta: string;
+  contenido: string;
+  mensaje: string;
+  rama: string;
+  sha?: string;
+}): Promise<void> {
+  const body: Record<string, unknown> = {
+    message: opts.mensaje,
+    content: Buffer.from(opts.contenido).toString('base64'),
+    branch: opts.rama,
+  };
+  if (opts.sha) body.sha = opts.sha;
+  const r = await ghFetch(`/repos/${ORG()}/${REPO()}/contents/${opts.ruta}`, {
+    method: 'PUT',
+    body: JSON.stringify(body),
+  });
+  if (!r.ok) {
+    const err = await r.json().catch(() => ({}));
+    throw new Error(`No se pudo escribir ${opts.ruta}: ${JSON.stringify(err)}`);
+  }
 }

@@ -1,7 +1,10 @@
 import type { Sesion } from '@/types/sesion';
 
 export function urlLogin(): string {
-  const returnTo = window.location.pathname + window.location.search;
+  const params = new URLSearchParams(window.location.search);
+  params.delete('error');
+  const qs = params.toString();
+  const returnTo = window.location.pathname + (qs ? `?${qs}` : '');
   return `/api/auth/login?returnTo=${encodeURIComponent(returnTo)}`;
 }
 

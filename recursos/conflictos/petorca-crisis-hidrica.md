@@ -1,7 +1,7 @@
 ---
-id: caso.petorca-crisis-hidrica
+id: conflicto.petorca-crisis-hidrica
 titulo: Crisis hídrica de Petorca
-tipo: caso
+tipo: conflicto
 
 territorio:
   - territorio.petorca
@@ -10,8 +10,9 @@ tema:
   - agua
   - agroexportación
   - derechos humanos
-
-estado: activo
+  - Petorca
+  - crisis hídrica
+  - Valparaíso
 
 actores:
   - Comunidades de Petorca
@@ -22,12 +23,6 @@ actores:
 resumen: Crisis socioambiental prolongada caracterizada por la falta de acceso al agua para consumo humano en paralelo a la expansión de la agroindustria de paltos.
 fecha_inicio: 2004-01-01
 fecha_fin:
-
-etiquetas:
-  - Petorca
-  - crisis hídrica
-  - Valparaíso
-  - agroexportación
 
 relacionados:
   - territorio.petorca

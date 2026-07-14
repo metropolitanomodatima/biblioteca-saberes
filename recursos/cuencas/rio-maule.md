@@ -3,85 +3,17 @@ id: cuenca.rio-maule
 titulo: Cuenca del río Maule
 tipo: cuenca
 
-nombre: Cuenca del río Maule
-
 region: Maule
 # fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Maule.pdf
-comunas:
-  - San Clemente
-  - Colbún
-  - Linares
-  - Yerbas Buenas
-  - Villa Alegre
-  - San Javier
-  - Constitución
-  - Curepto
-  - Empedrado
-  - Pelluhue
-  - Cauquenes
-  - Chanco
-  - Talca
-  - Maule
-  - Pencahue
-  - San Rafael
-  - Pelarco
-  - Río Claro
-  - Molina
-  - Longaví
-  - Retiro
 
-rio_principal: Río Maule
-
-superficie: ≈ 21.052 km²
-
-ecosistemas:
-  - Bosque caducifolio de roble-hualo (maulino)
-  - Bosque esclerófilo mediterráneo en el valle central
-  - Bosque andino de raulí y coihue en cabeceras
-  - Estepa altoandina (Laguna del Maule)
-  - Humedal costero de la desembocadura
-
-territorios:
-
-comunidades:
-  - Comunidades pehuenche en el sector alto
-
-organizaciones:
-
-casos:
+conflictos:
   - Complejo hidroeléctrico Colbún-Machicura-Pehuenche-Cipreses-Isla-Curillinque-San Ignacio (Colbún/Enel-Endesa)
   - Laguna del Maule sujeta a extracción hidroeléctrica
-
-campañas:
-
-legislacion:
-  - Decreto MOP escasez hídrica vigente
-  - Ley 21.435 Reforma Código de Aguas (2022)
-
-datos:
-  - "Régimen mixto pluvio-nival con fuerte componente nival"
-  - "Longitud del Maule ≈ 240 km"
-  - "Caudal medio ≈ 243 m³/s"
-  - "Nace en la laguna del Maule (Andes)"
-
-mapas:
-
-etiquetas:
-  - Maule
-  - cuenca
-  - hidroeléctrica
-  - Colbún
-  - laguna del Maule
-  - Pehuenche
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "MMA — Ficha cuenca río Maule: https://mma.gob.cl/wp-content/uploads/2017/12/Maule.pdf"
-  - "Wikipedia — Cuenca del río Maule: https://es.wikipedia.org/wiki/R%C3%ADo_Maule"
 ---
 
 ## Descripción general

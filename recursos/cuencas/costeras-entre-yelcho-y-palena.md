@@ -3,57 +3,14 @@ id: cuenca.costeras-entre-yelcho-y-palena
 titulo: Cuencas costeras entre río Yelcho y río Palena
 tipo: cuenca
 
-nombre: Cuencas costeras entre río Yelcho y río Palena
-
 region: Los Lagos
-comunas:
-  - Chaitén
-  - Palena
 
-rio_principal: Ríos costeros menores
-
-superficie: ≈ 6.145 km² (según fuentes de estudio DGA regional)
-
-ecosistemas:
-  - Bosque siempreverde templado
-  - Bosque valdiviano
-  - Alerce (PN Corcovado)
-  - Fiordos
-
-territorios:
-
-comunidades:
-  - Colonos chilotes
-
-organizaciones:
-
-casos:
-
-campañas:
-
-legislacion:
-  - Parque Nacional Corcovado
-
-datos:
-  - "Régimen pluvial"
-  - "Área de fiordos: Corcovado, Refugio"
-
-mapas:
-
-etiquetas:
-  - Los Lagos
-  - cuenca
-  - Corcovado
-  - alerce
-  - salmoneras
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "Wikipedia — Cuenca del río Palena: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Palena"
 ---
 
 ## Descripción general

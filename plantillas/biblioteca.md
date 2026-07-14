@@ -8,20 +8,14 @@ tipo: biblioteca
 
 resumen: ''
 
-autor: ''
-
 editorial: ''
 
 fecha_publicacion: ''
-ultima_actualizacion: ''
 
 enlace: ''
 
-tema: []
-
-etiquetas: []
-
-estado: ''
+tema:
+  - []
 
 relacionados: []
 

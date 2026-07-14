@@ -7,18 +7,9 @@ numero: DFL 1122 (1981), reformado por la Ley N° 21.435 (2022)
 
 pais: Chile
 
-estado: vigente
-
 organismo: Ministerio de Obras Públicas / Dirección General de Aguas
 
 fecha_publicacion: 1981-10-29
-ultima_actualizacion: 2026-05-01
-
-etiquetas:
-  - agua
-  - código
-  - Chile
-  - propiedad
 
 relacionados:
   - argumentario.agua-derecho-humano

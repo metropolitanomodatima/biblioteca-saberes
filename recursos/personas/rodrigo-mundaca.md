@@ -12,15 +12,10 @@ organizacion: MODATIMA
 territorio:
   - Valparaíso
 
-etiquetas:
-  - vocería
-  - agua
-  - Petorca
-
 relacionados:
   - organizacion.modatima
   - territorio.petorca
-  - caso.petorca-crisis-hidrica
+  - conflicto.petorca-crisis-hidrica
 
 fotografia:
 

@@ -3,74 +3,14 @@ id: cuenca.rio-loa
 titulo: Cuenca del río Loa
 tipo: cuenca
 
-nombre: Cuenca del río Loa
-
 region: Antofagasta
-comunas:
-  - Ollagüe
-  - Calama
-  - María Elena
-  - Tocopilla
 
-rio_principal: Río Loa
-
-superficie: "≈ 33.570 km² (la cuenca exorreica más grande de Chile)"
-
-ecosistemas:
-  - desierto de Atacama (hiperárido)
-  - estepa arbustiva prepuneña / desierto de altura
-  - bofedales y humedales altoandinos
-  - oasis y humedales fluviales (Chiu-Chiu, Quillagua, desembocadura)
-
-territorios:
-
-comunidades:
-  - Comunidad aymara de Quillagua
-  - Comunidades atacameñas de Conchi Viejo, San Pedro, Chiu-Chiu, Lasana, Ayquina, Toconce y Caspana
-
-organizaciones:
-  - OLCA (Observatorio Latinoamericano de Conflictos Ambientales)
-  - OCMAL (Observatorio de Conflictos Mineros de América Latina)
-
-casos:
-
-campañas:
-
-legislacion:
-  - Reserva Nacional Alto Loa
-  - Código de Aguas de Chile (1981)
-
-datos:
-  - "Régimen pluvial acentuado en verano por invierno altiplánico"
-  - "Caudal medio anual ≈ 2,43 m³/s (muy bajo por hiperaridez)"
-  - "Longitud del río principal ≈ 440 km (el más largo de Chile)"
-  - "Naciente ≈ 4.277 m s.n.m. (volcán Miño)"
-  - "Contaminación por relaves mineros (mercurio, arsénico) documentada por SAG (2000)"
-
-mapas:
-
-etiquetas:
-  - Antofagasta
-  - cuenca
-  - desierto
-  - minería
-  - pueblos originarios
-  - aymara
-  - atacameño
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "Ministerio del Medio Ambiente (MMA) — Ficha cuenca del Loa — https://mma.gob.cl/wp-content/uploads/2017/12/Loa.pdf"
-  - "Wikipedia — Río Loa — https://es.wikipedia.org/wiki/R%C3%ADo_Loa"
-  - "OCMAL — Conflicto minero río Loa/Quillagua — https://mapa.conflictosmineros.net/ocmal_db-v2/conflicto/view/190"
-  - "Chile Sustentable — Denuncia por sequía y extracción de agua por SQM — https://chilesustentable.net/2021/01/habitantes-de-quillagua-denuncian-que-sequia-del-rio-loa-se-debe-a-extraccion-de-agua-por-minera-sqm/"
-  - "OLCA — Conflicto por el agua en el río Loa — https://olca.cl/articulo/nota.php?id=348"
-  - "Ladera Sur — Fauna endémica de la cuenca del Loa — https://laderasur.com/articulo/un-acercamiento-a-la-fauna-endemica-de-la-cuenca-del-rio-loa-un-lugar-unico-en-el-norte-de-chile/"
-  - "EcuRed — Reserva Nacional Alto Loa — https://www.ecured.cu/Reserva_Nacional_Alto_Loa"
 ---
 
 ## Descripción general

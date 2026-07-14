@@ -3,64 +3,17 @@ id: cuenca.costeras-entre-valdivia-y-bueno
 titulo: Cuencas costeras entre río Valdivia y río Bueno
 tipo: cuenca
 
-nombre: Cuencas costeras entre río Valdivia y río Bueno
-
 region: Los Ríos
 # fuente: https://es.wikipedia.org/wiki/Cuencas_costeras_entre_r%C3%ADo_Valdivia_y_r%C3%ADo_Bueno
-comunas:
-  - Corral
-  - La Unión
-  - Valdivia
 
-rio_principal: Esteros costeros (Chaihuín, Colún, Hueicolla)
-
-superficie: ≈ 762,6 km² (76.260 ha)
 # fuente: https://es.wikipedia.org/wiki/Cuencas_costeras_entre_r%C3%ADo_Valdivia_y_r%C3%ADo_Bueno
 
-ecosistemas:
-  - Bosque valdiviano (Cordillera de la Costa, Reserva Costera Valdiviana)
-  - Alerce costero
-  - Humedales
-  - Hualves
-
-territorios:
-  - Cordillera Pelada / Cordillera de la Costa valdiviana
-
-comunidades:
-  - Mapuche-huilliche (Chaihuín, San Juan de la Costa)
-
-organizaciones:
-  - Reserva Costera Valdiviana (TNC)
-  - CODEFF
-
-casos:
-
-campañas:
-
-legislacion:
-  - Reserva Costera Valdiviana (privada TNC)
-  - Ley Lafkenche N° 20.249
-
-datos:
-  - "Régimen pluvial"
-  - "Ítem BNA 102 — DGA"
-
-mapas:
-
-etiquetas:
-  - Los Ríos
-  - cuenca
-  - alerce costero
-  - lafkenche
-  - Cordillera Pelada
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "Wikipedia — Cuencas costeras entre Valdivia y Bueno: https://es.wikipedia.org/wiki/Cuencas_costeras_entre_r%C3%ADo_Valdivia_y_r%C3%ADo_Bueno"
 ---
 
 ## Descripción general

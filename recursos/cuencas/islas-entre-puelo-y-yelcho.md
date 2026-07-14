@@ -3,59 +3,15 @@ id: cuenca.islas-entre-puelo-y-yelcho
 titulo: Cuencas de las islas entre río Puelo y río Yelcho
 tipo: cuenca
 
-nombre: Cuencas de las islas entre río Puelo y río Yelcho
-
 region: Los Lagos
 # fuente: https://simbio.mma.gob.cl/Cuencas/VistaImpresion/106
-comunas:
-  - Hualaihué
-  - Chaitén
-  - Quellón
 
-rio_principal: Cursos insulares menores
-
-superficie:
-
-ecosistemas:
-  - Bosque siempreverde templado
-  - Alerce
-  - Turberas
-  - Fiordos
-
-territorios:
-  - Islas Desertores, Talcán, Nayahué, entre otras
-
-comunidades:
-  - Colonos chilotes
-
-organizaciones:
-
-casos:
-
-campañas:
-
-legislacion:
-
-datos:
-  - "Régimen pluvial dominante"
-
-mapas:
-
-etiquetas:
-  - Los Lagos
-  - cuenca
-  - insular
-  - salmoneras
-  - alerce
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "Wikipedia — Anexo Inventario cuencas Chile (BNA): https://es.wikipedia.org/wiki/Anexo:Inventario_de_cuencas_de_Chile_(BNA)"
-  - "SIMBIO MMA — Cuenca 106: https://simbio.mma.gob.cl/Cuencas/VistaImpresion/106"
 ---
 
 ## Descripción general

@@ -3,76 +3,14 @@ id: cuenca.rio-maipo
 titulo: Cuenca del río Maipo
 tipo: cuenca
 
-nombre: Cuenca del río Maipo
-
 region: Metropolitana
-comunas:
-  - San José de Maipo
-  - Pirque
-  - Puente Alto
-  - San Bernardo
-  - Buin
-  - Talagante
-  - Melipilla
-  - San Antonio
 
-rio_principal: Río Maipo
-
-superficie: "≈ 15.304 km²"
-
-ecosistemas:
-  - matorral esclerófilo
-  - bosque esclerófilo andino
-  - estepa altoandina
-  - glaciares y humedales altoandinos
-
-territorios:
-
-comunidades:
-
-organizaciones:
-  - Coordinadora No Alto Maipo
-  - Junta de Vigilancia del Río Maipo Primera Sección
-  - Fundación Terram
-
-casos:
-
-campañas:
-  - Campaña No Alto Maipo
-
-legislacion:
-  - Código de Aguas de Chile
-  - Decretos de escasez hídrica (DGA)
-
-datos:
-  - "Régimen nivo-pluvial (mixto, con marcado régimen nival por deshielos cordilleranos)"
-  - "Caudal medio anual ≈ 92,3 m³/s"
-  - "Longitud del río principal ≈ 250 km"
-  - "Naciente ≈ 3.000 m s.n.m. (faldeos del volcán Maipo)"
-  - "Abastece agua potable a ~7,5 millones de personas en la Región Metropolitana (~80% del suministro de Santiago)"
-  - "Glaciar Echaurren ha perdido ~65% de su superficie histórica"
-
-mapas:
-
-etiquetas:
-  - Metropolitana
-  - cuenca
-  - crisis hídrica
-  - hidroeléctrica
-  - Alto Maipo
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "Ministerio del Medio Ambiente (MMA) — Ficha cuenca del Maipo — https://mma.gob.cl/wp-content/uploads/2017/12/Maipo.pdf"
-  - "Wikipedia — Río Maipo — https://es.wikipedia.org/wiki/R%C3%ADo_Maipo"
-  - "Ladera Sur — Valor ecosistémico de la cuenca del Maipo — https://laderasur.com/articulo/cuenca-del-maipo-valor-ecosistemico-del-territorio-que-tants-habitamos/"
-  - "Glaciares Chilenos — Cronología del proyecto Alto Maipo — https://www.glaciareschilenos.org/en/report/alto-maipo-project-chronology-of-13-years-of-environmental-destruction/"
-  - "Wikipedia — Movimiento No Alto Maipo — https://es.wikipedia.org/wiki/No_Alto_Maipo"
-  - "DGA — Decretos de escasez — https://dga.mop.gob.cl/derechos-de-agua/proteccion-de-las-fuentes/decretos-de-escasez-2/"
 ---
 
 ## Descripción general

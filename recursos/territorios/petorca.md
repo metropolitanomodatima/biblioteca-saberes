@@ -3,57 +3,25 @@ id: territorio.petorca
 titulo: MODATIMA Petorca
 tipo: territorio
 
-nombre: MODATIMA Petorca
-
-tipo_territorio:
-  - provincia
-
 pais: Chile
 region: Valparaíso
 provincia: Petorca
 comuna:
 
-ubicacion: Zona centro-norte de Chile, Región de Valparaíso.
-
-descripcion: Provincia históricamente asociada a la producción de paltas y a un severo conflicto hídrico.
-
-poblacion: 76.000 (aprox.)
-
 temas:
   - agua
   - agroexportación
   - comunidades rurales
-
-organizaciones:
-  - MODATIMA
-
-personas:
-  - persona.rodrigo-mundaca
-
-casos:
-  - caso.petorca-crisis-hidrica
-
-campañas:
-
-cuencas:
-  - cuenca.rio-petorca
-
-etiquetas:
   - Valparaíso
   - crisis hídrica
-  - agroexportación
 
 relacionados:
   - cuenca.rio-petorca
-  - caso.petorca-crisis-hidrica
+  - conflicto.petorca-crisis-hidrica
   - argumentario.agua-derecho-humano
 
 adjuntos:
 
-fuentes:
-  - "INE, Censo 2017"
-
-ultima_actualizacion: 2026-06-20
 ---
 
 ## Descripción general

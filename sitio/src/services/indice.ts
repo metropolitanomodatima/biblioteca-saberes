@@ -41,14 +41,13 @@ export async function recientes(n = 6): Promise<EntradaIndice[]> {
 
 export async function destacados(n = 4): Promise<EntradaIndice[]> {
   const indice = await cargarIndice();
-  const preferidos: TipoRecurso[] = ['argumentario', 'campaña', 'concepto', 'caso'];
+  const preferidos: TipoRecurso[] = ['argumentario', 'campaña', 'concepto', 'conflicto'];
   const orden = new Map(preferidos.map((t, i) => [t, i]));
   return [...indice.recursos]
     .sort((a, b) => {
       const ia = orden.get(a.tipo) ?? 99;
       const ib = orden.get(b.tipo) ?? 99;
-      if (ia !== ib) return ia - ib;
-      return (b.fecha_actualizacion ?? '').localeCompare(a.fecha_actualizacion ?? '');
+      return ia - ib;
     })
     .slice(0, n);
 }

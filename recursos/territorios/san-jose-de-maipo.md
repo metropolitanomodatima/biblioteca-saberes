@@ -3,46 +3,19 @@ id: territorio.san-jose-de-maipo
 titulo: MODATIMA San José de Maipo
 tipo: territorio
 
-nombre: MODATIMA San José de Maipo
-
-tipo_territorio:
-  - comuna
-
 pais: Chile
 region: Metropolitana
 provincia: Cordillera
 comuna: San José de Maipo
-
-ubicacion: Cajón del Maipo, Región Metropolitana, precordillera y cordillera andina al sur oriente de Santiago.
-
-descripcion: Comuna cordillerana del cajón del Maipo, epicentro del conflicto por el proyecto hidroeléctrico Alto Maipo y puerta de entrada a los glaciares que abastecen a millones de personas en la Región Metropolitana.
-
-poblacion: 15.000 (aprox.)
 
 temas:
   - agua
   - hidroelectricidad
   - glaciares
   - ruralidad
-
-organizaciones:
-  - Coordinadora Ciudadana No Alto Maipo
-
-personas:
-
-casos:
-
-campañas:
-  - campaña.no-alto-maipo
-
-cuencas:
-  - cuenca.rio-maipo
-
-etiquetas:
   - Región Metropolitana
   - cajón del Maipo
   - Alto Maipo
-  - glaciares
 
 relacionados:
   - territorio.pirque
@@ -54,7 +27,6 @@ adjuntos:
 fuentes:
   - "INE, Censo 2017"
 
-ultima_actualizacion: 2026-07-11
 ---
 
 ## Descripción general

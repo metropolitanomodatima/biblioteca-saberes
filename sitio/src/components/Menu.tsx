@@ -3,7 +3,7 @@ import { CATEGORIAS } from '@/types/recurso';
 import UsuarioMenu from '@/components/UsuarioMenu';
 import { useTiposVisibles } from '@/controllers/useTiposVisibles';
 
-const TIPOS_PUBLICOS = new Set(['concepto', 'territorio', 'cuenca', 'ley', 'caso']);
+const TIPOS_PUBLICOS = new Set(['concepto', 'territorio', 'cuenca', 'ley', 'conflicto']);
 
 const enlacesPrincipales = [
   { ruta: '/', etiqueta: 'Inicio', exact: true },

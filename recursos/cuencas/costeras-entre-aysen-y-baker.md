@@ -3,73 +3,27 @@ id: cuenca.costeras-entre-aysen-y-baker
 titulo: Cuencas costeras entre río Aysén y río Baker
 tipo: cuenca
 
-nombre: Cuencas costeras entre río Aysén y río Baker
-
 region: Aysén
 # fuente: https://es.wikipedia.org/wiki/Cuencas_costeras_e_islas_entre_r%C3%ADo_Ays%C3%A9n,_r%C3%ADo_Baker_y_canal_General_Mart%C3%ADnez
-comunas:
-  - Aysén
-  - Tortel
-  - Cisnes
 # fuente: https://es.wikipedia.org/wiki/Cuencas_costeras_e_islas_entre_r%C3%ADo_Ays%C3%A9n,_r%C3%ADo_Baker_y_canal_General_Mart%C3%ADnez
 
-rio_principal: Sistema de fiordos y quebradas costeras (canales Aysén, Moraleda, Costa, Puyuhuapi)
-
-superficie:
-
-ecosistemas:
-  - Bosque siempreverde patagónico
-  - Ciprés de las Guaitecas
-  - Turberas de sphagnum
-  - Fiordos y canales
 # fuente: https://es.wikipedia.org/wiki/Cuencas_costeras_e_islas_entre_r%C3%ADo_Ays%C3%A9n,_r%C3%ADo_Baker_y_canal_General_Mart%C3%ADnez
 
-territorios:
-
-comunidades:
-  - Pueblo kawésqar (uso ancestral de canales; Kawésqar Wæs desde golfo de Penas al estrecho de Magallanes)
-  - Comunidades colonas de Puerto Aysén y Puerto Chacabuco
 # fuente: https://chileprecolombino.cl/en/pueblos-originarios/kawashkar/ambiente-y-localizacion/
 
-organizaciones:
-  - Aumen — El eco de los montes (Coyhaique)
-  - Fundación Terram
 # fuente: https://aumen.cl/
 # fuente: https://www.terram.cl/
 
-casos:
+conflictos:
 
-campañas:
-
-legislacion:
-  - Reserva Nacional Katalalixar (674.500 ha)
-  - Convenio 169 OIT
 # fuente: https://www.conaf.cl/parque_nacionales/reserva-nacional-katalalixar/
 
-datos:
-  - "Régimen pluvial oceánico con precipitaciones que pueden superar 4.000 mm/año"
-  - "Vertiente a fiordos y canales del área de Puerto Aysén y Puerto Chacabuco"
 # fuente: https://es.wikipedia.org/wiki/Golfo_de_Penas
-
-mapas:
-
-etiquetas:
-  - Aysén
-  - cuenca
-  - fiordos
-  - salmonicultura
-  - kawésqar
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "Wikipedia — Cuencas costeras Aysén-Baker-General Martínez: https://es.wikipedia.org/wiki/Cuencas_costeras_e_islas_entre_r%C3%ADo_Ays%C3%A9n,_r%C3%ADo_Baker_y_canal_General_Mart%C3%ADnez"
-  - "CONAF — Reserva Nacional Katalalixar: https://www.conaf.cl/parque_nacionales/reserva-nacional-katalalixar/"
-  - "Chile Precolombino — Pueblo kawésqar: https://chileprecolombino.cl/en/pueblos-originarios/kawashkar/ambiente-y-localizacion/"
-  - "Aumen ONG: https://aumen.cl/"
 ---
 
 ## Descripción general

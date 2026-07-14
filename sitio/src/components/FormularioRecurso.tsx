@@ -6,6 +6,8 @@ import { useFormularioRecurso } from '@/controllers/useFormularioRecurso';
 import { cargarIndice } from '@/services/indice';
 import RenderizadorMarkdown from '@/components/RenderizadorMarkdown';
 
+const CAMPOS_TEMAS = new Set(['temas', 'tema']);
+
 const CAMPOS_BASE = new Set(['id', 'titulo', 'tipo', 'resumen', 'relacionados']);
 
 interface Props {
@@ -15,15 +17,24 @@ interface Props {
 
 // ── Campo de lista (chips) ─────────────────────────────────────────────────
 function CampoLista({
-  nombre, valores, onChange,
-}: { nombre: string; valores: string[]; onChange: (v: string[]) => void }) {
+  nombre, valores, onChange, sugerencias = [],
+}: { nombre: string; valores: string[]; onChange: (v: string[]) => void; sugerencias?: string[] }) {
   const [input, setInput] = useState('');
+  const [mostrarSugerencias, setMostrarSugerencias] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
 
-  function agregar() {
-    const v = input.trim();
+  function agregar(valor: string) {
+    const v = valor.trim();
     if (v && !valores.includes(v)) onChange([...valores, v]);
     setInput('');
+    setMostrarSugerencias(false);
+    inputRef.current?.focus();
   }
+
+  const filtradas = sugerencias.filter(
+    (s) => !valores.includes(s) && s.toLowerCase().includes(input.trim().toLowerCase()),
+  );
+  const mostrar = mostrarSugerencias && filtradas.length > 0;
 
   return (
     <div>
@@ -45,18 +56,41 @@ function CampoLista({
           </span>
         ))}
       </div>
-      <div className="flex gap-2">
-        <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); agregar(); } }}
-          placeholder={`Agregar ${nombre}…`}
-          className="flex-1 rounded-md border border-tierra-300 px-3 py-1.5 text-sm focus:border-rio-500 focus:outline-none"
-        />
+      <div className="relative flex gap-2">
+        <div className="relative flex-1">
+          <input
+            ref={inputRef}
+            type="text"
+            value={input}
+            onChange={(e) => { setInput(e.target.value); setMostrarSugerencias(true); }}
+            onFocus={() => setMostrarSugerencias(true)}
+            onBlur={() => setTimeout(() => setMostrarSugerencias(false), 150)}
+            onKeyDown={(e) => {
+              if (e.key === 'Enter') { e.preventDefault(); agregar(input); }
+              if (e.key === 'Escape') setMostrarSugerencias(false);
+            }}
+            placeholder={`Agregar ${nombre}…`}
+            className="w-full rounded-md border border-tierra-300 px-3 py-1.5 text-sm focus:border-rio-500 focus:outline-none"
+          />
+          {mostrar && (
+            <ul className="absolute left-0 right-0 top-full z-10 mt-1 max-h-48 overflow-y-auto rounded-lg border border-tierra-200 bg-white shadow-lg">
+              {filtradas.map((s) => (
+                <li key={s}>
+                  <button
+                    type="button"
+                    onMouseDown={(e) => { e.preventDefault(); agregar(s); }}
+                    className="w-full px-3 py-1.5 text-left text-sm text-tierra-800 hover:bg-tierra-50"
+                  >
+                    {s}
+                  </button>
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
         <button
           type="button"
-          onClick={agregar}
+          onClick={() => agregar(input)}
           disabled={!input.trim()}
           className="rounded-md border border-tierra-300 px-3 py-1.5 text-sm text-tierra-600 hover:border-rio-400 hover:text-rio-700 disabled:opacity-40"
         >
@@ -182,6 +216,17 @@ export default function FormularioRecurso({ modoEdicion, onCancelar }: Props) {
   } = useFormularioRecurso(modoEdicion);
 
   const [pestana, setPestana] = useState<'editar' | 'previa'>('editar');
+  const [temasExistentes, setTemasExistentes] = useState<string[]>([]);
+
+  useEffect(() => {
+    cargarIndice().then((idx) => {
+      const set = new Set<string>();
+      for (const r of idx.recursos) {
+        for (const t of r.temas) if (t) set.add(t);
+      }
+      setTemasExistentes([...set].sort((a, b) => a.localeCompare(b, 'es')));
+    }).catch(() => {});
+  }, []);
 
   if (prUrl) {
     return (
@@ -361,6 +406,7 @@ export default function FormularioRecurso({ modoEdicion, onCancelar }: Props) {
                 nombre={campo.nombre}
                 valores={estado.camposLista[campo.nombre] ?? []}
                 onChange={(v) => setCampoLista(campo.nombre, v)}
+                sugerencias={CAMPOS_TEMAS.has(campo.nombre) ? temasExistentes : []}
               />
             </div>
           ))}

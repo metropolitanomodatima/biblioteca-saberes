@@ -3,71 +3,17 @@ id: cuenca.rio-rapel
 titulo: Cuenca del río Rapel
 tipo: cuenca
 
-nombre: Cuenca del río Rapel
-
 region: O'Higgins
 # fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf
-comunas:
-  - Rancagua
-  - San Fernando
-  - Santa Cruz
-  - Machalí
-  - Requínoa
-  - Rengo
-  - Peumo
-  - Las Cabras
-  - Litueche
-  - La Estrella
-  - Navidad
 
-rio_principal: Río Rapel (formado por Cachapoal + Tinguiririca)
-
-superficie: ≈ 13.695 km²
-
-ecosistemas:
-  - Matorral y bosque esclerófilo mediterráneo
-  - Bosque esclerófilo andino
-  - Embalse Rapel (680 Mm³)
-  - Humedal de la desembocadura
-
-territorios:
-
-comunidades:
-
-organizaciones:
-
-casos:
+conflictos:
   - Eutrofización crónica del embalse Rapel (floraciones cianobacterianas)
   - Contaminación por El Teniente (Codelco) en cabecera del Cachapoal
-
-campañas:
-
-legislacion:
-  - Decreto MOP escasez hídrica vigente
-  - Ley 21.435 Reforma Código de Aguas (2022)
-
-datos:
-  - "Régimen mixto pluvio-nival"
-  - "Nace por confluencia de los ríos Cachapoal (norte) y Tinguiririca (sur)"
-  - "Embalse Rapel: mayor embalse hidroeléctrico del sistema central"
-
-mapas:
-
-etiquetas:
-  - O'Higgins
-  - cuenca
-  - embalse Rapel
-  - El Teniente
-  - eutrofización
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "MMA — Ficha cuenca río Rapel: https://mma.gob.cl/wp-content/uploads/2017/12/Rapel.pdf"
-  - "Wikipedia — Cuenca del río Rapel: https://es.wikipedia.org/wiki/R%C3%ADo_Rapel"
 ---
 
 ## Descripción general

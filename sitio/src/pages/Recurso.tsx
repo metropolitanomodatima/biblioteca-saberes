@@ -109,7 +109,6 @@ export default function Recurso() {
                 {eliminando ? 'Eliminando…' : 'Eliminar'}
               </button>
             )}
-            {recurso.estado && <Etiqueta texto={recurso.estado} tipo="estado" />}
           </div>
           <h1 className="font-serif text-3xl sm:text-4xl font-bold leading-tight text-tierra-900">
             {recurso.titulo}
@@ -128,9 +127,6 @@ export default function Recurso() {
               recursos/{recurso.ruta}
             </code>
           </p>
-          {recurso.fecha_actualizacion && (
-            <p className="mt-1">Última actualización: {recurso.fecha_actualizacion}</p>
-          )}
         </div>
 
         <div className="mt-10 space-y-10">

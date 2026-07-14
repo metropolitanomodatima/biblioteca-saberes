@@ -3,51 +3,15 @@ id: cuenca.endorreicas-entre-frontera-y-pacifico
 titulo: Cuencas endorreicas entre la frontera y la vertiente del Pacífico
 tipo: cuenca
 
-nombre: Cuencas endorreicas entre la frontera y la vertiente del Pacífico
-
 region: Antofagasta
 # fuente: https://es.wikipedia.org/wiki/Cuencas_endorreicas_entre_fronterizas_y_salar_de_Atacama
-comunas:
-  - Antofagasta
-  - Taltal
 
-rio_principal: Endorreica altiplánica-preandina
-
-superficie:
-
-ecosistemas:
-  - Salares (Aguas Calientes, Pular)
-  - Estepa altoandina
-
-territorios:
-
-comunidades:
-
-organizaciones:
-
-casos:
-
-campañas:
-
-legislacion:
-
-datos:
-
-mapas:
-
-etiquetas:
-  - Antofagasta
-  - cuenca
-  - endorreica
-  - altiplano
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "Wikipedia — Cuencas endorreicas Antofagasta: https://es.wikipedia.org/wiki/Cuencas_endorreicas_entre_fronterizas_y_salar_de_Atacama"
 ---
 
 ## Descripción general

@@ -3,54 +3,25 @@ id: territorio.wallmapu
 titulo: MODATIMA Wallmapu
 tipo: territorio
 
-nombre: MODATIMA Wallmapu
-
-tipo_territorio:
-  - territorio ancestral
-
 pais: Chile / Argentina
 region: Sur de Chile (Biobío, La Araucanía, Los Ríos, Los Lagos) y Puelmapu (Argentina)
 provincia:
 comuna:
-
-ubicacion: Territorio ancestral del pueblo mapuche, a ambos lados de la cordillera de los Andes, en el sur de Chile y suroeste de Argentina.
-
-descripcion: Territorio histórico y ancestral del pueblo mapuche, marcado por la resistencia a la ocupación estatal, la defensa del agua y la lucha por la autodeterminación.
-
-poblacion: Población mapuche total superior a 1.700.000 (Chile y Argentina).
 
 temas:
   - agua
   - pueblos indígenas
   - autodeterminación
   - forestales
-
-organizaciones:
-
-personas:
-
-casos:
-
-campañas:
-
-cuencas:
-
-etiquetas:
   - pueblo mapuche
   - Gulumapu
   - Puelmapu
-  - autodeterminación
 
 relacionados:
   - argumentario.agua-derecho-humano
 
 adjuntos:
 
-fuentes:
-  - "Censo 2017 Chile"
-  - "Censo 2010 Argentina"
-
-ultima_actualizacion: 2026-07-07
 ---
 
 ## Descripción general

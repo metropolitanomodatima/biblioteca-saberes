@@ -3,8 +3,6 @@ id: territorio.antofagasta
 titulo: MODATIMA Antofagasta
 tipo: territorio
 
-nombre: MODATIMA Antofagasta
-
 territorio:
   - chile
 
@@ -13,32 +11,12 @@ region: Antofagasta
 provincia:
 comuna:
 
-ubicacion: Zona norte de Chile, en pleno Desierto de Atacama.
-
-descripcion: Región minera del norte grande de Chile, marcada por conflictos hídricos y ambientales asociados a la gran minería del cobre y del litio.
-
-poblacion: 691.000 (aprox.)
-
 temas:
   - agua
   - minería
   - litio
   - zonas de sacrificio
-
-organizaciones:
-
-personas:
-
-casos:
-
-campañas:
-
-cuencas:
-
-etiquetas:
   - norte grande
-  - minería
-  - litio
   - desierto de Atacama
 
 relacionados:
@@ -46,10 +24,6 @@ relacionados:
 
 adjuntos:
 
-fuentes:
-  - "INE, Censo 2017"
-
-ultima_actualizacion: 2026-07-07
 ---
 
 ## Descripción general

@@ -7,20 +7,13 @@ titulo: ''
 tipo: argumentario
 resumen: ''
 
-tema: []
+tema:
+  - []
 subtema: ''
 
 territorio: []
 
-estado: vigente
-
-autor: ''
 revisores: []
-
-fecha_creacion: ''
-ultima_actualizacion: ''
-
-etiquetas: []
 
 relacionados: []
 

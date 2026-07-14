@@ -3,50 +3,16 @@ id: cuenca.quebradas-costeras-entre-san-jose-y-camarones
 titulo: Cuencas costeras entre río San José y quebrada Camarones
 tipo: cuenca
 
-nombre: Cuencas costeras entre río San José y quebrada Camarones
-
 region: Arica y Parinacota
 # fuente: https://www.bcn.cl/siit/nuestropais/region15/hidrografia.htm
-comunas:
-  - Arica
-  - Camarones
 # fuente: https://es.wikipedia.org/wiki/Camarones_(comuna)
 
-rio_principal: Quebradas costeras intermitentes
-
-superficie:
-
-ecosistemas:
-  - Desierto costero absoluto
-
-territorios:
-
-comunidades:
-
-organizaciones:
-
-casos:
-
-campañas:
-
-legislacion:
-
-datos:
-
-mapas:
-
-etiquetas:
-  - Arica y Parinacota
-  - cuenca
-  - quebradas costeras
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "BCN — Hidrografía Arica y Parinacota: https://www.bcn.cl/siit/nuestropais/region15/hidrografia.htm"
 ---
 
 ## Descripción general

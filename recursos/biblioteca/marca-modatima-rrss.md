@@ -10,20 +10,13 @@ enlace:
 tema:
   - comunicaciones
   - redes sociales
-
-etiquetas:
   - marca
   - logos
   - imagenes
-  - redes sociales
-
-estado: vigente
 
 fecha_publicacion: 2026-07-08
-ultima_actualizacion: 2026-07-08
 
 relacionados:
-
 
 fuentes:
 
@@ -31,12 +24,7 @@ fuentes:
 
 ## Resumen
 
-
-
 ## Enlace
 
-
-
 ## Utilidad
-
 

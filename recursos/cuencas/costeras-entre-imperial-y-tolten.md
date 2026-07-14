@@ -3,60 +3,14 @@ id: cuenca.costeras-entre-imperial-y-tolten
 titulo: Cuencas costeras entre río Imperial y río Toltén
 tipo: cuenca
 
-nombre: Cuencas costeras entre río Imperial y río Toltén
-
 region: Araucanía
-comunas:
-  - Puerto Saavedra
-  - Carahue
-  - Teodoro Schmidt
-  - Toltén
 
-rio_principal: Esteros costeros (río Boldo, río Queule parcial)
-
-superficie:
-
-ecosistemas:
-  - Humedales costeros
-  - Bosque nativo costero de Nahuelbuta
-  - Hualves (bosques inundables de mirtáceas)
-
-territorios:
-
-comunidades:
-  - Mapuche-lafkenche
-
-organizaciones:
-  - Identidad Territorial Lafkenche
-
-casos:
-
-campañas:
-
-legislacion:
-  - Ley Lafkenche N° 20.249
-
-datos:
-  - "Régimen pluvial"
-  - "Sector costero mapuche-lafkenche"
-
-mapas:
-
-etiquetas:
-  - Araucanía
-  - cuenca
-  - lafkenche
-  - humedales
-  - hualve
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "BCN — Hidrografía Araucanía: https://www.bcn.cl/siit/nuestropais/region9/hidrografia.htm"
-  - "Kimün-Ko UFRO — Cuencas y subcuencas: https://kimunko.ufro.cl/cuencas/"
 ---
 
 ## Descripción general

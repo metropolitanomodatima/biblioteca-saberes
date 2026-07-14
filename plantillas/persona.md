@@ -14,8 +14,6 @@ organizacion: ''
 
 territorio: []
 
-etiquetas: []
-
 relacionados: []
 
 fotografia: ''

@@ -10,16 +10,11 @@ numero: ''
 
 pais: ''
 
-estado: ''
-
 organismo: ''
 
 fecha_publicacion: ''
-ultima_actualizacion: ''
 
 enlace: ''
-
-etiquetas: []
 
 relacionados: []
 

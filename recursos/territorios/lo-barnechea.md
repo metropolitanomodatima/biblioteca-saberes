@@ -3,42 +3,18 @@ id: territorio.lo-barnechea
 titulo: MODATIMA Lo Barnechea
 tipo: territorio
 
-nombre: MODATIMA Lo Barnechea
-
-tipo_territorio:
-  - comuna
-
 pais: Chile
 region: Metropolitana
 provincia: Santiago
 comuna: Lo Barnechea
-
-ubicacion: Sector nororiente de la Región Metropolitana, en la precordillera y cordillera de los Andes.
-
-descripcion: Comuna cordillerana del oriente de Santiago, hogar de cabeceras de cuenca clave y de conflictos por megaproyectos mineros y hidroeléctricos.
-
-poblacion: 121.000 (aprox.)
 
 temas:
   - agua
   - glaciares
   - minería
   - hidroelectricidad
-
-organizaciones:
-
-personas:
-
-casos:
-
-campañas:
-
-cuencas:
-
-etiquetas:
   - Región Metropolitana
   - cordillera
-  - glaciares
   - Andes centrales
 
 relacionados:
@@ -47,10 +23,6 @@ relacionados:
 
 adjuntos:
 
-fuentes:
-  - "INE, Censo 2017"
-
-ultima_actualizacion: 2026-07-07
 ---
 
 ## Descripción general

@@ -3,68 +3,17 @@ id: cuenca.rio-limari
 titulo: Cuenca del río Limarí
 tipo: cuenca
 
-nombre: Cuenca del río Limarí
-
 region: Coquimbo
 # fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Limari.pdf
-comunas:
-  - Ovalle
-  - Combarbalá
-  - Monte Patria
-  - Punitaqui
-  - Río Hurtado
 
-rio_principal: Río Limarí
-
-superficie: ≈ 11.696 km²
-
-ecosistemas:
-  - Matorral esclerófilo semiárido
-  - Estepa altoandina
-  - Bosque relicto de olivillo en el sector costero
-
-territorios:
-
-comunidades:
-  - Diaguita (Combarbalá, Monte Patria)
-
-organizaciones:
-  - Junta de Vigilancia del Río Limarí
-
-casos:
+conflictos:
   - Sequía y pérdida agrícola: ~10.000 ha agrícolas perdidas entre 2020 y 2025
   - Sistema Paloma-Recoleta-Cogotí en niveles críticos
-
-campañas:
-
-legislacion:
-  - Decreto MOP escasez hídrica vigente
-  - Ley 21.435 Reforma Código de Aguas (2022)
-
-datos:
-  - "Régimen nival dominante"
-  - "Sistema regulado por embalses La Paloma (mayor de Chile con capacidad para riego), Recoleta y Cogotí"
-  - "Nace por confluencia de los ríos Grande, Hurtado y Guatulame"
-
-mapas:
-
-etiquetas:
-  - Coquimbo
-  - cuenca
-  - La Paloma
-  - diaguita
-  - crisis hídrica
-  - agroindustria
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "MMA — Ficha cuenca río Limarí: https://mma.gob.cl/wp-content/uploads/2017/12/Limari.pdf"
-  - "Wikipedia — Cuenca del río Limarí: https://es.wikipedia.org/wiki/R%C3%ADo_Limar%C3%AD"
-  - "DGA — Escasez hídrica Coquimbo: https://dga.mop.gob.cl/mop-decreta-escasez-hidrica-en-13-comunas-de-la-region-de-coquimbo/"
 ---
 
 ## Descripción general

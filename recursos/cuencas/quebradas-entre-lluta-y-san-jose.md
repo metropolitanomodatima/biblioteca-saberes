@@ -3,50 +3,16 @@ id: cuenca.quebradas-entre-lluta-y-san-jose
 titulo: Cuencas entre río Lluta y río San José
 tipo: cuenca
 
-nombre: Cuencas entre río Lluta y río San José
-
 region: Arica y Parinacota
 # fuente: https://www.bcn.cl/siit/nuestropais/region15/hidrografia.htm
-comunas:
-  - Arica
 # fuente: https://www.bcn.cl/siit/nuestropais/region15/hidrografia.htm
 
-rio_principal: Quebradas costeras (endorreicas/intermitentes)
-
-superficie:
-
-ecosistemas:
-  - Desierto absoluto costero
-
-territorios:
-
-comunidades:
-
-organizaciones:
-
-casos:
-
-campañas:
-
-legislacion:
-
-datos:
-  - "Aridez extrema, sin cursos permanentes"
-
-mapas:
-
-etiquetas:
-  - Arica y Parinacota
-  - cuenca
-  - quebradas costeras
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "BCN — Hidrografía Arica y Parinacota: https://www.bcn.cl/siit/nuestropais/region15/hidrografia.htm"
 ---
 
 ## Descripción general

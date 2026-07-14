@@ -4,7 +4,7 @@
 //  - Campos obligatorios: id, titulo, tipo
 //  - tipo conocido y consistente con la subcarpeta
 //  - id único en todo el corpus
-//  - id con prefijo del tipo (cuenca.foo, caso.bar, …)
+//  - id con prefijo del tipo (cuenca.foo, conflicto.bar, …)
 //  - Referencias a otros recursos (strings con formato <tipo>.<slug>)
 //    apuntan a un id existente. Los strings de texto libre se ignoran.
 //
@@ -61,7 +61,7 @@ const TIPOS = {
   territorio: { prefijoId: 'territorio', carpetas: ['territorios'] },
   cuenca: { prefijoId: 'cuenca', carpetas: ['cuencas'] },
   ley: { prefijoId: 'ley', carpetas: ['leyes'] },
-  caso: { prefijoId: 'caso', carpetas: ['casos'] },
+  conflicto: { prefijoId: 'conflicto', carpetas: ['conflictos'] },
   persona: { prefijoId: 'persona', carpetas: ['personas'] },
   organizacion: { prefijoId: 'organizacion', carpetas: ['organizaciones'] },
   evento: { prefijoId: 'evento', carpetas: ['eventos'] },
@@ -84,7 +84,7 @@ const reReferenciaId = new RegExp(
 // un ID (validado) o texto libre (ignorado).
 const CAMPOS_CON_REFERENCIAS = [
   'relacionados',
-  'casos',
+  'conflictos',
   'campañas',
   'campanas',
   'territorios',

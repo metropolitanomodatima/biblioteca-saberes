@@ -6,40 +6,12 @@ id: ''
 titulo: ''
 tipo: cuenca
 
-nombre: ''
-
 region: ''
-comunas: []
-
-rio_principal: ''
-
-superficie: ''
-
-ecosistemas: []
-
-territorios: []
-
-comunidades: []
-
-organizaciones: []
-
-casos: []
-
-campañas: []
-
-legislacion: []
-
-datos: []
-
-mapas: []
-
-etiquetas: []
 
 relacionados: []
 
 adjuntos: []
 
-fuentes: []
 ---
 ```
 

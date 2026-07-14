@@ -3,44 +3,16 @@ id: territorio.valparaiso
 titulo: MODATIMA Valparaíso
 tipo: territorio
 
-nombre: MODATIMA Valparaíso
-
-tipo_territorio:
-  - región
-
 pais: Chile
 region: Valparaíso
 provincia:
 comuna:
-
-ubicacion: Zona central de Chile, costa central del Pacífico.
-
-descripcion: Región costera y de valles centrales donde conviven puertos históricos, agroexportación intensiva y conflictos hídricos y ambientales emblemáticos.
-
-poblacion: 1.960.000 (aprox.)
 
 temas:
   - agua
   - agroexportación
   - zonas de sacrificio
   - patrimonio
-
-organizaciones:
-  - MODATIMA
-
-personas:
-  - persona.rodrigo-mundaca
-
-casos:
-  - caso.petorca-crisis-hidrica
-
-campañas:
-  - campaña.no-mas-zonas-de-sacrificio
-
-cuencas:
-  - cuenca.rio-petorca
-
-etiquetas:
   - zona central
   - Petorca
   - Quintero
@@ -49,15 +21,11 @@ etiquetas:
 relacionados:
   - territorio.petorca
   - cuenca.rio-petorca
-  - caso.petorca-crisis-hidrica
+  - conflicto.petorca-crisis-hidrica
   - campaña.no-mas-zonas-de-sacrificio
 
 adjuntos:
 
-fuentes:
-  - "INE, Censo 2017"
-
-ultima_actualizacion: 2026-07-07
 ---
 
 ## Descripción general

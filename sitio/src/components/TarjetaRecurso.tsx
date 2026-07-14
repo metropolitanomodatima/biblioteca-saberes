@@ -14,9 +14,6 @@ export default function TarjetaRecurso({ recurso, compacta = false }: Props) {
     <article className="group relative flex h-full flex-col rounded-xl border border-tierra-200 bg-white p-5 shadow-sm transition hover:border-rio-400 hover:shadow-md">
       <div className="mb-3 flex flex-wrap items-center gap-2">
         <Etiqueta texto={categoria?.etiqueta ?? recurso.tipo} tipo="tipo" />
-        {recurso.estado && recurso.estado !== 'vigente' && (
-          <Etiqueta texto={recurso.estado} tipo="estado" />
-        )}
       </div>
 
       <h3 className="font-serif text-lg font-semibold leading-snug text-tierra-900">
@@ -45,11 +42,6 @@ export default function TarjetaRecurso({ recurso, compacta = false }: Props) {
         </div>
       )}
 
-      {recurso.fecha_actualizacion && !compacta && (
-        <p className="mt-4 text-xs text-tierra-500">
-          Actualizado: {recurso.fecha_actualizacion}
-        </p>
-      )}
     </article>
   );
 }

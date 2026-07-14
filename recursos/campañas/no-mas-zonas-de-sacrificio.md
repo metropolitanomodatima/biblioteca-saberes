@@ -3,12 +3,12 @@ id: campana.no-mas-zonas-de-sacrificio
 titulo: No más zonas de sacrificio
 tipo: campaña
 
-estado: vigente
-
 tema:
   - contaminación
   - salud
   - justicia ambiental
+  - zonas de sacrificio
+  - salud pública
 
 territorio:
   - quintero
@@ -24,11 +24,6 @@ coordinador: Coordinadora Nacional de Zonas de Sacrificio
 organizaciones:
   - MODATIMA
   - Mujeres en Zona de Sacrificio Quintero-Puchuncaví
-
-etiquetas:
-  - zonas de sacrificio
-  - contaminación
-  - salud pública
 
 relacionados:
   - argumentario.agua-derecho-humano

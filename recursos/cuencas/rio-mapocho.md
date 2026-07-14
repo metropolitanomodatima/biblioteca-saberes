@@ -3,72 +3,15 @@ id: cuenca.rio-mapocho
 titulo: Cuenca del río Mapocho
 tipo: cuenca
 
-nombre: Cuenca del río Mapocho
-
 region: Metropolitana
-comunas:
-  - Santiago
-  - Providencia
-  - Las Condes
-  - Lo Barnechea
-  - Vitacura
-  - Pudahuel
-  - Maipú
-  - Lampa
-  - Colina
-  - Tiltil
 
-rio_principal: Río Mapocho
-
-superficie: "≈ 4.717 km²"
-
-ecosistemas:
-  - matorral esclerófilo
-  - bosque esclerófilo andino
-  - estepa altoandina
-  - glaciares cordilleranos
-
-territorios:
-
-comunidades:
-
-organizaciones:
-  - Aguas Andinas
-  - Junta de Vigilancia del Río Mapocho y sus Afluentes
-
-casos:
-
-campañas:
-
-legislacion:
-  - Código de Aguas de Chile
-  - Decretos de escasez hídrica (DGA)
-
-datos:
-  - "Subcuenca del sistema del Maipo; afluente principal por la margen norte"
-  - "Caudal medio anual ≈ 10 m³/s en la estación Los Almendros"
-  - "Longitud del río principal ≈ 250 km"
-  - "Nace en las faldas del cerro La Parva (≈ 4.600 m s.n.m.)"
-  - "Atraviesa el centro de Santiago y es receptor histórico de aguas residuales urbanas"
-
-mapas:
-
-etiquetas:
-  - Metropolitana
-  - cuenca
-  - contaminación
-  - crisis hídrica
-  - urbano
+conflictos:
 
 relacionados:
   - cuenca.rio-maipo
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "Wikipedia — Río Mapocho — https://es.wikipedia.org/wiki/R%C3%ADo_Mapocho"
-  - "Ministerio del Medio Ambiente — Plan de Gestión de la Cuenca del Mapocho — https://mma.gob.cl"
 ---
 
 ## Descripción general

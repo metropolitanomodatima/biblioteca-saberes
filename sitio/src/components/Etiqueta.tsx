@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 interface Props {
   texto: string;
-  tipo?: 'tema' | 'territorio' | 'etiqueta' | 'estado' | 'tipo';
+  tipo?: 'tema' | 'territorio' | 'etiqueta' | 'tipo';
   href?: string;
 }
 
@@ -10,7 +10,6 @@ const estilos: Record<NonNullable<Props['tipo']>, string> = {
   tema: 'bg-alerce-100 text-alerce-800 border-alerce-200',
   territorio: 'bg-rio-100 text-rio-800 border-rio-200',
   etiqueta: 'bg-tierra-100 text-tierra-800 border-tierra-200',
-  estado: 'bg-white text-tierra-700 border-tierra-300',
   tipo: 'bg-tierra-900 text-tierra-50 border-tierra-900',
 };
 

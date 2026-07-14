@@ -10,16 +10,10 @@ enlace: https://www.ohchr.org/es/documents/thematic-reports/a80117-report-specia
 tema:
   - agua
   - derechos humanos
-
-etiquetas:
   - ONU
   - informe
-  - agua
-
-estado: vigente
 
 fecha_publicacion: 2020-08-01
-ultima_actualizacion: 2026-05-01
 
 relacionados:
   - argumentario.agua-derecho-humano

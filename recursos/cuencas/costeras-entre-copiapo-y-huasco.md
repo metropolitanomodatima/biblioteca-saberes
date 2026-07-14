@@ -3,53 +3,14 @@ id: cuenca.costeras-entre-copiapo-y-huasco
 titulo: Cuencas costeras entre río Copiapó y río Huasco
 tipo: cuenca
 
-nombre: Cuencas costeras entre río Copiapó y río Huasco
-
 region: Atacama
-comunas:
-  - Caldera
-  - Copiapó
-  - Huasco
 
-rio_principal: Quebradas costeras (Totoral, Carrizal)
-
-superficie:
-
-ecosistemas:
-  - Desierto costero con camanchaca
-  - Humedal Carrizal Bajo
-  - Endemismos vegetales (Copiapoa, Eulychnia)
-
-territorios:
-
-comunidades:
-
-organizaciones:
-
-casos:
-
-campañas:
-
-legislacion:
-
-datos:
-  - "Proyectos portuarios y agroindustriales (Freirina)"
-  - "Zona objetivo de proyectos de plantas desaladoras"
-
-mapas:
-
-etiquetas:
-  - Atacama
-  - cuenca
-  - quebradas costeras
-  - desierto florido
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
 ---
 
 ## Descripción general

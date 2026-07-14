@@ -3,81 +3,18 @@ id: cuenca.rio-aconcagua
 titulo: Cuenca del río Aconcagua
 tipo: cuenca
 
-nombre: Cuenca del río Aconcagua
-
 region: Valparaíso
 # fuente: https://mma.gob.cl/wp-content/uploads/2017/12/Aconcagua.pdf
-comunas:
-  - Los Andes
-  - San Esteban
-  - Rinconada
-  - Calle Larga
-  - San Felipe
-  - Panquehue
-  - Llay-Llay
-  - Catemu
-  - Putaendo
-  - Santa María
-  - Quillota
-  - Hijuelas
-  - La Cruz
-  - Nogales
-  - La Calera
-  - Concón
 
-rio_principal: Río Aconcagua
-
-superficie: ≈ 7.339 km²
-
-ecosistemas:
-  - Bosque esclerófilo mediterráneo
-  - Matorral esclerófilo andino
-  - Humedal costero de la desembocadura (Concón)
-  - Glaciares y estepa altoandina en cabeceras
-
-territorios:
-
-comunidades:
-
-organizaciones:
-  - MODATIMA Aconcagua
-  - Movimiento por el Agua y los Territorios (MAT)
-
-casos:
+conflictos:
   - Contaminación del Aconcagua por Codelco División Andina y Anglo American (Los Bronces)
   - Sobreexplotación por agroindustria (uvas, cítricos, paltos)
   - Zona latente MP10 valle del Aconcagua
-
-campañas:
-
-legislacion:
-  - Decreto MOP escasez hídrica vigente
-  - Ley 21.435 Reforma Código de Aguas (2022)
-
-datos:
-  - "Régimen mixto pluvio-nival"
-  - "Longitud del Aconcagua ≈ 190 km"
-  - "Caudal medio ≈ 33,1 m³/s en Chacabuquito"
-  - "Cuenca clave para la agricultura de la Región de Valparaíso"
-
-mapas:
-
-etiquetas:
-  - Valparaíso
-  - cuenca
-  - MODATIMA
-  - División Andina
-  - agroindustria
-  - crisis hídrica
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "MMA — Ficha cuenca río Aconcagua: https://mma.gob.cl/wp-content/uploads/2017/12/Aconcagua.pdf"
-  - "Wikipedia — Cuenca del río Aconcagua: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_Aconcagua"
 ---
 
 ## Descripción general

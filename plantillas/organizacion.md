@@ -12,10 +12,6 @@ sitio_web: ''
 
 redes_sociales: []
 
-estado: ''
-
-etiquetas: []
-
 relacionados: []
 ---
 ```

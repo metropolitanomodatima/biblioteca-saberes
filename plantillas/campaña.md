@@ -6,9 +6,8 @@ id: ''
 titulo: ''
 tipo: campaña
 
-estado: ''
-
-tema: []
+tema:
+  - []
 
 territorio: []
 
@@ -18,8 +17,6 @@ termino: ''
 coordinador: ''
 
 organizaciones: []
-
-etiquetas: []
 
 relacionados: []
 

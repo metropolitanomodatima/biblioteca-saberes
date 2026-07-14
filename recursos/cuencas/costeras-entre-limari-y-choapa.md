@@ -3,59 +3,17 @@ id: cuenca.costeras-entre-limari-y-choapa
 titulo: Cuencas costeras entre río Limarí y río Choapa
 tipo: cuenca
 
-nombre: Cuencas costeras entre río Limarí y río Choapa
-
 region: Coquimbo
 # fuente: https://es.wikipedia.org/wiki/Cuencas_costeras_entre_r%C3%ADo_Limar%C3%AD_y_r%C3%ADo_Choapa
-comunas:
-  - Ovalle
-  - Canela
-  - Los Vilos
 
-rio_principal: Quebradas costeras
+conflictos:
 
-superficie: ≈ 1.661 km²
-
-ecosistemas:
-  - Matorral esclerófilo semiárido de transición
-  - Humedales costeros
-  - Bosque relicto de olivillo (fragmentos)
-
-territorios:
-
-comunidades:
-  - Comunidades agrícolas (crianceros caprinos) de secano costero
-
-organizaciones:
-
-casos:
-
-campañas:
-
-legislacion:
-  - Decreto MOP escasez hídrica vigente para Canela y Los Vilos (2024)
 # fuente: https://dga.mop.gob.cl/mop-decreta-escasez-hidrica-en-13-comunas-de-la-region-de-coquimbo/
-
-datos:
-  - "Régimen pluvial exorreico intermitente"
-
-mapas:
-
-etiquetas:
-  - Coquimbo
-  - cuenca
-  - Canela
-  - crisis hídrica
-  - caprinos
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "Wikipedia — Costeras Limarí-Choapa: https://es.wikipedia.org/wiki/Cuencas_costeras_entre_r%C3%ADo_Limar%C3%AD_y_r%C3%ADo_Choapa"
-  - "MMA SIMBIO — ítem 046: https://simbio.mma.gob.cl/Cuencas/VistaImpresion/046"
 ---
 
 ## Descripción general

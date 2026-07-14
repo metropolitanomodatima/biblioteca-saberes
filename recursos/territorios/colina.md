@@ -3,44 +3,19 @@ id: territorio.colina
 titulo: MODATIMA Colina
 tipo: territorio
 
-nombre: MODATIMA Colina
-
-tipo_territorio:
-  - comuna
-
 pais: Chile
 region: Metropolitana
 provincia: Chacabuco
 comuna: Colina
-
-ubicacion: Zona norte de la Región Metropolitana, provincia de Chacabuco, entre el valle del Mapocho y el piedemonte andino.
-
-descripcion: Comuna del norte metropolitano con fuerte actividad agrícola e inmobiliaria, afectada por la escasez hídrica de la cuenca del Mapocho y la sobreexplotación de acuíferos.
-
-poblacion: 130.000 (aprox.)
 
 temas:
   - agua
   - agricultura
   - escasez hídrica
   - expansión urbana
-
-organizaciones:
-
-personas:
-
-casos:
-
-campañas:
-
-cuencas:
-  - cuenca.rio-mapocho
-
-etiquetas:
   - Región Metropolitana
   - Chacabuco
   - río Mapocho
-  - escasez hídrica
 
 relacionados:
   - territorio.santiago
@@ -51,7 +26,6 @@ adjuntos:
 fuentes:
   - "INE, Censo 2017"
 
-ultima_actualizacion: 2026-07-11
 ---
 
 ## Descripción general

@@ -1,23 +1,19 @@
-# Plantilla: Caso (`caso.md`)
+# Plantilla: Conflicto (`conflicto.md`)
 
 ```yaml
 ---
 id: ''
 titulo: ''
-tipo: caso
+tipo: conflicto
 
 territorio: []
 
 tema: []
 
-estado: ''
-
 actores: []
 
 fecha_inicio: ''
 fecha_fin: ''
-
-etiquetas: []
 
 relacionados: []
 

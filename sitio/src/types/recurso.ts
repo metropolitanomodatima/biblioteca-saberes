@@ -5,7 +5,7 @@ export type TipoRecurso =
   | 'territorio'
   | 'cuenca'
   | 'ley'
-  | 'caso'
+  | 'conflicto'
   | 'persona'
   | 'organizacion'
   | 'evento'
@@ -20,15 +20,12 @@ export interface EntradaIndice {
   territorios: string[];
   etiquetas: string[];
   relacionados: string[];
-  estado: string | null;
-  autor: string | null;
   fuentes: string[];
   adjuntos: string[];
   nivel: string | null;
   publico: string[];
   licencia: string | null;
   enlace: string | null;
-  fecha_actualizacion: string | null;
   region: string | null;
   contenidoResumen: string;
   ruta: string;
@@ -105,12 +102,12 @@ export const CATEGORIAS: CategoriaInfo[] = [
     ruta: '/leyes',
   },
   {
-    tipo: 'caso',
-    etiqueta: 'Caso',
-    etiquetaPlural: 'Casos',
+    tipo: 'conflicto',
+    etiqueta: 'Conflicto',
+    etiquetaPlural: 'Conflictos',
     descripcion: 'Conflictos socioambientales documentados.',
-    slug: 'casos',
-    ruta: '/casos',
+    slug: 'conflictos',
+    ruta: '/conflictos',
   },
   {
     tipo: 'organizacion',

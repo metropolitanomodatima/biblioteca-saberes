@@ -3,42 +3,17 @@ id: territorio.coquimbo
 titulo: MODATIMA Coquimbo
 tipo: territorio
 
-nombre: MODATIMA Coquimbo
-
-tipo_territorio:
-  - región
-
 pais: Chile
 region: Coquimbo
 provincia:
 comuna:
-
-ubicacion: Zona norte chico de Chile, entre las regiones de Atacama y Valparaíso.
-
-descripcion: Región semiárida marcada por la sequía prolongada, la minería y una importante actividad agrícola de exportación.
-
-poblacion: 757.000 (aprox.)
 
 temas:
   - agua
   - sequía
   - minería
   - agroexportación
-
-organizaciones:
-
-personas:
-
-casos:
-
-campañas:
-
-cuencas:
-
-etiquetas:
   - norte chico
-  - sequía
-  - minería
   - comunidades agrícolas
 
 relacionados:
@@ -46,10 +21,6 @@ relacionados:
 
 adjuntos:
 
-fuentes:
-  - "INE, Censo 2017"
-
-ultima_actualizacion: 2026-07-07
 ---
 
 ## Descripción general

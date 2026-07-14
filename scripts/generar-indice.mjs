@@ -46,7 +46,7 @@ const tiposConocidos = new Set([
   'territorio',
   'cuenca',
   'ley',
-  'caso',
+  'conflicto',
   'persona',
   'organizacion',
   'organización',
@@ -101,7 +101,7 @@ function derivarTipoDesdeRuta(rutaRelativa) {
     territorios: 'territorio',
     cuencas: 'cuenca',
     leyes: 'ley',
-    casos: 'caso',
+    conflictos: 'conflicto',
     personas: 'persona',
     organizaciones: 'organizacion',
     eventos: 'evento',
@@ -213,15 +213,12 @@ async function main() {
       territorios,
       etiquetas,
       relacionados,
-      estado: normalizarTexto(datos.estado) || null,
-      autor: normalizarTexto(datos.autor) || null,
       fuentes: normalizarLista(datos.fuentes),
       adjuntos: normalizarLista(datos.adjuntos),
       nivel: normalizarTexto(datos.nivel) || null,
       publico: normalizarLista(datos.publico),
       licencia: normalizarTexto(datos.licencia) || null,
       enlace: normalizarTexto(datos.enlace || datos.url || datos.sitio_web) || null,
-      fecha_actualizacion: extraerFecha(datos),
       region: normalizarTexto(datos.region) || null,
       contenidoResumen: contenidoTexto.slice(0, 1200),
       ruta: rutaRelativa.replace(/\\/g, '/'),
@@ -230,11 +227,7 @@ async function main() {
     await copiarRecurso(rutaAbs, rutaRelativa);
   }
 
-  entradas.sort((a, b) => {
-    const fa = a.fecha_actualizacion ?? '';
-    const fb = b.fecha_actualizacion ?? '';
-    return fb.localeCompare(fa) || a.titulo.localeCompare(b.titulo, 'es');
-  });
+  entradas.sort((a, b) => a.titulo.localeCompare(b.titulo, 'es'));
 
   const porTipo = entradas.reduce((acc, r) => {
     acc[r.tipo] = (acc[r.tipo] ?? 0) + 1;

@@ -31,17 +31,12 @@ participantes:
   - Comunidades del territorio
   - Organizaciones aliadas
 
-estado: convocado
-
 temas:
   - agua
   - justicia hídrica
+  - encuentro
 
 campaña:
-
-etiquetas:
-  - encuentro
-  - agua
 
 relacionados:
   - organizacion.modatima
@@ -50,7 +45,6 @@ adjuntos:
 
 fuentes:
 
-ultima_actualizacion: 2026-06-30
 ---
 
 ## Descripción

@@ -3,53 +3,25 @@ id: territorio.pirque
 titulo: MODATIMA Pirque
 tipo: territorio
 
-nombre: MODATIMA Pirque
-
-tipo_territorio:
-  - comuna
-
 pais: Chile
 region: Metropolitana
 provincia: Cordillera
 comuna: Pirque
-
-ubicacion: Zona sur oriente de la Región Metropolitana, precordillera andina.
-
-descripcion: Comuna precordillerana de la Región Metropolitana, marcada por su carácter rural, la protección del río Maipo y conflictos por proyectos hidroeléctricos.
-
-poblacion: 26.000 (aprox.)
 
 temas:
   - agua
   - ruralidad
   - hidroelectricidad
   - conservación
-
-organizaciones:
-
-personas:
-
-casos:
-
-campañas:
-
-cuencas:
-
-etiquetas:
   - Región Metropolitana
   - río Maipo
   - Alto Maipo
-  - ruralidad
 
 relacionados:
   - argumentario.agua-derecho-humano
 
 adjuntos:
 
-fuentes:
-  - "INE, Censo 2017"
-
-ultima_actualizacion: 2026-07-07
 ---
 
 ## Descripción general

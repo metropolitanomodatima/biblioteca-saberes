@@ -3,42 +3,18 @@ id: territorio.valdivia
 titulo: MODATIMA Valdivia
 tipo: territorio
 
-nombre: MODATIMA Valdivia
-
-tipo_territorio:
-  - ciudad
-
 pais: Chile
 region: Los Ríos
 provincia: Valdivia
 comuna: Valdivia
-
-ubicacion: Sur de Chile, confluencia de los ríos Calle-Calle, Cau-Cau y Cruces.
-
-descripcion: Ciudad fluvial del sur de Chile, capital de la Región de Los Ríos, con un patrimonio hídrico y de humedales único y afectada por conflictos por contaminación industrial.
-
-poblacion: 166.000 (aprox.)
 
 temas:
   - agua
   - humedales
   - contaminación
   - biodiversidad
-
-organizaciones:
-
-personas:
-
-casos:
-
-campañas:
-
-cuencas:
-
-etiquetas:
   - sur de Chile
   - río Cruces
-  - humedales
   - Los Ríos
 
 relacionados:
@@ -46,10 +22,6 @@ relacionados:
 
 adjuntos:
 
-fuentes:
-  - "INE, Censo 2017"
-
-ultima_actualizacion: 2026-07-07
 ---
 
 ## Descripción general

@@ -23,15 +23,12 @@ organizador: ''
 
 participantes: []
 
-estado: ''
-
-temas: []
+temas:
+  - []
 
 enlace: ''
 
 campaña: ''
-
-etiquetas: []
 
 relacionados: []
 
@@ -39,7 +36,6 @@ adjuntos: []
 
 fuentes: []
 
-ultima_actualizacion: ''
 ---
 ```
 

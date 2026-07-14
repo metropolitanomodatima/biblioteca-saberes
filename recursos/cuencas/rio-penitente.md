@@ -3,69 +3,23 @@ id: cuenca.rio-penitente
 titulo: Cuenca del río Penitente
 tipo: cuenca
 
-nombre: Cuenca del río Penitente
-
 region: Magallanes
 # fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Penitente
-comunas:
-  - Laguna Blanca
-  - Río Verde
 
-rio_principal: Río Penitente
-
-superficie: 1.726 km² (63,2% del sistema binacional del río Gallegos por vertiente chilena)
 # fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Penitente
 
-ecosistemas:
-  - Estepa patagónica magallánica (Festuca gracillima)
-  - Matorral preandino
-  - Vegas y mallines
-  - Bosque marginal de lenga y ñire
 # fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Penitente
 
-territorios:
-  - Cuenca binacional del Gallegos
-  - Estancia Río Penitente (turismo rural)
 # fuente: https://es.wikipedia.org/wiki/Laguna_Blanca_(comuna)
 
-comunidades:
-  - Estancias ganaderas de Última Esperanza
-  - Territorio ancestral aónikenk
-
-organizaciones:
-  - Aumen (Puerto Natales)
 # fuente: https://aumen.cl/
 
-casos:
-
-campañas:
-
-legislacion:
-  - Ley 21.660 sobre protección de las Turberas (2024)
-
-datos:
-  - "Nace en las cordilleras Vidal y la Chilena, al este del seno Última Esperanza"
-  - "Recorre ≈ 110 km hasta cruzar la frontera y unirse al río Gallegos (Argentina, vertiente Atlántico)"
-  - "Afluentes: río Rubens (mayor), río del Medio, río Vegas Malas"
-  - "Régimen pluvio-nival: peak abril–julio y comienzos de primavera"
-
-mapas:
-
-etiquetas:
-  - Magallanes
-  - cuenca
-  - binacional
-  - estepa patagónica
-  - ganadería
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "Wikipedia — Río Penitente: https://es.wikipedia.org/wiki/R%C3%ADo_Penitente"
-  - "Aumen ONG: https://aumen.cl/"
 ---
 
 ## Descripción general

@@ -5,7 +5,7 @@ import { shaMain, crearRama, subirArchivo, abrirPR } from '../_lib/github.js';
 
 const TIPOS_VALIDOS = new Set([
   'argumentario', 'concepto', 'campaña', 'territorio', 'cuenca',
-  'ley', 'caso', 'persona', 'organizacion', 'evento', 'biblioteca',
+  'ley', 'conflicto', 'persona', 'organizacion', 'evento', 'biblioteca',
 ]);
 const SLUG_RE = /^[a-z0-9-]+$/;
 

@@ -3,80 +3,14 @@ id: cuenca.rio-biobio
 titulo: Cuenca del río Biobío
 tipo: cuenca
 
-nombre: Cuenca del río Biobío
-
 region: Biobío
-comunas:
-  - Lonquimay
-  - Alto Biobío
-  - Quilaco
-  - Santa Bárbara
-  - Los Ángeles
-  - Negrete
-  - Nacimiento
-  - Laja
-  - San Rosendo
-  - Santa Juana
-  - Hualqui
-  - Chiguayante
-  - San Pedro de la Paz
-  - Concepción
-  - Hualpén
 
-rio_principal: Río Biobío
-
-superficie: "≈ 24.260 km²"
-
-ecosistemas:
-  - bosque nativo templado (roble, coigüe, lenga)
-  - bosque de araucaria (pehuén) en Alto Biobío
-  - matorral y bosque esclerófilo en la depresión intermedia
-  - humedales estuarinos en la desembocadura (Gran Concepción)
-
-territorios:
-
-comunidades:
-  - Comunidades pehuenche del Alto Biobío (Cauñicú, El Barco, Ralco Lepoy, Quepuca Ralco)
-
-organizaciones:
-  - Comunidades pehuenche del Alto Biobío
-  - Grupo de Acción por el Biobío (GABB)
-
-casos:
-
-campañas:
-
-legislacion:
-  - Ley Indígena N° 19.253
-  - Reserva Nacional Alto Biobío
-
-datos:
-  - "Régimen pluvio-nival mixto"
-  - "Caudal medio anual ≈ 899 m³/s"
-  - "Longitud del río principal ≈ 380 km (segundo río más largo de Chile)"
-  - "Naciente ≈ 1.430 m s.n.m. (Laguna Galletué y Lago Icalma)"
-  - "Complejo hidroeléctrico Pangue-Ralco-Angostura"
-
-mapas:
-
-etiquetas:
-  - Biobío
-  - cuenca
-  - hidroeléctrica
-  - pueblos originarios
-  - pehuenche
+conflictos:
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile — https://dga.mop.gob.cl"
-  - "Ministerio del Medio Ambiente (MMA) — Ficha cuenca del Biobío — https://mma.gob.cl/wp-content/uploads/2017/12/BioBio.pdf"
-  - "Wikipedia — Río Biobío — https://es.wikipedia.org/wiki/R%C3%ADo_Biob%C3%ADo"
-  - "Wikipedia — Central hidroeléctrica Ralco — https://es.wikipedia.org/wiki/Central_hidroel%C3%A9ctrica_Ralco"
-  - "Bienes Nacionales — Ruta patrimonial Alto Biobío, araucarias — https://rutas.bienes.cl/ruta_patrimonial/alto-biobio-araucarias-de-la-cordillera-de-pemehue/"
-  - "SciELO Chile — Estudio sobre pueblos pehuenche y territorio (2015) — https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-34022015000300004"
 ---
 
 ## Descripción general

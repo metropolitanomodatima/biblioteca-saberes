@@ -36,11 +36,6 @@ export default function Metadatos({ recurso }: Props) {
             </a>
           </Fila>
         )}
-        {recurso.autor && <Fila etiqueta="Autoría">{recurso.autor}</Fila>}
-        {recurso.estado && <Fila etiqueta="Estado">{recurso.estado}</Fila>}
-        {recurso.fecha_actualizacion && (
-          <Fila etiqueta="Actualizado">{recurso.fecha_actualizacion}</Fila>
-        )}
         {recurso.nivel && <Fila etiqueta="Nivel">{recurso.nivel}</Fila>}
         {recurso.publico.length > 0 && (
           <Fila etiqueta="Público">{recurso.publico.join(', ')}</Fila>

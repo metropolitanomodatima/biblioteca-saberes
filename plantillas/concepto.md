@@ -8,16 +8,8 @@ tipo: concepto
 
 resumen: ''
 
-tema: []
-
-etiquetas: []
-
-estado: vigente
-
-autor: ''
-
-fecha_creacion: ''
-ultima_actualizacion: ''
+tema:
+  - []
 
 relacionados: []
 

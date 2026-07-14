@@ -41,11 +41,6 @@ export default function FilaRecurso({ recurso }: Props) {
         )}
       </div>
 
-      {recurso.fecha_actualizacion && (
-        <span className="mt-0.5 hidden shrink-0 text-xs text-tierra-400 sm:block">
-          {recurso.fecha_actualizacion}
-        </span>
-      )}
     </article>
   );
 }

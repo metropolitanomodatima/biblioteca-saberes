@@ -8,18 +8,8 @@ resumen: Definición operativa del derecho humano al agua y sus componentes seg�
 tema:
   - agua
   - derechos humanos
-
-etiquetas:
   - definición
   - ddhh
-  - agua
-
-estado: vigente
-
-autor: Comisión Jurídica MODATIMA
-
-fecha_creacion: 2026-01-20
-ultima_actualizacion: 2026-07-07
 
 relacionados:
   - argumentario.agua-derecho-humano

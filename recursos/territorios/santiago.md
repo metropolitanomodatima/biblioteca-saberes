@@ -3,39 +3,16 @@ id: territorio.santiago
 titulo: MODATIMA Santiago
 tipo: territorio
 
-nombre: MODATIMA Santiago
-
-tipo_territorio:
-  - ciudad
-
 pais: Chile
 region: Metropolitana
 provincia: Santiago
 comuna: Santiago
-
-ubicacion: Zona central de Chile, cuenca de Santiago, entre la cordillera de la costa y la de los Andes.
-
-descripcion: Principal centro urbano de Chile, con más de la mitad de la población nacional y una fuerte presión sobre las cuencas que la abastecen.
-
-poblacion: 7.100.000 (Gran Santiago, aprox.)
 
 temas:
   - agua
   - ciudad
   - contaminación
   - desigualdad hídrica
-
-organizaciones:
-
-personas:
-
-casos:
-
-campañas:
-
-cuencas: cuenca.rio-maipo
-
-etiquetas:
   - Región Metropolitana
   - Gran Santiago
   - río Maipo
@@ -43,14 +20,11 @@ etiquetas:
 
 relacionados:
   - territorio.pirque
+  - cuenca.rio-maipo
   - argumentario.agua-derecho-humano
 
 adjuntos:
 
-fuentes:
-  - "INE, Censo 2017"
-
-ultima_actualizacion: 2026-07-07
 ---
 
 ## Descripción general

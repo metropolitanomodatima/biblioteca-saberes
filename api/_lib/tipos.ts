@@ -7,7 +7,7 @@ const TIPO_A_SUBCARPETA: Record<string, string> = {
   territorio: 'territorios',
   cuenca: 'cuencas',
   ley: 'leyes',
-  caso: 'casos',
+  conflicto: 'conflictos',
   persona: 'personas',
   organizacion: 'organizaciones',
   evento: 'eventos',

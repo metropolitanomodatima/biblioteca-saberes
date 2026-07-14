@@ -3,68 +3,28 @@ id: cuenca.rio-salado-antofagasta
 titulo: Cuenca del río Salado (Antofagasta)
 tipo: cuenca
 
-nombre: Cuenca del río Salado (Antofagasta)
-
 region: Antofagasta
 # fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Salado_(Loa)
-comunas:
-  - Calama
-  - San Pedro de Atacama
 # fuente: https://es.wikipedia.org/wiki/R%C3%ADo_Salado_(Loa)
 # fuente: https://lanturcalama.cl/rio-salado/
 
-rio_principal: Río Salado (principal afluente del Loa)
 # fuente: https://lanturcalama.cl/rio-salado/
 
-superficie:
-
-ecosistemas:
-  - Vegas y bofedales altoandinos
-  - Ríos termales de los géiseres de El Tatio
-  - Territorios atacameños (Toconce, Caspana, Panire, Cupo)
 # fuente: https://mma.gob.cl/antofa-doc/2020_07_GOA002_INF_V1_InfFinal.pdf
 # fuente: https://lanturcalama.cl/rio-salado/
 
-territorios:
-
-comunidades:
-  - Atacameño / Lickanantay (Toconce, Caspana, Ayquina, Turi)
 # fuente: https://scielo.conicyt.cl/scielo.php?pid=S0718-10432016005000003
 
-organizaciones:
-
-casos:
+conflictos:
   - Conflicto por proyecto geotérmico El Tatio (GGE, suspendido 2010)
 # fuente: https://www.scielo.cl/scielo.php?script=sci_arttext&pid=S0718-10432014000200015
 
-campañas:
-
-legislacion:
-
-datos:
-  - "Longitud: ≈ 80 km (desde El Tatio hasta Chiu Chiu)"
-  - "Naciente: confluencia de más de 30 vertientes termales de El Tatio"
-  - "Tributarios: río Toconce (norte, pie del volcán Linzor), río Caspana (sur)"
 # fuente: https://lanturcalama.cl/rio-salado/
-
-mapas:
-
-etiquetas:
-  - Antofagasta
-  - cuenca
-  - atacameño
-  - geotermia
-  - El Tatio
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "Wikipedia — Río Salado (Loa): https://es.wikipedia.org/wiki/R%C3%ADo_Salado_(Loa)"
-  - "Lantur Calama — Río Salado: https://lanturcalama.cl/rio-salado/"
-  - "SciELO — El Tatio y territorios atacameños: https://scielo.conicyt.cl/scielo.php?pid=S0718-10432016005000003"
 ---
 
 ## Descripción general

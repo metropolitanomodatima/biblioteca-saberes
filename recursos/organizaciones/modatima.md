@@ -1,14 +1,9 @@
 ---
 pais: Chile
 sitio_web: https://modatima.cl
-estado: vigente
 redes_sociales:
   - https://twitter.com/modatimachile
   - https://www.instagram.com/modatimachile
-etiquetas:
-  - organización
-  - agua
-  - justicia ambiental
 relacionados:
   - concepto.derecho-humano-agua
 titulo: MODATIMA

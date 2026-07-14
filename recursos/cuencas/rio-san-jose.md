@@ -3,70 +3,29 @@ id: cuenca.rio-san-jose
 titulo: Cuenca del río San José
 tipo: cuenca
 
-nombre: Cuenca del río San José
-
 region: Arica y Parinacota
 # fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_San_Jos%C3%A9
-comunas:
-  - Arica
-  - Camarones
-  - Putre
 # fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_San_Jos%C3%A9
 
-rio_principal: Río San José (valle de Azapa)
 # fuente: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_San_Jos%C3%A9
 
-superficie: ≈ 2.984 km² (subcuenca San José 1.931 km² + Azapa Alto 1.053 km²)
 # fuente: https://repositorio.uchile.cl/handle/2250/115300
 
-ecosistemas:
-  - Oasis agrícola del valle de Azapa (olivos, tomates, hortalizas)
-  - Desierto costero absoluto
 # fuente: https://lat.uchile.cl/pegh-azapa-descripci%C3%B3n
 
-territorios:
-
-comunidades:
-  - Aymara (valle alto y precordillera)
 # fuente: https://www.bcn.cl/siit/nuestropais/region15/hidrografia.htm
 
-organizaciones:
-
-casos:
+conflictos:
   - Pozos ilegales en el valle de Azapa
   - Cuestionamiento al embalse Chironta por sobreexplotación
 # fuente: https://www.poderyliderazgo.cl/arica-y-parinacota-informe-regional-cuestiona-impacto-del-embalse-chironta-y-alerta-por-pozos-ilegales-en-azapa/
 
-campañas:
-
-legislacion:
-
-datos:
-  - "Balance subterráneo promedio 1986-2018: -4,7 hm³/año (sobreexplotación)"
-  - "Recarga sustentable: 700 L/s (DGA) vs. 2.496 L/s comprometidos en DAA"
-  - "Infraestructura: embalse Chironta"
 # fuente: https://repositorio.uchile.cl/handle/2250/115300
-
-mapas:
-
-etiquetas:
-  - Arica y Parinacota
-  - cuenca
-  - sobreexplotación de acuíferos
-  - valle de Azapa
-  - aymara
 
 relacionados:
 
 adjuntos:
 
-fuentes:
-  - "Dirección General de Aguas (DGA) — Inventario de cuencas de Chile"
-  - "Wikipedia — Cuenca del río San José: https://es.wikipedia.org/wiki/Cuenca_del_r%C3%ADo_San_Jos%C3%A9"
-  - "Universidad de Chile — PEGH Azapa: https://lat.uchile.cl/pegh-azapa-descripci%C3%B3n"
-  - "Repositorio U. de Chile — Estudio hidrogeológico Azapa: https://repositorio.uchile.cl/handle/2250/115300"
-  - "Poder y Liderazgo — Cuestionamiento embalse Chironta: https://www.poderyliderazgo.cl/arica-y-parinacota-informe-regional-cuestiona-impacto-del-embalse-chironta-y-alerta-por-pozos-ilegales-en-azapa/"
-  - "BCN — Hidrografía Arica y Parinacota: https://www.bcn.cl/siit/nuestropais/region15/hidrografia.htm"
 ---
 
 ## Descripción general

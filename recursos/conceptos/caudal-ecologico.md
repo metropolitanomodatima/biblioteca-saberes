@@ -8,18 +8,9 @@ resumen: Volumen y régimen de agua necesarios para sostener la vida y funciones
 tema:
   - agua
   - ecología
-
-etiquetas:
   - hidrología
   - ecosistemas
   - definición
-
-estado: vigente
-
-autor: Equipo técnico MODATIMA
-
-fecha_creacion: 2026-02-11
-ultima_actualizacion: 2026-05-01
 
 relacionados:
   - concepto.derecho-humano-agua

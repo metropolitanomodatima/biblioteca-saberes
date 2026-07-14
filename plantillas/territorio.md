@@ -6,42 +6,17 @@ id: ''
 titulo: ''
 tipo: territorio
 
-nombre: ''
-
-tipo_territorio: []
-
 pais: ''
 region: ''
 provincia: ''
 comuna: ''
 
-ubicacion: ''
-
-descripcion: ''
-
-poblacion: ''
-
 temas: []
-
-organizaciones: []
-
-personas: []
-
-casos: []
-
-campañas: []
-
-cuencas: []
-
-etiquetas: []
 
 relacionados: []
 
 adjuntos: []
 
-fuentes: []
-
-ultima_actualizacion: ''
 ---
 ```
 

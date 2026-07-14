@@ -4,32 +4,14 @@ titulo: MODATIMA
 tipo: organizacion
 resumen: Movimiento por la Defensa del Acceso al Agua, la Tierra y la Protección del Medioambiente.
 nombre: Movimiento por la Defensa del Acceso al Agua, la Tierra y la Protección del Medioambiente.
-
 sigla: MODATIMA
-
 pais: Chile
-
-territorio:
-  - chile
-  - territorio.santiago
-  - territorio.lo-barnechea
-  - territorio.valdivia
-
+territorio: chile,territorio.santiago,territorio.lo-barnechea,territorio.valdivia
 sitio_web: https://modatima.cl
-
-redes_sociales:
-  - https://twitter.com/modatimachile
-  - https://www.instagram.com/modatimachile
-
+redes_sociales: https://twitter.com/modatimachile,https://www.instagram.com/modatimachile
 estado: vigente
-
-etiquetas:
-  - organización
-  - agua
-  - justicia ambiental
-
-relacionados:
-  - concepto.derecho-humano-agua
+etiquetas: organización,agua,justicia ambiental
+relacionados: concepto.derecho-humano-agua
 ---
 
 ## Descripción
@@ -46,7 +28,7 @@ largo del país.
 
 ## Líneas de trabajo
 
-- Defensa del agua como bien común y derecho humano.
+- Defensa del agua como bien común natural y derecho humano.
 - Denuncia del sobreotorgamiento y del modelo agroexportador.
 - Formación comunitaria.
 - Incidencia legislativa.

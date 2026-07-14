@@ -1,7 +1,8 @@
 import type { Sesion } from '@/types/sesion';
 
 export function urlLogin(): string {
-  return '/api/auth/login';
+  const returnTo = window.location.pathname + window.location.search;
+  return `/api/auth/login?returnTo=${encodeURIComponent(returnTo)}`;
 }
 
 export async function obtenerSesion(): Promise<Sesion | null> {

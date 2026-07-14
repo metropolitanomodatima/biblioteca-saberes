@@ -7,6 +7,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const code = req.query.code as string | undefined;
   if (!code) return res.status(400).json({ error: 'Falta el código de autorización' });
 
+  let returnTo = '/';
+  try {
+    const raw = Buffer.from(req.query.state as string, 'base64url').toString('utf8');
+    const parsed = JSON.parse(raw) as { returnTo?: string };
+    if (parsed.returnTo?.startsWith('/')) returnTo = parsed.returnTo;
+  } catch {
+    // state inválido o ausente → volver al inicio
+  }
+
   const clientId = process.env.GITHUB_CLIENT_ID;
   const clientSecret = process.env.GITHUB_CLIENT_SECRET;
   if (!clientId || !clientSecret) {
@@ -55,7 +64,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   };
 
   const cookie = crearCookie(sesion);
-  console.log('[callback] cookie creada, redirigiendo a inicio');
+  console.log('[callback] cookie creada, redirigiendo a:', returnTo);
   res.setHeader('Set-Cookie', cookie);
-  res.redirect(302, `${process.env.SITE_URL ?? ''}/`);
+  res.redirect(302, `${process.env.SITE_URL ?? ''}${returnTo}`);
 }

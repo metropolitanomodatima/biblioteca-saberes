@@ -3,6 +3,8 @@ import { CATEGORIAS } from '@/types/recurso';
 import UsuarioMenu from '@/components/UsuarioMenu';
 import { useTiposVisibles } from '@/controllers/useTiposVisibles';
 
+const TIPOS_PUBLICOS = new Set(['concepto', 'territorio', 'cuenca', 'ley', 'caso']);
+
 const enlacesPrincipales = [
   { ruta: '/', etiqueta: 'Inicio', exact: true },
   { ruta: '/buscar', etiqueta: 'Buscar' },
@@ -62,7 +64,7 @@ export default function Menu() {
 
       <div className="border-t border-tierra-100 bg-white">
         <div className="contenedor sin-scrollbar flex gap-2 overflow-x-auto py-2 text-xs">
-          {categoriasFiltradas.map((c) => (
+          {categoriasFiltradas.filter((c) => TIPOS_PUBLICOS.has(c.tipo)).map((c) => (
             <NavLink
               key={c.tipo}
               to={c.ruta}
@@ -78,6 +80,28 @@ export default function Menu() {
               {c.etiquetaPlural}
             </NavLink>
           ))}
+
+          {tiposVisibles === null && categoriasFiltradas.some((c) => !TIPOS_PUBLICOS.has(c.tipo)) && (
+            <>
+              <div className="mx-1 self-stretch w-px bg-tierra-200 shrink-0" />
+              {categoriasFiltradas.filter((c) => !TIPOS_PUBLICOS.has(c.tipo)).map((c) => (
+                <NavLink
+                  key={c.tipo}
+                  to={c.ruta}
+                  className={({ isActive }) =>
+                    [
+                      'whitespace-nowrap px-3 py-1.5 rounded-full border transition no-underline',
+                      isActive
+                        ? 'border-rio-500 bg-rio-50 text-rio-800 font-semibold'
+                        : 'border-rio-400 bg-rio-600 text-white hover:bg-rio-700 hover:border-rio-700',
+                    ].join(' ')
+                  }
+                >
+                  {c.etiquetaPlural}
+                </NavLink>
+              ))}
+            </>
+          )}
         </div>
       </div>
     </header>

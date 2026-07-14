@@ -26,6 +26,7 @@ export async function esMiembroOrg(login: string, userToken: string): Promise<bo
   return r.status === 204;
 }
 
+
 export async function shaMain(): Promise<string> {
   const r = await ghFetch(`/repos/${ORG()}/${REPO()}/git/ref/heads/main`);
   if (!r.ok) throw new Error(`No se pudo obtener SHA de main: ${r.status}`);

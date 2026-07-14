@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom';
 import Menu from '@/components/Menu';
+import BannerError from '@/components/BannerError';
 import Portada from '@/pages/Portada';
 import Categoria from '@/pages/Categoria';
 import Recurso from '@/pages/Recurso';
@@ -13,6 +14,7 @@ export default function App() {
     <div className="flex min-h-screen flex-col">
       <Menu />
       <main className="contenedor flex-1 py-6 sm:py-10">
+        <BannerError />
         <Routes>
           <Route path="/" element={<Portada />} />
           <Route path="/buscar" element={<Busqueda />} />

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, useSearchParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Buscador from '@/components/Buscador';
 import TarjetaRecurso from '@/components/TarjetaRecurso';
 import Cargando from '@/components/Cargando';
@@ -11,9 +11,6 @@ import { useTiposVisibles } from '@/controllers/useTiposVisibles';
 
 export default function Portada() {
   const tiposVisibles = useTiposVisibles();
-  const [params] = useSearchParams();
-  const errorParam = params.get('error');
-  const [bannerVisible, setBannerVisible] = useState(!!errorParam);
   const [indice, setIndice] = useState<Indice | null>(null);
   const [top, setTop] = useState<EntradaIndice[]>([]);
   const [ultimos, setUltimos] = useState<EntradaIndice[]>([]);
@@ -37,26 +34,8 @@ export default function Portada() {
   if (error) return <ErrorMensaje mensaje={error} />;
   if (!indice) return <Cargando texto="Cargando la biblioteca de saberes…" />;
 
-  const mensajesError: Record<string, string> = {
-    'no-miembro': 'Tu cuenta de GitHub no pertenece a la organización MODATIMA. Solo miembros pueden iniciar sesión.',
-  };
-
   return (
     <div className="space-y-10 sm:space-y-16">
-      {bannerVisible && errorParam && mensajesError[errorParam] && (
-        <div className="flex items-start gap-3 rounded-xl border border-red-200 bg-red-50 px-5 py-4 text-sm text-red-800">
-          <span className="mt-0.5 shrink-0 text-red-500" aria-hidden>⚠</span>
-          <p className="flex-1">{mensajesError[errorParam]}</p>
-          <button
-            type="button"
-            onClick={() => setBannerVisible(false)}
-            className="shrink-0 text-red-400 hover:text-red-600"
-            aria-label="Cerrar"
-          >
-            ✕
-          </button>
-        </div>
-      )}
       <section className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-rio-700 via-rio-600 to-alerce-600 text-white shadow-lg">
         <div className="absolute inset-0 opacity-20" aria-hidden>
           <svg viewBox="0 0 200 200" className="h-full w-full">

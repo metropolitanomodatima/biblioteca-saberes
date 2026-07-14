@@ -2,6 +2,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { crearCookie } from '../_lib/sesion.js';
 import { obtenerRol } from '../_lib/roles.js';
 import { esMiembroOrg } from '../_lib/github.js';
+import { notificarSolicitudAcceso } from '../_lib/notificar.js';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   const code = req.query.code as string | undefined;
@@ -48,8 +49,8 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   console.log('[callback] esMiembro:', esMiembro);
   if (!esMiembro) {
     const siteUrl = process.env.SITE_URL ?? '';
-    console.log('[callback] no es miembro, redirigiendo a error');
-    return res.redirect(302, `${siteUrl}/?error=no-miembro`);
+    await notificarSolicitudAcceso(user.login, user.name ?? null, user.avatar_url);
+    return res.redirect(302, `${siteUrl}${returnTo}?error=solicitud-enviada`);
   }
 
   // Asignar rol

@@ -2,49 +2,21 @@
 id: argumentario.agua-derecho-humano
 titulo: El agua es un derecho humano
 tipo: argumentario
-resumen: Fundamentos, evidencia y respuestas frecuentes en torno al reconocimiento del agua como derecho humano en Chile y el mundo.
-
-tema:
-  - agua
-  - derechos humanos
+resumen: Fundamentos, evidencias y respuestas frecuentes en torno al reconocimiento del agua como derecho humano en Chile y el mundo.
+tema: agua,derechos humanos
 subtema: acceso al agua potable
-
-territorio:
-  - chile
-
+territorio: chile
 estado: vigente
-
 autor: Equipo MODATIMA
-revisores:
-  - Comisión Jurídica MODATIMA
-
+revisores: Comisión Jurídica MODATIMA
 fecha_creacion: 2026-03-14
 ultima_actualizacion: 2026-07-07
-
-etiquetas:
-  - derechos
-  - agua
-  - constitución
-  - ddhh
-
-relacionados:
-  - concepto.derecho-humano-agua
-  - ley.codigo-aguas-chile
-  - caso.petorca-crisis-hidrica
-
-adjuntos:
-
-fuentes:
-  - "Resolución A/RES/64/292, Asamblea General ONU, 2010"
-  - "Observación General N°15, Comité DESC de Naciones Unidas"
-
+etiquetas: derechos,agua,constitución,ddhh
+relacionados: concepto.derecho-humano-agua,ley.codigo-aguas-chile,caso.petorca-crisis-hidrica
+adjuntos: 
+fuentes: Resolución A/RES/64/292, Asamblea General ONU, 2010,Observación General N°15, Comité DESC de Naciones Unidas
 nivel: basico
-
-publico:
-  - militancia
-  - comunidades
-  - estudiantes
-
+publico: militancia,comunidades,estudiantes
 licencia: CC BY-SA 4.0
 ---
 

@@ -1,27 +1,22 @@
 ---
-id: territorio.pirque
-titulo: MODATIMA Pirque
-tipo: territorio
-
 pais: Chile
 region: Metropolitana
 provincia: Cordillera
 comuna: Pirque
-
 temas:
   - agua
   - ruralidad
   - hidroelectricidad
   - conservación
-  - Región Metropolitana
   - río Maipo
   - Alto Maipo
+adjuntos:
 
 relacionados:
   - argumentario.agua-derecho-humano
-
-adjuntos:
-
+titulo: MODATIMA Pirque
+tipo: territorio
+resumen: 
 ---
 
 ## Descripción general

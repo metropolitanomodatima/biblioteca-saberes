@@ -1,32 +1,24 @@
 ---
-id: territorio.san-jose-de-maipo
-titulo: MODATIMA San José de Maipo
-tipo: territorio
-
 pais: Chile
 region: Metropolitana
 provincia: Cordillera
 comuna: San José de Maipo
-
 temas:
   - agua
   - hidroelectricidad
   - glaciares
   - ruralidad
-  - Región Metropolitana
   - cajón del Maipo
   - Alto Maipo
+adjuntos:
 
 relacionados:
   - territorio.pirque
   - territorio.santiago
   - cuenca.rio-maipo
-
-adjuntos:
-
-fuentes:
-  - "INE, Censo 2017"
-
+titulo: MODATIMA San José de Maipo
+tipo: territorio
+resumen: 
 ---
 
 ## Descripción general

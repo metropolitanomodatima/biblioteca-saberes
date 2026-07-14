@@ -1,31 +1,9 @@
 ---
-id: persona.rodrigo-mundaca
-titulo: Rodrigo Mundaca
-tipo: persona
-
-nombre: Rodrigo Mundaca
-
-cargo: Vocero histórico de MODATIMA; Gobernador Regional de Valparaíso (2021-).
-
-organizacion: MODATIMA
-
-territorio:
-  - Valparaíso
-
-etiquetas:
-  - vocería
-  - agua
-  - Petorca
-
 relacionados:
   - organizacion.modatima
-  - territorio.petorca
-  - caso.petorca-crisis-hidrica
-
-fotografia:
-
-fuentes:
-  - "Cobertura de prensa nacional e internacional"
+titulo: Rodrigo Mundaca
+tipo: persona
+resumen: 
 ---
 
 ## Biografía

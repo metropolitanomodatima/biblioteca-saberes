@@ -1,38 +1,21 @@
 ---
-id: biblioteca.plan-nacional-datacenter
-titulo: "El impacto socioambiental por las «nubes»: una mirada crítica al desarrollo sostenible del Plan Nacional de Data Center en Chile"
-tipo: biblioteca
-resumen: "Trabajo final para «Política y ambiente: resistencias y alternativas desde América Latina» de MODATIMA en la Universidad Abierta de Recoleta, segundo semestre de 2024."
 editorial: Universidad Abierta de Recoleta
 fecha_publicacion: 2024-12
-enlace:
+enlace: ""
 tema:
   - agua
   - crisis hídrica
   - datacenter
-adjuntos: []
-fuentes:
-  - "Asircra (s.f.). HFC: ¿qué son los gases refrigerantes sintéticos hidrofluorocarbonos? https://asircra.com/noticias/hfc-gases-refrigerantes-sinteticos-hidrofluorocarbonos/"
-  - "Cangelosi, Horacio (2024). Huella ecológica e impacto ambiental de la inteligencia artificial. Carbono.news. https://www.carbono.news/ciudades-inteligentes/huella-ecologica-e-impacto-ambiental-de-la-inteligencia-artificial/"
-  - "Castillo, G. J. (2018). Modelo de optimización de recursos de un data center que brinda infraestructura como servicio (IAAS) de manera controlable y auditable a pymes de la Provincia del Santa. Tesis de Maestría, Universidad Nacional del Santa, Chimbote, Perú. https://repositorio.uns.edu.pe/handle/20.500.14278/3151"
-  - "Corbetta, S. (s.f.). Desarrollo sostenible. Capacitación en ambiente. Ley Yolanda (27.592), Ministerio de Ambiente y Desarrollo Sostenible, Argentina."
-  - "DatacenterDynamics (2024). El reto energético de los data centers. https://www.datacenterdynamics.com/es/noticias/el-reto-energetico-de-los-data-centers/"
-  - "Fraga, Daniel (2024, marzo 20). Día internacional del data center: recorrido histórico y perspectivas futuras. DatacenterDynamics. https://www.datacenterdynamics.com/es/features/dia-internacional-del-data-center-recorrido-historico-y-perspectivas-futuras/"
-  - "Ingenium (2023). El consumo energético de los centros de datos. https://ingenium.la/2023/06/28/el-consumo-energetico-de-los-centros-de-datos/"
-  - "Lehuedé, Sebastián (2024). El impacto ambiental de la tecnología. Resistencia desde las comunidades. [Presentación en YouTube]. https://www.youtube.com/live/3Z3frQQN1fw"
-  - "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación (2024a, mayo 17). Plan Nacional de Data Centers espera acelerar inversión de 2.500 millones de dólares empujando una industria sustentable. https://www.minciencia.gob.cl/noticias/plan-nacional-de-data-centers-espera-acelerar-inversion-de-2500-millones-de-dolares-empujando-una-industria-sustentable/"
-  - "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación [@min_ciencia] (2024b, octubre 22). ¡Súmate a la consulta pública para el Plan Nacional de Data Centers! [Fotografía]. Instagram. https://www.instagram.com/p/DBcXF0buWdb/"
-  - "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación (2024c, octubre 30). Plan de Data Centers se abre a consulta ciudadana convocada por el Ministerio de Ciencia. https://www.minciencia.gob.cl/noticias/plan-de-data-centers-se-abre-a-consulta-ciudadana-convocada-por-el-ministerio-de-ciencia/"
-  - "Ministerio de Ciencia, Tecnología, Conocimiento e Innovación [@min_ciencia] y Etcheverry, Aisén [@aisenetcheverry] (2024, mayo 16). ¡Más capacidades digitales para potenciar la economía! [Video]. Instagram. https://www.instagram.com/reel/C7DQCrhLJ_v/"
-  - "Ministerio Secretaría General de Gobierno (2024, septiembre 13). Gabinete Pro Crecimiento y Empleo culmina primera ronda nacional. https://msgg.gob.cl/wp/2024/09/13/gabinete-pro-crecimiento-y-empleo-culmina-su-primera-ronda-nacional/"
-  - "MODATIMA (2024). Presentación de curso. Universidad Abierta de Recoleta: «Política y ambiente: resistencias y alternativas desde América Latina», segundo semestre."
-  - "Subsecretaría de Ciencia, Tecnología, Conocimiento e Innovación (2024). Consulta ciudadana Plan Nacional de Data Centers [formulario cerrado el 21 de noviembre]. https://docs.google.com/forms/d/e/1FAIpQLSfYM6eThe3sAGX3Adna4DYZ1xzKhmgzOGnL7fLDyFFy7pxAsA/closedform"
-  - "Otero, Marina (2024). Chile, centro mundial de data centers de almacenamiento. Congreso Futuro 2024. [Presentación en YouTube]. https://www.youtube.com/watch?v=nrUEaNZyVyg&t=313s"
-  - "Gobierno de Chile [@gobiernodechile]; Ministerio de Economía [@meconomia] y Ministerio de Ciencia, Tecnología, Conocimiento e Innovación [@min_ciencia] (2024, octubre 29). Los data centers impulsan la economía digital de Chile, atrayendo inversión y generando conectividad regional [Fotografía]. Instagram. https://www.instagram.com/p/DBuEwIkP0Qf/"
+adjuntos:
+  - "[]"
+fuentes: []
 relacionados:
   - territorio.santiago
   - organizacion.modatima
   - concepto.derecho-humano-agua
+titulo: "El impacto socioambiental por las «nubes»: una mirada crítica al desarrollo sostenible del Plan Nacional de Data Center en Chile"
+tipo: biblioteca
+resumen: "Trabajo final para «Política y ambiente: resistencias y alternativas desde América Latina» de MODATIMA en la Universidad Abierta de Recoleta, segundo semestre de 2024."
 ---
 
 *por Ariam Soto Urbina, Oliver Becerra, Consuelo Guirriman, Rodrigo Cavieres Cárdenas.*

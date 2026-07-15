@@ -2,22 +2,13 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 import { parsearSesion } from '../_lib/sesion.js';
 import { tienePermiso, subcarpetaDeTipo } from '../_lib/tipos.js';
 import { shaMain, crearRama, subirArchivo, abrirPR } from '../_lib/github.js';
+import { construirMarkdown } from '../_lib/yaml.js';
 
 const TIPOS_VALIDOS = new Set([
   'argumentario', 'concepto', 'campaña', 'territorio', 'cuenca',
   'ley', 'conflicto', 'persona', 'organizacion', 'evento', 'biblioteca',
 ]);
 const SLUG_RE = /^[a-z0-9-]+$/;
-
-function construirMd(frontmatter: Record<string, unknown>, cuerpo: string): string {
-  const yaml = Object.entries(frontmatter)
-    .map(([k, v]) => {
-      if (Array.isArray(v)) return `${k}:\n${v.map((i) => `  - ${i}`).join('\n')}`;
-      return `${k}: ${v ?? ''}`;
-    })
-    .join('\n');
-  return `---\n${yaml}\n---\n\n${cuerpo}`;
-}
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') return res.status(405).json({ error: 'Método no permitido' });
@@ -43,7 +34,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   const rutaArchivo = `recursos/${subcarpetaDeTipo(tipo)}/${slug}.md`;
 
   const fm = { id: `${tipo}.${slug}`, titulo, tipo, resumen: resumen ?? '', ...frontmatter };
-  const contenidoMd = construirMd(fm, cuerpo);
+  const contenidoMd = construirMarkdown(fm, cuerpo);
 
   try {
     const sha = await shaMain();

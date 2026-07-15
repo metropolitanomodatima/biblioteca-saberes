@@ -4,7 +4,8 @@
   ],
   "editores": [
     "ziCKBOy",
-    "carlosgutm-cmd"
+    "carlosgutm-cmd",
+    "mariosanchezzuniga-bot"
   ],
   "_nota": "Cualquier miembro de la org autenticado que no esté en estas listas recibe rol 'militancia' por defecto. Usuarios fuera de la org no logran autenticarse."
 }

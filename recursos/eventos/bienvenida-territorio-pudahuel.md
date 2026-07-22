@@ -6,8 +6,13 @@ hora_inicio: "9:00"
 hora_fin: ""
 ubicacion: Pudahuel
 organizador: MODATIMA Santiago
-participantes: []
-temas: []
+participantes:
+  - "[]"
+temas:
+  - "[]"
+  - encuentro
+  - justicia ambiental
+  - santiago
 adjuntos: []
 relacionados:
   - territorios/santiago

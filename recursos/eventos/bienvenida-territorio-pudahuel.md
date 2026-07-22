@@ -3,23 +3,16 @@ nombre: ""
 fecha_inicio: 2026-07-25
 fecha_fin: 2026-07-25
 hora_inicio: "9:00"
-hora_fin: ""
+hora_fin: "12:30"
 ubicacion: Pudahuel
 organizador: MODATIMA Santiago
-enlace: ""
-campaña: ""
-categoria:
-  - "[]"
-territorio:
-  - "[]"
 participantes:
   - "[]"
 temas:
   - "[]"
 adjuntos:
-  - "[]"
-fuentes:
-  - "[]"
+  - url: "https://drive.google.com/drive/folders/1IAfwf5arFgf_maGOexomoHAEkkE46tn0?usp=sharing"
+    descripcion: Carpeta de contenido
 relacionados:
   - territorios/santiago
   - organizaciones/modatima

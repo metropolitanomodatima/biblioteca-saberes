@@ -11,7 +11,8 @@ categoria:
 fecha_inicio: 2026-11-20
 fecha_fin: 2026-11-22
 
-hora: 09:00
+hora_inicio: 09:00
+hora_fin: ''
 
 ubicacion: La Ligua, Región de Valparaíso, Chile
 

@@ -13,7 +13,8 @@ categoria: []
 fecha_inicio: ''
 fecha_fin: ''
 
-hora: ''
+hora_inicio: ''
+hora_fin: ''
 
 ubicacion: ''
 

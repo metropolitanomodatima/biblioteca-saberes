@@ -16,6 +16,12 @@ function Fila({ etiqueta, children }: { etiqueta: string; children: React.ReactN
   );
 }
 
+function formatearFecha(iso: string): string {
+  const [yyyy, mm, dd] = iso.split('-');
+  if (!yyyy || !mm || !dd) return iso;
+  return `${dd}/${mm}/${yyyy}`;
+}
+
 export default function Metadatos({ recurso }: Props) {
   const [nombresPorId, setNombresPorId] = useState<Record<string, string>>({});
 
@@ -48,6 +54,15 @@ export default function Metadatos({ recurso }: Props) {
               {recurso.enlace}
             </a>
           </Fila>
+        )}
+        {recurso.tipo === 'evento' && recurso.fecha_inicio && (
+          <Fila etiqueta="Fecha inicio">{formatearFecha(recurso.fecha_inicio)}{recurso.hora_inicio ? `, ${recurso.hora_inicio}` : ''}</Fila>
+        )}
+        {recurso.tipo === 'evento' && recurso.fecha_fin && (
+          <Fila etiqueta="Fecha fin">{formatearFecha(recurso.fecha_fin)}{recurso.hora_fin ? `, ${recurso.hora_fin}` : ''}</Fila>
+        )}
+        {recurso.tipo === 'evento' && recurso.ubicacion && (
+          <Fila etiqueta="Ubicación">{recurso.ubicacion}</Fila>
         )}
         {recurso.nivel && <Fila etiqueta="Nivel">{recurso.nivel}</Fila>}
         {recurso.publico.length > 0 && (
@@ -102,20 +117,63 @@ export default function Metadatos({ recurso }: Props) {
 
         {recurso.fuentes.length > 0 && (
           <Fila etiqueta="Fuentes">
-            <ul className="space-y-1 list-disc pl-4">
+            <ol className="space-y-2 list-decimal pl-5 text-xs leading-relaxed marker:text-tierra-400">
               {recurso.fuentes.map((f) => (
                 <li key={f} className="break-words">
-                  {/^https?:\/\//.test(f.trim()) ? (
-                    <a href={f.trim()} target="_blank" rel="noopener noreferrer" className="text-rio-700 underline hover:text-rio-500 break-all">
-                      {f.trim()}
-                    </a>
-                  ) : f}
+                  <FuenteTexto texto={f.trim()} />
                 </li>
               ))}
-            </ul>
+            </ol>
           </Fila>
         )}
       </dl>
     </aside>
+  );
+}
+
+function acortarUrl(url: string, max = 48): string {
+  if (url.length <= max) return url;
+  try {
+    const u = new URL(url);
+    const base = u.hostname.replace(/^www\./, '') + u.pathname;
+    if (base.length <= max) return base;
+    return base.slice(0, max - 1) + '…';
+  } catch {
+    return url.slice(0, max - 1) + '…';
+  }
+}
+
+const RE_URL = /https?:\/\/[^\s)]+/g;
+
+function FuenteTexto({ texto }: { texto: string }) {
+  const partes: (string | { url: string })[] = [];
+  let ultimo = 0;
+  for (const m of texto.matchAll(RE_URL)) {
+    const inicio = m.index ?? 0;
+    if (inicio > ultimo) partes.push(texto.slice(ultimo, inicio));
+    partes.push({ url: m[0] });
+    ultimo = inicio + m[0].length;
+  }
+  if (ultimo < texto.length) partes.push(texto.slice(ultimo));
+  if (partes.length === 0) partes.push(texto);
+
+  return (
+    <>
+      {partes.map((p, i) =>
+        typeof p === 'string' ? (
+          <span key={i}>{p}</span>
+        ) : (
+          <a
+            key={i}
+            href={p.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-rio-700 underline decoration-rio-300 hover:text-rio-500 hover:decoration-rio-500 break-all"
+          >
+            {acortarUrl(p.url)}
+          </a>
+        ),
+      )}
+    </>
   );
 }

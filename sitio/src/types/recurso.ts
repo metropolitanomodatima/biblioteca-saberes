@@ -28,6 +28,11 @@ export interface EntradaIndice {
   licencia: string | null;
   enlace: string | null;
   region: string | null;
+  fecha_inicio: string | null;
+  fecha_fin: string | null;
+  hora_inicio: string | null;
+  hora_fin: string | null;
+  ubicacion: string | null;
   contenidoResumen: string;
   ruta: string;
 }

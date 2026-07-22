@@ -221,6 +221,11 @@ async function main() {
       licencia: normalizarTexto(datos.licencia) || null,
       enlace: normalizarTexto(datos.enlace || datos.url || datos.sitio_web) || null,
       region: normalizarTexto(datos.region) || null,
+      fecha_inicio: aStringFecha(datos.fecha_inicio) || null,
+      fecha_fin: aStringFecha(datos.fecha_fin) || null,
+      hora_inicio: normalizarTexto(datos.hora_inicio ?? datos.hora) || null,
+      hora_fin: normalizarTexto(datos.hora_fin) || null,
+      ubicacion: normalizarTexto(datos.ubicacion) || null,
       contenidoResumen: contenidoTexto.slice(0, 1200),
       ruta: rutaRelativa.replace(/\\/g, '/'),
     });

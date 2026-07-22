@@ -63,7 +63,8 @@ export default function Menu() {
       </div>
 
       <div className="border-t border-tierra-100 bg-white">
-        <div className="contenedor sin-scrollbar flex gap-2 overflow-x-auto py-2 text-sm">
+        <div className="sin-scrollbar overflow-x-auto">
+        <div className="contenedor flex gap-2 py-2 text-sm">
           {categoriasFiltradas.filter((c) => TIPOS_PUBLICOS.has(c.tipo)).map((c) => (
             <NavLink
               key={c.tipo}
@@ -102,6 +103,7 @@ export default function Menu() {
               ))}
             </>
           )}
+        </div>
         </div>
       </div>
     </header>

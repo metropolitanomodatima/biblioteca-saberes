@@ -1,9 +1,9 @@
 ---
 nombre: ""
 fecha_inicio: 2026-07-25
-fecha_fin: 2026-07-25
 hora_inicio: "9:00"
-hora_fin: ""
+fecha_fin: 2026-07-25
+hora_fin: "12:30"
 ubicacion: Pudahuel
 organizador: MODATIMA Santiago
 participantes:

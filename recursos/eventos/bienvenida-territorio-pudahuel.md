@@ -9,7 +9,6 @@ organizador: MODATIMA Santiago
 participantes:
   - "[]"
 temas:
-  - "[]"
   - encuentro
   - justicia ambiental
   - santiago

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import type { PlantillaTipo, PayloadRecurso } from '@/services/recursoEditor';
 import { cargarPlantillas, crearRecurso, editarRecurso } from '@/services/recursoEditor';
+import type { Adjunto } from '@/components/FormularioRecurso';
 
 interface Estado {
   tipo: string;
@@ -9,6 +10,7 @@ interface Estado {
   resumen: string;
   camposTexto: Record<string, string>;
   camposLista: Record<string, string[]>;
+  adjuntos: Adjunto[];
   relacionados: string[];
   cuerpo: string;
 }
@@ -20,6 +22,7 @@ const ESTADO_INICIAL: Estado = {
   resumen: '',
   camposTexto: {},
   camposLista: {},
+  adjuntos: [],
   relacionados: [],
   cuerpo: '',
 };
@@ -32,26 +35,44 @@ function valorALista(v: unknown): string[] {
   return [];
 }
 
+function adjuntosDesdeValor(v: unknown): Adjunto[] {
+  if (!Array.isArray(v)) return [];
+  return v.flatMap((item) => {
+    if (item && typeof item === 'object' && !Array.isArray(item)) {
+      const o = item as Record<string, unknown>;
+      return [{ url: String(o.url ?? ''), descripcion: String(o.descripcion ?? '') }];
+    }
+    if (typeof item === 'string' && item.trim()) {
+      return [{ url: item.trim(), descripcion: '' }];
+    }
+    return [];
+  });
+}
+
 function estadoDesdeEdicion(modoEdicion: PayloadRecurso, plantillas: Record<string, PlantillaTipo>): Partial<Estado> {
   const plantilla = plantillas[modoEdicion.tipo];
   const camposTexto: Record<string, string> = {};
   const camposLista: Record<string, string[]> = {};
+  let adjuntos: Adjunto[] = [];
 
   if (plantilla) {
     for (const campo of plantilla.campos) {
       if (CAMPOS_BASE.has(campo.nombre)) continue;
       const v = modoEdicion.frontmatter[campo.nombre];
-      if (campo.tipo === 'lista') {
+      if (campo.nombre === 'adjuntos') {
+        adjuntos = adjuntosDesdeValor(v);
+      } else if (campo.tipo === 'lista') {
         camposLista[campo.nombre] = valorALista(v);
       } else {
         camposTexto[campo.nombre] = v != null ? String(v) : '';
       }
     }
   } else {
-    // Sin plantilla cargada aún: clasificar por valor
     for (const [k, v] of Object.entries(modoEdicion.frontmatter)) {
       if (CAMPOS_BASE.has(k)) continue;
-      if (Array.isArray(v)) {
+      if (k === 'adjuntos') {
+        adjuntos = adjuntosDesdeValor(v);
+      } else if (Array.isArray(v)) {
         camposLista[k] = valorALista(v);
       } else {
         camposTexto[k] = v != null ? String(v) : '';
@@ -61,7 +82,7 @@ function estadoDesdeEdicion(modoEdicion: PayloadRecurso, plantillas: Record<stri
 
   const relacionados = valorALista(modoEdicion.frontmatter['relacionados']);
 
-  return { camposTexto, camposLista, relacionados };
+  return { camposTexto, camposLista, adjuntos, relacionados };
 }
 
 export function useFormularioRecurso(modoEdicion?: PayloadRecurso) {
@@ -75,6 +96,7 @@ export function useFormularioRecurso(modoEdicion?: PayloadRecurso) {
       resumen: modoEdicion.resumen ?? '',
       camposTexto: {},
       camposLista: {},
+      adjuntos: [],
       relacionados: [],
       cuerpo: modoEdicion.cuerpo,
     };
@@ -133,6 +155,9 @@ export function useFormularioRecurso(modoEdicion?: PayloadRecurso) {
   function setRelacionados(ids: string[]) {
     setEstado((p) => ({ ...p, relacionados: ids }));
   }
+  function setAdjuntos(adjuntos: Adjunto[]) {
+    setEstado((p) => ({ ...p, adjuntos }));
+  }
 
   async function submit() {
     setError(null);
@@ -141,6 +166,7 @@ export function useFormularioRecurso(modoEdicion?: PayloadRecurso) {
       const frontmatter: Record<string, unknown> = {
         ...estado.camposTexto,
         ...estado.camposLista,
+        adjuntos: estado.adjuntos,
         relacionados: estado.relacionados,
       };
       const payload: PayloadRecurso = {
@@ -165,7 +191,7 @@ export function useFormularioRecurso(modoEdicion?: PayloadRecurso) {
   return {
     estado, plantillaActual,
     setTipo, setSlug, setTitulo, setResumen, setCuerpo,
-    setCampoTexto, setCampoLista, setRelacionados,
+    setCampoTexto, setCampoLista, setRelacionados, setAdjuntos,
     enviando, error, prUrl, submit,
   };
 }

@@ -37,7 +37,16 @@ function escalarYaml(valor: unknown): string {
 }
 
 function itemLista(valor: unknown): string {
-  // Un ítem de lista con : en medio también necesita quoting; reutiliza escalarYaml.
+  if (valor !== null && typeof valor === 'object' && !Array.isArray(valor)) {
+    const entradas = Object.entries(valor as Record<string, unknown>);
+    if (entradas.length === 0) return '  - {}';
+    const [primera, ...resto] = entradas;
+    const lineas = [
+      `  - ${primera[0]}: ${escalarYaml(primera[1])}`,
+      ...resto.map(([k, v]) => `    ${k}: ${escalarYaml(v)}`),
+    ];
+    return lineas.join('\n');
+  }
   return `  - ${escalarYaml(valor)}`;
 }
 

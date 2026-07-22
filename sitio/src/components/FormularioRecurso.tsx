@@ -7,6 +7,7 @@ import { cargarIndice } from '@/services/indice';
 import RenderizadorMarkdown from '@/components/RenderizadorMarkdown';
 
 const CAMPOS_TEMAS = new Set(['temas', 'tema']);
+const CAMPOS_ADJUNTOS = new Set(['adjuntos']);
 
 const CAMPOS_BASE = new Set(['id', 'titulo', 'tipo', 'resumen', 'relacionados']);
 
@@ -97,6 +98,76 @@ function CampoLista({
           +
         </button>
       </div>
+    </div>
+  );
+}
+
+// ── Campo de adjuntos (url + descripción) ─────────────────────────────────
+export interface Adjunto { url: string; descripcion: string; }
+
+const MAX_ADJUNTOS = 5;
+
+function CampoAdjuntos({ valores, onChange }: { valores: Adjunto[]; onChange: (v: Adjunto[]) => void }) {
+  const [url, setUrl] = useState('');
+  const [descripcion, setDescripcion] = useState('');
+
+  function agregar() {
+    const u = url.trim();
+    if (!u || valores.length >= MAX_ADJUNTOS) return;
+    onChange([...valores, { url: u, descripcion: descripcion.trim() }]);
+    setUrl('');
+    setDescripcion('');
+  }
+
+  function quitar(i: number) {
+    onChange(valores.filter((_, idx) => idx !== i));
+  }
+
+  return (
+    <div className="space-y-2">
+      {valores.map((a, i) => (
+        <div key={i} className="flex items-start gap-2 rounded-md border border-tierra-200 bg-white px-3 py-2 text-sm">
+          <div className="min-w-0 flex-1">
+            <a href={a.url} target="_blank" rel="noopener noreferrer"
+              className="block truncate text-rio-700 underline hover:text-rio-500">
+              {a.url}
+            </a>
+            {a.descripcion && <p className="mt-0.5 text-xs text-tierra-500">{a.descripcion}</p>}
+          </div>
+          <button type="button" onClick={() => quitar(i)}
+            className="shrink-0 text-tierra-400 hover:text-red-500" aria-label="Quitar adjunto">
+            ×
+          </button>
+        </div>
+      ))}
+      {valores.length < MAX_ADJUNTOS && (
+        <div className="space-y-1.5">
+          <input
+            type="url"
+            value={url}
+            onChange={(e) => setUrl(e.target.value)}
+            onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); agregar(); } }}
+            placeholder="https://drive.google.com/…"
+            className="w-full rounded-md border border-tierra-300 px-3 py-1.5 text-sm focus:border-rio-500 focus:outline-none"
+          />
+          <div className="flex gap-2">
+            <input
+              type="text"
+              value={descripcion}
+              onChange={(e) => setDescripcion(e.target.value)}
+              onKeyDown={(e) => { if (e.key === 'Enter') { e.preventDefault(); agregar(); } }}
+              placeholder="Descripción breve…"
+              maxLength={120}
+              className="flex-1 rounded-md border border-tierra-300 px-3 py-1.5 text-sm focus:border-rio-500 focus:outline-none"
+            />
+            <button type="button" onClick={agregar} disabled={!url.trim()}
+              className="rounded-md border border-tierra-300 px-3 py-1.5 text-sm text-tierra-600 hover:border-rio-400 hover:text-rio-700 disabled:opacity-40">
+              +
+            </button>
+          </div>
+          <p className="text-xs text-tierra-400">{valores.length}/{MAX_ADJUNTOS} adjuntos</p>
+        </div>
+      )}
     </div>
   );
 }
@@ -211,7 +282,7 @@ export default function FormularioRecurso({ modoEdicion, onCancelar }: Props) {
   const {
     estado, plantillaActual,
     setTipo, setSlug, setTitulo, setResumen, setCuerpo,
-    setCampoTexto, setCampoLista, setRelacionados,
+    setCampoTexto, setCampoLista, setRelacionados, setAdjuntos,
     enviando, error, prUrl, submit,
   } = useFormularioRecurso(modoEdicion);
 
@@ -247,7 +318,8 @@ export default function FormularioRecurso({ modoEdicion, onCancelar }: Props) {
 
   const camposExtra = plantillaActual?.campos.filter((c) => !CAMPOS_BASE.has(c.nombre)) ?? [];
   const camposTextoPlantilla = camposExtra.filter((c) => c.tipo !== 'lista');
-  const camposListaPlantilla = camposExtra.filter((c) => c.tipo === 'lista');
+  const camposListaPlantilla = camposExtra.filter((c) => c.tipo === 'lista' && !CAMPOS_ADJUNTOS.has(c.nombre));
+  const tieneAdjuntos = camposExtra.some((c) => CAMPOS_ADJUNTOS.has(c.nombre));
 
   const tabClass = (tab: 'editar' | 'previa') =>
     `px-4 py-2 text-sm font-medium border-b-2 transition-colors ${
@@ -410,6 +482,16 @@ export default function FormularioRecurso({ modoEdicion, onCancelar }: Props) {
               />
             </div>
           ))}
+        </div>
+      )}
+
+      {/* Adjuntos */}
+      {tieneAdjuntos && (
+        <div className="rounded-lg border border-tierra-100 bg-tierra-50 p-4">
+          <label className="mb-2 block text-xs font-semibold uppercase tracking-wide text-tierra-500">
+            Adjuntos
+          </label>
+          <CampoAdjuntos valores={estado.adjuntos} onChange={setAdjuntos} />
         </div>
       )}
 

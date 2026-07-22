@@ -6,20 +6,9 @@ hora_inicio: "9:00"
 hora_fin: ""
 ubicacion: Pudahuel
 organizador: MODATIMA Santiago
-enlace: ""
-campaña: ""
-categoria:
-  - "[]"
-territorio:
-  - "[]"
-participantes:
-  - "[]"
-temas:
-  - "[]"
-adjuntos:
-  - "[]"
-fuentes:
-  - "[]"
+participantes: []
+temas: []
+adjuntos: []
 relacionados:
   - territorios/santiago
   - organizaciones/modatima

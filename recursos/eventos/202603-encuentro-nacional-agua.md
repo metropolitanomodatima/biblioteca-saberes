@@ -5,9 +5,6 @@ tipo: evento
 
 nombre: Encuentro Nacional por el Agua 2026
 
-categoria:
-  - encuentro
-
 fecha_inicio: 2026-11-20
 fecha_fin: 2026-11-22
 
@@ -15,16 +12,6 @@ hora_inicio: 09:00
 hora_fin: ''
 
 ubicacion: La Ligua, Región de Valparaíso, Chile
-
-territorio:
-  - territorio.santiago
-  - territorio.valparaiso
-  - territorio.wallmapu
-  - territorio.coquimbo
-  - territorio.pirque
-  - territorio.valdivia
-  - territorio.lo-barnechea
-  - territorio.antofagasta
 
 organizador: MODATIMA
 
@@ -37,14 +24,10 @@ temas:
   - justicia hídrica
   - encuentro
 
-campaña:
-
 relacionados:
   - organizacion.modatima
 
 adjuntos:
-
-fuentes:
 
 ---
 

@@ -8,8 +8,6 @@ tipo: evento
 
 nombre: ''
 
-categoria: []
-
 fecha_inicio: ''
 fecha_fin: ''
 
@@ -18,8 +16,6 @@ hora_fin: ''
 
 ubicacion: ''
 
-territorio: []
-
 organizador: ''
 
 participantes: []
@@ -27,15 +23,9 @@ participantes: []
 temas:
   - []
 
-enlace: ''
-
-campaña: ''
-
 relacionados: []
 
 adjuntos: []
-
-fuentes: []
 
 ---
 ```

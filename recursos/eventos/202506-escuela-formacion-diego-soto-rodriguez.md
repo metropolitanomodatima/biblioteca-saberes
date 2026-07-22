@@ -5,9 +5,6 @@ tipo: evento
 
 nombre: Escuela de formación Diego Soto rodriguez
 
-categoria:
-  - encuentro
-
 fecha_inicio: 2025-07-26
 fecha_fin: 2025-05-28
 
@@ -15,9 +12,6 @@ hora_inicio: 09:00
 hora_fin: ''
 
 ubicacion: santiago
-
-territorio:
-  - territorio.santiago
 
 organizador: MODATIMA
 
@@ -31,15 +25,11 @@ temas:
   - encuentro
   - santiago
 
-campaña:
-
 relacionados:
   - organizacion.modatima
   - territorio.santiago
 
 adjuntos:
-
-fuentes:
 
 ---
 
